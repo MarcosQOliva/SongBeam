@@ -1,0 +1,4 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "TEENSY4.1")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/Teensy 4.1/teensy.kicad_sym")(options "")(descr ""))
+)

@@ -1,0 +1,9 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "PCMD3180")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/ul_PCMD3180IRTWR/2025-12-27_13-30-44.kicad_sym")(options "")(descr "Mems > TDM"))
+  (lib (name "IM66D132H")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/infineon-pcb-footprints-and-symbols-im66d132h-mems-microphones-for-consumer-kicad-pcbdesigndata-en/IM66D132H.kicad_sym")(options "")(descr "MEMS waterproof"))
+  (lib (name "PCA9306DQER")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/ul_PCA9306DQER/KiCADv6/2025-12-29_19-04-45.kicad_sym")(options "")(descr "")(disabled)(hidden))
+  (lib (name "SN74AXC4T245BQBR")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/ul_SN74AXC4T245BQBR/KiCADv6/2025-12-29_19-00-40.kicad_sym")(options "")(descr "")(disabled)(hidden))
+  (lib (name "ul_TPS73701DRBR")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/ul_TPS73701DRBR/KiCADv6/2025-12-29_19-41-22.kicad_sym")(options "")(descr "")(disabled)(hidden))
+  (lib (name "LP5907MFX-1-2-NOPB")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/ul_LP5907MFX-1-2-NOPB/2026-01-08_11-35-12.kicad_sym")(options "")(descr ""))
+)

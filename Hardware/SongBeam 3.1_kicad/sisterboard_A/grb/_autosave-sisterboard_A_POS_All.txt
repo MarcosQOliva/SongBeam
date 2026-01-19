@@ -1,0 +1,80 @@
+### Module positions - created on 2026-01-10 21:16
+### Printed by pcb_positions plugin
+## Unit = mm, Angle = deg.
+## Pcb Height 41.900mm, Pcb Width 161.350mm [based on Edge bounding box]
+## Side : ALL
+## Board Aux Origin: 0.000mm ,0.000mm
+# Ref         Val                 Package                       PosX       PosY       Pin1_PosX  Pin1_PosY    Rot     Side      Type
+C23           100nF               C_0805_2012Metric             161.3500   -111.7010  161.3500   -112.6510     9.0    top       SMD
+U2            IM66D132H           IFX-PG-TLGA-5N-9-V            131.2785   -111.3810  130.2415   -112.2190     9.0    top       VIRTUAL
+C20           100nF               C_0805_2012Metric             207.9000   -79.9000   207.9000   -80.8500      9.0    top       SMD
+C1            10uF                C_0805_2012Metric             160.4750   -91.4500   159.5250   -91.4500      0.0    top       SMD
+R9            100K                R_0805_2012Metric             126.4895   -82.8130   125.5770   -82.8130      0.0    top       SMD
+R17           100K                R_0805_2012Metric             216.7625   -114.4500  217.6750   -114.4500    18.0    top       SMD
+C12           100nF               C_0805_2012Metric             135.2655   -111.4060  135.2655   -110.4560    -9.0    top       SMD
+R12           100R                R_0805_2012Metric             169.6530   -82.6990   170.5655   -82.6990     18.0    top       SMD
+R13           100K                R_0805_2012Metric             216.5750   -82.7000   215.6625   -82.7000      0.0    top       SMD
+C10           1uF                 C_0805_2012Metric             153.4500   -88.2000   154.4000   -88.2000     18.0    top       SMD
+C22           47pF                C_0805_2012Metric             217.6250   -79.8750   217.6250   -78.9250     -9.0    top       SMD
+R15           100R                R_0805_2012Metric             215.5370   -111.5245  215.5370   -112.4370     9.0    top       SMD
+R3            100R                R_0805_2012Metric             127.7905   -111.6060  127.7905   -112.5185     9.0    top       SMD
+U10           LP5907MFX-1.8_NOPB  LP5907MFX-1.2&slash_NOPB      188.6750   -101.7470  187.3000   -100.7970     0.0    top       THD
+C26           47pF                C_0805_2012Metric             217.7870   -111.4870  217.7870   -112.4370     9.0    top       SMD
+R1            100R                R_0805_2012Metric             150.3750   -89.7625   150.3750   -88.8500     -9.0    top       SMD
+R4            100K                R_0805_2012Metric             79.8910    -114.6560  78.9785    -114.6560     0.0    top       SMD
+C21           47pF                C_0805_2012Metric             170.8030   -79.8240   170.8030   -78.8740     -9.0    top       SMD
+C4            1uF                 C_0805_2012Metric             157.4300   -95.0952   157.4300   -96.0452      9.0    top       SMD
+C18           47pF                C_0805_2012Metric             125.4020   -79.9250   125.4020   -78.9750     -9.0    top       SMD
+C17           47pF                C_0805_2012Metric             78.6500    -79.9750   78.6500    -80.9250      9.0    top       SMD
+C28           1µF                 C_0805_2012Metric             193.0500   -101.7470  193.0500   -100.7970    -9.0    top       SMD
+REF2          MountingHole_3.2m.. MountingHole_3.2mm_M3         72.3000    -80.4500   0.0000     0.0000        0.0    top       VIRTUAL
+R10           100R                R_0805_2012Metric             168.4780   -79.8365   168.4780   -80.7490      9.0    top       SMD
+C19           100nF               C_0805_2012Metric             161.0280   -79.8740   161.0280   -78.9240     -9.0    top       SMD
+C2            100nF               C_0805_2012Metric             157.3500   -91.3250   157.3500   -90.3750     -9.0    top       SMD
+C13           47pF                C_0805_2012Metric             78.8535    -111.8060  78.8535    -110.8560    -9.0    top       SMD
+R7            100R                R_0805_2012Metric             127.9020   -79.8875   127.9020   -78.9750     -9.0    top       SMD
+U5            IM66D132H           IFX-PG-TLGA-5N-9-V            131.3650   -79.9750   130.3280   -80.8130      9.0    top       VIRTUAL
+J1            RJ45                RJ45_Molex_9346520x_Horizon.. 84.8500    -92.2700   0.0000     0.0000       -9.0    top       THD
+REF1          MountingHole_3.2m.. MountingHole_3.2mm_M3         72.4000    -113.0250  0.0000     0.0000        0.0    top       VIRTUAL
+C11           100nF               C_0805_2012Metric             88.6785    -111.6060  88.6785    -112.5560     9.0    top       SMD
+C15           100nF               C_0805_2012Metric             88.6500    -79.9250   88.6500    -78.9750     -9.0    top       SMD
+C24           100nF               C_0805_2012Metric             207.9620   -111.5620  207.9620   -110.6120    -9.0    top       SMD
+C5            100nF               C_0805_2012Metric             160.6300   -99.0202   161.5800   -99.0202     18.0    top       SMD
+U3            IM66D132H           IFX-PG-TLGA-5N-9-V            84.6285    -111.7060  83.5915    -112.5440     9.0    top       VIRTUAL
+U7            IM66D132H           IFX-PG-TLGA-5N-9-V            212.0090   -79.9010   213.0460   -79.0630     -9.0    top       VIRTUAL
+C16           100nF               C_0805_2012Metric             135.6500   -79.9750   135.6500   -79.0250     -9.0    top       SMD
+R11           100R                R_0805_2012Metric             215.4000   -79.8500   215.4000   -80.7625      9.0    top       SMD
+U1            QFN_0IRTWR_TEX      PCMD3180IRTWR                 152.4550   -95.0452   151.2047   -97.0113      9.0    top       THD
+C8            100nF               C_0805_2012Metric             147.0750   -89.0750   146.1250   -89.0750      0.0    top       SMD
+J2            Conn_01x04          PinSocket_1x04_P2.54mm_Vert.. 189.1500   -84.4750   189.1500   -84.4750      0.0    top       THD
+C25           47pF                C_0805_2012Metric             171.0750   -111.7510  171.0750   -112.7010     9.0    top       SMD
+C14           47pF                C_0805_2012Metric             125.5655   -111.6310  125.5655   -110.6810    -9.0    top       SMD
+U8            IM66D132H           IFX-PG-TLGA-5N-9-V            165.4380   -111.6380  166.4750   -110.8000    -9.0    top       VIRTUAL
+U4            IM66D132H           IFX-PG-TLGA-5N-9-V            84.6130    -79.9490   83.5760    -80.7870      9.0    top       VIRTUAL
+R6            100R                R_0805_2012Metric             81.1500    -79.9375   81.1500    -79.0250     -9.0    top       SMD
+R2            100R                R_0805_2012Metric             81.0785    -111.7685  81.0785    -112.6810     9.0    top       SMD
+C6            10uF                C_0805_2012Metric             157.4550   -98.8702   157.4550   -97.9202     -9.0    top       SMD
+C9            100nF               C_0805_2012Metric             153.5000   -90.6000   152.5500   -90.6000      0.0    top       SMD
+U6            IM66D132H           IFX-PG-TLGA-5N-9-V            165.0880   -79.9370   166.1250   -79.0990     -9.0    top       VIRTUAL
+TP2           TestPoint           TestPoint_Pad_D1.0mm          193.0000   -97.8970   193.0000   -97.8970     18.0    top       VIRTUAL
+TP1           TestPoint           TestPoint_Pad_D1.0mm          183.9250   -97.7750   183.9250   -97.7750     18.0    top       VIRTUAL
+REF3          MountingHole_3.2m.. MountingHole_3.2mm_M3         224.0000   -80.2500   0.0000     0.0000        0.0    top       VIRTUAL
+R8            100K                R_0805_2012Metric             79.7375    -82.9750   78.8250    -82.9750      0.0    top       SMD
+REF4          MountingHole_3.2m.. MountingHole_3.2mm_M3         224.3000   -112.7250  0.0000     0.0000        0.0    top       VIRTUAL
+C7            10uF                C_0805_2012Metric             147.0500   -91.6500   148.0000   -91.6500     18.0    top       SMD
+R5            100K                R_0805_2012Metric             126.6780   -114.4810  127.5905   -114.4810    18.0    top       SMD
+U9            IM66D132H           IFX-PG-TLGA-5N-9-V            212.0500   -111.6250  213.0870   -110.7870    -9.0    top       VIRTUAL
+C3            1uF                 C_0805_2012Metric             159.8000   -95.0750   159.8000   -96.0250      9.0    top       SMD
+C27           1µF                 C_0805_2012Metric             184.0500   -101.7470  184.0500   -102.6970     9.0    top       SMD
+R16           100K                R_0805_2012Metric             170.0000   -115.0000  169.0875   -115.0000     0.0    top       SMD
+R14           100R                R_0805_2012Metric             168.8250   -111.6760  168.8250   -112.5885     9.0    top       SMD
+## End
+## 90 SMD pads
+## 50 TH pads
+## 54 Virtual pads
+## 4 Top TH modules
+## 0 Bot TH modules
+## 45 Top SMD modules
+## 0 Bot SMD modules
+## 14 Top Virtual modules
+## 0 Bot Virtual modules

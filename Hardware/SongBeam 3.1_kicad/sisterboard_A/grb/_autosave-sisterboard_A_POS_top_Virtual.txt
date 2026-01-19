@@ -1,0 +1,22 @@
+### Module positions - created on 2026-01-10 21:16
+### Printed by pcb_positions plugin
+## Unit = mm, Angle = deg.
+## Pcb Height 41.900mm, Pcb Width 161.350mm [based on Edge bounding box]
+## Side : top
+## Board Aux Origin: 0.000mm ,0.000mm
+# Ref         Val                 Package                       PosX       PosY       Pin1_PosX  Pin1_PosY    Rot     Side      Type
+U2            IM66D132H           IFX-PG-TLGA-5N-9-V            131.2785   -111.3810  130.2415   -112.2190     9.0    top       VIRTUAL
+REF2          MountingHole_3.2m.. MountingHole_3.2mm_M3         72.3000    -80.4500   0.0000     0.0000        0.0    top       VIRTUAL
+U5            IM66D132H           IFX-PG-TLGA-5N-9-V            131.3650   -79.9750   130.3280   -80.8130      9.0    top       VIRTUAL
+REF1          MountingHole_3.2m.. MountingHole_3.2mm_M3         72.4000    -113.0250  0.0000     0.0000        0.0    top       VIRTUAL
+U3            IM66D132H           IFX-PG-TLGA-5N-9-V            84.6285    -111.7060  83.5915    -112.5440     9.0    top       VIRTUAL
+U7            IM66D132H           IFX-PG-TLGA-5N-9-V            212.0090   -79.9010   213.0460   -79.0630     -9.0    top       VIRTUAL
+U8            IM66D132H           IFX-PG-TLGA-5N-9-V            165.4380   -111.6380  166.4750   -110.8000    -9.0    top       VIRTUAL
+U4            IM66D132H           IFX-PG-TLGA-5N-9-V            84.6130    -79.9490   83.5760    -80.7870      9.0    top       VIRTUAL
+U6            IM66D132H           IFX-PG-TLGA-5N-9-V            165.0880   -79.9370   166.1250   -79.0990     -9.0    top       VIRTUAL
+TP2           TestPoint           TestPoint_Pad_D1.0mm          193.0000   -97.8970   193.0000   -97.8970     18.0    top       VIRTUAL
+TP1           TestPoint           TestPoint_Pad_D1.0mm          183.9250   -97.7750   183.9250   -97.7750     18.0    top       VIRTUAL
+REF3          MountingHole_3.2m.. MountingHole_3.2mm_M3         224.0000   -80.2500   0.0000     0.0000        0.0    top       VIRTUAL
+REF4          MountingHole_3.2m.. MountingHole_3.2mm_M3         224.3000   -112.7250  0.0000     0.0000        0.0    top       VIRTUAL
+U9            IM66D132H           IFX-PG-TLGA-5N-9-V            212.0500   -111.6250  213.0870   -110.7870    -9.0    top       VIRTUAL
+## End
