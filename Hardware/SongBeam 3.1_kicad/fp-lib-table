@@ -28,4 +28,5 @@
   (lib (name "IM66D132H")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/infineon-pcb-footprints-and-symbols-im66d132h-mems-microphones-for-consumer-kicad-pcbdesigndata-en")(options "")(descr ""))
   (lib (name "LP5907MFX-1.8_NOPB")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/ul_LP5907MFX-1-2-NOPB")(options "")(descr ""))
   (lib (name "TEENSY 4.1")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/Teensy 4.1")(options "")(descr ""))
+  (lib (name "TXS0108ERGYR")(type "KiCad")(uri "C:/Users/PPJT203/Documents/GitHub/SongBeam/modulesTAD/ul_TXS0108ERGYR")(options "")(descr ""))
 )
