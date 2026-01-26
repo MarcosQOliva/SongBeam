@@ -62,7 +62,7 @@
 			(type solid)
 		)
 		(fill no)
-		(layer "F.Mask")
+		(layer "F.Cu")
 		(uuid "7a1437e2-aedd-47d0-b789-5fe9c6117b7a")
 	)
 	(fp_circle
