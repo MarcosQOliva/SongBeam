@@ -6,4 +6,7 @@
   (lib (name "LP5907MFX-1.8_NOPB")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/ul_LP5907MFX-1-2-NOPB/2026-01-08_11-35-12.kicad_sym")(options "")(descr ""))
   (lib (name "TEENSY_4.1")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/Teensy 4.1/teensy.kicad_sym")(options "")(descr ""))
   (lib (name "TXS0108ERGYR")(type "KiCad")(uri "C:/Users/PPJT203/Documents/GitHub/SongBeam/modulesTAD/ul_TXS0108ERGYR/2026-01-19_12-22-51.kicad_sym")(options "")(descr ""))
+  (lib (name "ao6604")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/ul_AO6604/2026-02-06_12-16-27.kicad_sym")(options "")(descr ""))
+  (lib (name "MAX-M10N-00B")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/ul_MAX-M10M-00B/2026-02-06_12-15-36.kicad_sym")(options "")(descr ""))
+  (lib (name "TPL5010")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/ul_TPL5010QDDCRQ1/2026-02-06_16-19-45.kicad_sym")(options "")(descr ""))
 )
