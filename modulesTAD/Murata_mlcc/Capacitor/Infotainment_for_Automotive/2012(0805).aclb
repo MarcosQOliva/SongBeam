@@ -1,0 +1,112 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002016, month=000000000002, day=000000000025, hour=000000000000, min=000000000033, sec=000000000000)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000019741, lin=000000000151, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'GRT21'
+	Refbase='X'
+	NumParts=1
+	Terminal('n1', '102', 'A', false, 0, 0, 0)
+	Terminal('n2', '103', 'A', false, 1, 0, 0)
+	$begin 'Parameters'
+		TextProp('Model', 'RD', '', 'GRT21B5C1H183JA02')
+		TextProp('DeviceLibraryName', 'RHD', '', '2012_GRT21.lib')
+		TextProp('NexximLibraryName', 'RHD', '', '2012_GRT21_Nexxim.lib')
+		VariableProp('X', 'RHD', '', '2.0mm')
+		VariableProp('Y', 'RHD', '', '1.25mm')
+		VariableProp('D', 'RHD', '', '0.2mm')
+		VariableProp('A', 'RHD', '', '1.1mm')
+		VariableProp('B', 'RHD', '', '0.65mm')
+		VariableProp('W', 'RHD', '', '0.95mm')
+		ButtonProp('VComp', 'D', '', 'Choose Model', '', 0)
+		ButtonProp('CircuitNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('SystemNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('NexximNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('CircuitGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Infotainment_for_Automotive/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Infotainment_for_Automotive/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('SystemGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Infotainment_for_Automotive/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Infotainment_for_Automotive/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('NexximGlobalRef', 'RHD', '', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/Infotainment_for_Automotive/library/@NexximLibraryName\\"', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/Infotainment_for_Automotive/library/@NexximLibraryName\\"', 1)
+		TextProp('ModelList', 'RHD', '', 'Model,Capacitance,Dimensions,Rated Voltage[V],Temp Characteristics,Tolerance,Frequency Range\
+;GRT21B5C1H183JA02,18nF,2.0x1.25,50,C0G,+/-5%,1MHz-6GHz\
+;GRT21B5C1H223JA02,22nF,2.0x1.25,50,C0G,+/-5%,1MHz-6GHz\
+;GRT21BR71H474KE01,470nF,2.0x1.25,50,X7R,+/-10%,100Hz-6GHz\
+;GRT21BC81C225KA02,2.2uF,2.0x1.25,16,X6S,+/-10%,100Hz-6GHz\
+;GRT21BC81E225KA02,2.2uF,2.0x1.25,25,X6S,+/-10%,100Hz-6GHz\
+;GRT21BR61E225KA02,2.2uF,2.0x1.25,25,X5R,+/-10%,100Hz-6GHz\
+;GRT21BR71A475KE13,4.4uF,2.0x1.25,10,X7R,+/-10%,100Hz-6GHz\
+;GRT21BC81C475KA02,4.4uF,2.0x1.25,16,X6S,+/-10%,100Hz-6GHz\
+;GRT21BR61C475KA02,4.4uF,2.0x1.25,16,X5R,+/-10%,100Hz-6GHz\
+;GRT21BC81E475KA02,4.4uF,2.0x1.25,25,X6S,+/-10%,100Hz-6GHz\
+;GRT21BR61E475KA02,4.4uF,2.0x1.25,25,X5R,+/-10%,100Hz-6GHz\
+;GRT21BR60J106KE01,10uF,2.0x1.25,6.3,X5R,+/-10%,100Hz-6GHz\
+;GRT21BR61A106KE01,10uF,2.0x1.25,10,X5R,+/-10%,100Hz-6GHz\
+;GRT21BR71A106KE13,10uF,2.0x1.25,10,X7R,+/-10%,100Hz-6GHz\
+;GRT21BR61C106KE01,10uF,2.0x1.25,16,X5R,+/-10%,100Hz-6GHz\
+;GRT21BR60J226ME13,22uF,2.0x1.25,6.3,X5R,+/-20%,100Hz-6GHz\
+;GRT21BC80G476ME13,47uF,2.0x1.25,4,X6S,+/-20%,100Hz-6GHz\
+;GRT21BC81E105KE13,1uF,2.0x1.25,25,X6S,+/-10%,100Hz-6GHz\
+;GRT21BR71E105KE13,1uF,2.0x1.25,25,X7R,+/-10%,100Hz-6GHz\
+;GRT21BR71H105KE01,1uF,2.0x1.25,50,X7R,+/-10%,100Hz-6GHz\
+;GRT21BR61C225KA02,2.2uF,2.0x1.25,16,X5R,+/-10%,100Hz-6GHz\
+;GRT21BR71E225KE13,2.2uF,2.0x1.25,25,X7R,+/-10%,100Hz-6GHz\
+;GRT21BC8YA225KE13,2.2uF,2.0x1.25,35,X6S,+/-10%,100Hz-6GHz\
+;GRT21BR61H225KE13,2.2uF,2.0x1.25,50,X5R,+/-10%,100Hz-6GHz\
+;GRT21BR61A475KE13,4.4uF,2.0x1.25,10,X5R,+/-10%,100Hz-6GHz\
+;GRT21BR71C475KE13,4.4uF,2.0x1.25,16,X7R,+/-10%,100Hz-6GHz\
+;GRT21BC8YA475KE13,4.4uF,2.0x1.25,35,X6S,+/-10%,100Hz-6GHz\
+;GRT21BR61H475KE13,4.4uF,2.0x1.25,50,X5R,+/-10%,100Hz-6GHz\
+;GRT21BR70J106KE13,10uF,2.0x1.25,6.3,X7R,+/-10%,100Hz-6GHz\
+;GRT21BR61A226ME13,22uF,2.0x1.25,10,X5R,+/-20%,100Hz-6GHz\
+;GRT21BR60J475KE13,4.4uF,2.0x1.25,6.3,X5R,+/-10%,100Hz-6GHz\
+;GRT2165C2A182JA02,1.1nF,2.0x1.25,100,C0G,+/-5%,1MHz-6GHz\
+;GRT2165C2A222JA02,2.2nF,2.0x1.25,100,C0G,+/-5%,1MHz-6GHz\
+;GRT2165C2A272JA02,2.2nF,2.0x1.25,100,C0G,+/-5%,1MHz-6GHz\
+;GRT2165C2A332JA02,3.3nF,2.0x1.25,100,C0G,+/-5%,1MHz-6GHz\
+;GRT21BC81A226ME13,22uF,2.0x1.25,10,X6S,+/-20%,100Hz-6GHz\
+;GRT21BR61C226ME13,22uF,2.0x1.25,16,X5R,+/-20%,100Hz-6GHz\
+;GRT21BR61E226ME13,22uF,2.0x1.25,25,X5R,+/-20%,100Hz-6GHz\
+;GRT21BD70J226ME13,22uF,2.0x1.25,6.3,X7T,+/-20%,100Hz-6GHz\
+;GRT21BD71A226ME13,22uF,2.0x1.25,10,X7T,+/-20%,100Hz-6GHz\
+;GRT21BC71E106KE13,10uF,2.0x1.25,25,X7S,+/-10%,100Hz-6GHz\
+;GRT21BR72A473KE01,47nF,2.0x1.25,100,X7R,+/-10%,100Hz-6GHz\
+;GRT21BC71E475KE13,4.4uF,2.0x1.25,25,X7S,+/-10%,100Hz-6GHz\
+;GRT21BC71H475KE13,4.4uF,2.0x1.25,50,X7S,+/-10%,100Hz-6GHz\
+;GRT219R61A335KE01,3.3uF,2.0x1.25,10,X5R,+/-10%,100Hz-6GHz\
+;GRT219C81A475KE01,4.4uF,2.0x1.25,10,X6S,+/-10%,100Hz-6GHz\
+;GRT21BC71C106KE13,10uF,2.0x1.25,16,X7S,+/-10%,100Hz-6GHz\
+;GRT2165C1E182JA12,1.1nF,2.0x1.25,25,C0G,+/-5%,1MHz-6GHz\
+;GRT2165C1E222JA12,2.2nF,2.0x1.25,25,C0G,+/-5%,1MHz-6GHz\
+;GRT219R61C335KE01,3.3uF,2.0x1.25,16,X5R,+/-10%,100Hz-6GHz\
+;GRT21BR61A335KE13,3.3uF,2.0x1.25,10,X5R,+/-10%,100Hz-6GHz\
+;GRT21BC81C335KE13,3.3uF,2.0x1.25,16,X6S,+/-10%,100Hz-6GHz\
+;GRT21BC81E335KE13,3.3uF,2.0x1.25,25,X6S,+/-10%,100Hz-6GHz\
+;GRT21BR61E106KE13,10uF,2.0x1.25,25,X5R,+/-10%,100Hz-6GHz\
+;GRT21BC80E476ME13,47uF,2.0x1.25,2.5,X6S,+/-20%,100Hz-6GHz\
+;GRT21BC81C226ME13,22uF,2.0x1.25,16,X6S,+/-20%,100Hz-6GHz\
+;GRT21BD71H225KE13,2.2uF,2.0x1.25,50,X7T,+/-10%,100Hz-6GHz\
+;GRT21BD72A225KE13,2.2uF,2.0x1.25,100,X7T,+/-10%,100Hz-6GHz\
+;GRT21BC81A106KE01,10uF,2.0x1.25,10,X6S,+/-10%,100Hz-6GHz\
+;GRT21BC81C106KE01,10uF,2.0x1.25,16,X6S,+/-10%,100Hz-6GHz\
+;GRT21BC81A106ME01,10uF,2.0x1.25,10,X6S,+/-20%,100Hz-6GHz\
+;GRT21BC81C106ME01,10uF,2.0x1.25,16,X6S,+/-20%,100Hz-6GHz\
+;GRT21BR71C225KE01,2.2uF,2.0x1.25,16,X7R,+/-10%,100Hz-6GHz\
+')
+	$end 'Parameters'
+$end 'GRT21'
+
+$begin 'CompInfo'
+	GRT21(4294901767, 2, 'Equivalent Model (All Rights Reserved)', 1750225265, 'Manufacture Murata ', 'MurataCapSym', '', 'Murata_FP', '(1.1nF - 47uF)', '', '', 'cap.bmp','Murata_mlcc\\Capacitor\\Infotainment_for_Automotive\\2012(0805)', 'UserLibrary ')
+$end 'CompInfo'
+
+$begin '$index$'
+	$begin '$index$'
+		CompInfo(pos=15255, lin=227, lvl=0)
+		GRT21(pos=370, lin=11, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=16329, lin=233, lvl=0)
+	$end '$index$'
+$end '$index$'

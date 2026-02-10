@@ -1,0 +1,153 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002016, month=000000000002, day=000000000025, hour=000000000000, min=000000000033, sec=000000000000)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000019741, lin=000000000151, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'GC355'
+	Refbase='X'
+	NumParts=1
+	Terminal('n1', '102', 'A', false, 0, 0, 0)
+	Terminal('n2', '103', 'A', false, 1, 0, 0)
+	$begin 'Parameters'
+		TextProp('Model', 'RD', '', 'GC355DD72E684KX01')
+		TextProp('DeviceLibraryName', 'RHD', '', '5750_GC355.lib')
+		TextProp('NexximLibraryName', 'RHD', '', '5750_GC355_Nexxim.lib')
+		VariableProp('X', 'RHD', '', '5.7mm')
+		VariableProp('Y', 'RHD', '', '5.0mm')
+		VariableProp('D', 'RHD', '', '0.3mm')
+		VariableProp('A', 'RHD', '', '4.3mm')
+		VariableProp('B', 'RHD', '', '1.5mm')
+		VariableProp('W', 'RHD', '', '4.15mm')
+		ButtonProp('VComp', 'D', '', 'Choose Model', '', 0)
+		ButtonProp('CircuitNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('SystemNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('NexximNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('CircuitGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('SystemGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('NexximGlobalRef', 'RHD', '', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@NexximLibraryName\\"', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@NexximLibraryName\\"', 1)
+		TextProp('ModelList', 'RHD', '', 'Model,Capacitance,Dimensions,Rated Voltage[V],Temp Characteristics,Tolerance,Frequency Range\
+;GC355DD72E684KX01,680nF,5.7x5.0,250,X7T,+/-10%,100Hz-3GHz\
+;GC355DD7LP684KX18,680nF,5.7x5.0,450,X7T,+/-10%,100Hz-3GHz\
+;GC355DD72W334KX01,330nF,5.7x5.0,450,X7T,+/-10%,100Hz-3GHz\
+;GC355DD7LQ334KX18,330nF,5.7x5.0,630,X7T,+/-10%,100Hz-3GHz\
+;GC355DD72E474KX01,470nF,5.7x5.0,250,X7T,+/-10%,100Hz-3GHz\
+;GC355DD7LP474KX18,470nF,5.7x5.0,450,X7T,+/-10%,100Hz-3GHz\
+;GC355DD72W224KX01,220nF,5.7x5.0,450,X7T,+/-10%,100Hz-3GHz\
+;GC355XD72E105KX05,1uF,5.7x5.0,250,X7T,+/-10%,100Hz-3GHz\
+;GC355XD7LP105KX17,1uF,5.7x5.0,450,X7T,+/-10%,100Hz-3GHz\
+;GC355DD72J104KX01,100nF,5.7x5.0,630,X7T,+/-10%,100Hz-3GHz\
+;GC355DD72J154KX01,150nF,5.7x5.0,630,X7T,+/-10%,100Hz-3GHz\
+;GC355XD72J224KX05,220nF,5.7x5.0,630,X7T,+/-10%,100Hz-3GHz\
+;GC355DD7LQ224KX18,220nF,5.7x5.0,630,X7T,+/-10%,100Hz-3GHz\
+;GC355DD72W474KX01,470nF,5.7x5.0,450,X7T,+/-10%,100Hz-3GHz\
+;GC355DD7LQ474KX18,470nF,5.7x5.0,630,X7T,+/-10%,100Hz-3GHz\
+;GC355XD7LQ564KX17,560nF,5.7x5.0,630,X7T,+/-10%,100Hz-3GHz\
+')
+	$end 'Parameters'
+$end 'GC355'
+
+$begin 'GCJ55'
+	Refbase='X'
+	NumParts=1
+	Terminal('n1', '102', 'A', false, 0, 0, 0)
+	Terminal('n2', '103', 'A', false, 1, 0, 0)
+	$begin 'Parameters'
+		TextProp('Model', 'RD', '', 'GCJ55DR72J104KXJ1')
+		TextProp('DeviceLibraryName', 'RHD', '', '5750_GCJ55.lib')
+		TextProp('NexximLibraryName', 'RHD', '', '5750_GCJ55_Nexxim.lib')
+		VariableProp('X', 'RHD', '', '5.7mm')
+		VariableProp('Y', 'RHD', '', '5.0mm')
+		VariableProp('D', 'RHD', '', '0.3mm')
+		VariableProp('A', 'RHD', '', '4.3mm')
+		VariableProp('B', 'RHD', '', '1.5mm')
+		VariableProp('W', 'RHD', '', '4.15mm')
+		ButtonProp('VComp', 'D', '', 'Choose Model', '', 0)
+		ButtonProp('CircuitNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('SystemNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('NexximNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('CircuitGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('SystemGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('NexximGlobalRef', 'RHD', '', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@NexximLibraryName\\"', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@NexximLibraryName\\"', 1)
+		TextProp('ModelList', 'RHD', '', 'Model,Capacitance,Dimensions,Rated Voltage[V],Temp Characteristics,Tolerance,Frequency Range\
+;GCJ55DR72J104KXJ1,100nF,5.7x5.0,630,X7R,+/-10%,100Hz-3GHz\
+;GCJ55DR73A104KXJ1,100nF,5.7x5.0,1000,X7R,+/-10%,100Hz-3GHz\
+;GCJ55DR72E105KXJ1,1uF,5.7x5.0,250,X7R,+/-10%,100Hz-3GHz\
+;GCJ55DR72J154KXJ1,150nF,5.7x5.0,630,X7R,+/-10%,100Hz-3GHz\
+;GCJ55DR72J224KXJ1,220nF,5.7x5.0,630,X7R,+/-10%,100Hz-3GHz\
+;GCJ55DR72E334KXJ1,330nF,5.7x5.0,250,X7R,+/-10%,100Hz-3GHz\
+;GCJ55DR7LV334KW01,330nF,5.7x5.0,630,X7R,+/-10%,100Hz-3GHz\
+;GCJ55DR72E474KXJ1,470nF,5.7x5.0,250,X7R,+/-10%,100Hz-3GHz\
+;GCJ55DR7LV474KW01,470nF,5.7x5.0,630,X7R,+/-10%,100Hz-3GHz\
+;GCJ55DR73A683KXJ1,68nF,5.7x5.0,1000,X7R,+/-10%,100Hz-3GHz\
+;GCJ55DR72E684KXJ1,680nF,5.7x5.0,250,X7R,+/-10%,100Hz-3GHz\
+')
+	$end 'Parameters'
+$end 'GCJ55'
+
+$begin 'GCM55'
+	Refbase='X'
+	NumParts=1
+	Terminal('n1', '102', 'A', false, 0, 0, 0)
+	Terminal('n2', '103', 'A', false, 1, 0, 0)
+	$begin 'Parameters'
+		TextProp('Model', 'RD', '', 'GCM55DR72E334KX01')
+		TextProp('DeviceLibraryName', 'RHD', '', '5750_GCM55.lib')
+		TextProp('NexximLibraryName', 'RHD', '', '5750_GCM55_Nexxim.lib')
+		VariableProp('X', 'RHD', '', '5.7mm')
+		VariableProp('Y', 'RHD', '', '5.0mm')
+		VariableProp('D', 'RHD', '', '0.3mm')
+		VariableProp('A', 'RHD', '', '4.3mm')
+		VariableProp('B', 'RHD', '', '1.5mm')
+		VariableProp('W', 'RHD', '', '4.15mm')
+		ButtonProp('VComp', 'D', '', 'Choose Model', '', 0)
+		ButtonProp('CircuitNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('SystemNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('NexximNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('CircuitGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('SystemGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('NexximGlobalRef', 'RHD', '', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@NexximLibraryName\\"', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@NexximLibraryName\\"', 1)
+		TextProp('ModelList', 'RHD', '', 'Model,Capacitance,Dimensions,Rated Voltage[V],Temp Characteristics,Tolerance,Frequency Range\
+;GCM55DR72E334KX01,330nF,5.7x5.0,250,X7R,+/-10%,100Hz-3GHz\
+;GCM55DR72E474KX01,470nF,5.7x5.0,250,X7R,+/-10%,100Hz-3GHz\
+;GCM55DR72E684KX01,680nF,5.7x5.0,250,X7R,+/-10%,100Hz-3GHz\
+;GCM55DR72E105KX01,1uF,5.7x5.0,250,X7R,+/-10%,100Hz-3GHz\
+;GCM55Q7U2J273JX01,27nF,5.7x5.0,630,U2J,+/-5%,1MHz-3GHz\
+;GCM55D7U2J333JX01,33nF,5.7x5.0,630,U2J,+/-5%,1MHz-3GHz\
+;GCM55D7U2J393JX01,39nF,5.7x5.0,630,U2J,+/-5%,1MHz-3GHz\
+;GCM55D7U2J473JX01,47nF,5.7x5.0,630,U2J,+/-5%,1MHz-3GHz\
+;GCM55DR72J104KX01,100nF,5.7x5.0,630,X7R,+/-10%,100Hz-3GHz\
+;GCM55DR72J154KX01,150nF,5.7x5.0,630,X7R,+/-10%,100Hz-3GHz\
+;GCM55DR72J224KX01,220nF,5.7x5.0,630,X7R,+/-10%,100Hz-3GHz\
+;GCM55DR7LV334KW01,330nF,5.7x5.0,630,X7R,+/-10%,100Hz-3GHz\
+;GCM55DR7LV474KW01,470nF,5.7x5.0,630,X7R,+/-10%,100Hz-3GHz\
+;GCM55Q7U3A562JX01,5.5nF,5.7x5.0,1000,U2J,+/-5%,1MHz-3GHz\
+;GCM55Q7U3A682JX01,6.6nF,5.7x5.0,1000,U2J,+/-5%,1MHz-3GHz\
+;GCM55D7U3A822JX01,8.8nF,5.7x5.0,1000,U2J,+/-5%,1MHz-3GHz\
+;GCM55D7U3A103JX01,10nF,5.7x5.0,1000,U2J,+/-5%,1MHz-3GHz\
+;GCM55DR73A683KX01,68nF,5.7x5.0,1000,X7R,+/-10%,100Hz-3GHz\
+;GCM55DR73A104KX01,100nF,5.7x5.0,1000,X7R,+/-10%,100Hz-3GHz\
+')
+	$end 'Parameters'
+$end 'GCM55'
+
+$begin 'CompInfo'
+	GC355(4294901767, 2, 'Equivalent Model (All Rights Reserved)', 1750225268, 'Manufacture Murata ', 'MurataCapSym', '', 'Murata_FP', '(100nF - 1uF)', '', '', 'cap.bmp','Murata_mlcc\\Capacitor\\200V_and_over\\5750(2220)', 'UserLibrary ')
+	GCJ55(4294901767, 2, 'Equivalent Model (All Rights Reserved)', 1750225268, 'Manufacture Murata ', 'MurataCapSym', '', 'Murata_FP', '(68nF - 1uF)', '', '', 'cap.bmp','Murata_mlcc\\Capacitor\\200V_and_over\\5750(2220)', 'UserLibrary ')
+	GCM55(4294901767, 2, 'Equivalent Model (All Rights Reserved)', 1750225268, 'Manufacture Murata ', 'MurataCapSym', '', 'Murata_FP', '(5.5nF - 1uF)', '', '', 'cap.bmp','Murata_mlcc\\Capacitor\\200V_and_over\\5750(2220)', 'UserLibrary ')
+$end 'CompInfo'
+
+$begin '$index$'
+	$begin '$index$'
+		CompInfo(pos=15255, lin=227, lvl=0)
+		GC355(pos=370, lin=11, lvl=0)
+		GCJ55(pos=370, lin=11, lvl=0)
+		GCM55(pos=370, lin=11, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=16329, lin=233, lvl=0)
+	$end '$index$'
+$end '$index$'

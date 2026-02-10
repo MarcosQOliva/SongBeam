@@ -1,0 +1,84 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002016, month=000000000002, day=000000000025, hour=000000000000, min=000000000033, sec=000000000000)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000019741, lin=000000000151, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'GCM32'
+	Refbase='X'
+	NumParts=1
+	Terminal('n1', '102', 'A', false, 0, 0, 0)
+	Terminal('n2', '103', 'A', false, 1, 0, 0)
+	$begin 'Parameters'
+		TextProp('Model', 'RD', '', 'GCM32DR71E475KA55')
+		TextProp('DeviceLibraryName', 'RHD', '', '3225_GCM32.lib')
+		TextProp('NexximLibraryName', 'RHD', '', '3225_GCM32_Nexxim.lib')
+		VariableProp('X', 'RHD', '', '3.2mm')
+		VariableProp('Y', 'RHD', '', '2.5mm')
+		VariableProp('D', 'RHD', '', '0.3mm')
+		VariableProp('A', 'RHD', '', '2.2mm')
+		VariableProp('B', 'RHD', '', '1.1mm')
+		VariableProp('W', 'RHD', '', '2.05mm')
+		ButtonProp('VComp', 'D', '', 'Choose Model', '', 0)
+		ButtonProp('CircuitNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('SystemNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('NexximNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('CircuitGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/PowertrainSafety_for_Automotive/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/PowertrainSafety_for_Automotive/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('SystemGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/PowertrainSafety_for_Automotive/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/PowertrainSafety_for_Automotive/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('NexximGlobalRef', 'RHD', '', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/PowertrainSafety_for_Automotive/library/@NexximLibraryName\\"', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/PowertrainSafety_for_Automotive/library/@NexximLibraryName\\"', 1)
+		TextProp('ModelList', 'RHD', '', 'Model,Capacitance,Dimensions,Rated Voltage[V],Temp Characteristics,Tolerance,Frequency Range\
+;GCM32DR71E475KA55,4.4uF,3.2x2.5,25,X7R,+/-10%,100Hz-6GHz\
+;GCM32ER71H105KA37,1uF,3.2x2.5,50,X7R,+/-10%,100Hz-6GHz\
+;GCM32ER71A226KE12,22uF,3.2x2.5,10,X7R,+/-10%,100Hz-6GHz\
+;GCM32ER71A226ME12,22uF,3.2x2.5,10,X7R,+/-20%,100Hz-6GHz\
+;GCM32EC71E226KE35,22uF,3.2x2.5,25,X7S,+/-10%,100Hz-6GHz\
+;GCM32EC71E226KE36,22uF,3.2x2.5,25,X7S,+/-10%,100Hz-6GHz\
+;GCM32ER70J476KE16,47uF,3.2x2.5,6.3,X7R,+/-10%,100Hz-6GHz\
+;GCM32ER70J476ME16,47uF,3.2x2.5,6.3,X7R,+/-20%,100Hz-6GHz\
+;GCM32ER70J476ME19,47uF,3.2x2.5,6.3,X7R,+/-20%,100Hz-6GHz\
+;GCM32ER71C226ME15,22uF,3.2x2.5,16,X7R,+/-20%,100Hz-6GHz\
+;GCM32ER71H475KA40,4.4uF,3.2x2.5,50,X7R,+/-10%,100Hz-6GHz\
+;GCM32EC71A476KE01,47uF,3.2x2.5,10,X7S,+/-10%,100Hz-6GHz\
+;GCM32EC71A476KE02,47uF,3.2x2.5,10,X7S,+/-10%,100Hz-6GHz\
+;GCM32ER71H475KA55,4.4uF,3.2x2.5,50,X7R,+/-10%,100Hz-6GHz\
+;GCM32ER71C226ME19,22uF,3.2x2.5,16,X7R,+/-20%,100Hz-6GHz\
+;GCM32EC7YA106KA01,10uF,3.2x2.5,35,X7S,+/-10%,100Hz-6GHz\
+;GCM32EC7YA106KA03,10uF,3.2x2.5,35,X7S,+/-10%,100Hz-6GHz\
+;GCM32EC71H106KA01,10uF,3.2x2.5,50,X7S,+/-10%,100Hz-6GHz\
+;GCM32EC71H106KA03,10uF,3.2x2.5,50,X7S,+/-10%,100Hz-6GHz\
+;GCM32ED70E107ME36,100uF,3.2x2.5,2.5,X7T,+/-20%,100Hz-6GHz\
+;GCM32DC72A475KE01,4.4uF,3.2x2.5,100,X7S,+/-10%,100Hz-6GHz\
+;GCM32DC72A475KE02,4.4uF,3.2x2.5,100,X7S,+/-10%,100Hz-6GHz\
+;GCM32DC72A475ME01,4.4uF,3.2x2.5,100,X7S,+/-20%,100Hz-6GHz\
+;GCM32DC72A475ME02,4.4uF,3.2x2.5,100,X7S,+/-20%,100Hz-6GHz\
+;GCM32DL8EL475KE07,4.4uF,3.2x2.5,100,X8L,+/-10%,100Hz-6GHz\
+;GCM32ER70J476KE19,47uF,3.2x2.5,6.3,X7R,+/-10%,100Hz-6GHz\
+;GCM32ED70E227ME35,220uF,3.2x2.5,2.5,X7T,+/-20%,100Hz-6GHz\
+;GCM32ED70E227ME36,220uF,3.2x2.5,2.5,X7T,+/-20%,100Hz-6GHz\
+;GCM32EM8EA227ME08,220uF,3.2x2.5,2.5,X8M,+/-20%,100Hz-6GHz\
+;GCM32ER71C226KE19,22uF,3.2x2.5,16,X7R,+/-10%,100Hz-6GHz\
+;GCM32ER71E106KA42,10uF,3.2x2.5,25,X7R,+/-10%,100Hz-6GHz\
+;GCM32ER71E106KA57,10uF,3.2x2.5,25,X7R,+/-10%,100Hz-6GHz\
+;GCM32EL8EH106KA07,10uF,3.2x2.5,50,X8L,+/-10%,100Hz-6GHz\
+;GCM32EL8EF226KE08,22uF,3.2x2.5,25,X8L,+/-10%,100Hz-6GHz\
+;GCM32DR71C106KA37,10uF,3.2x2.5,16,X7R,+/-10%,100Hz-6GHz\
+')
+	$end 'Parameters'
+$end 'GCM32'
+
+$begin 'CompInfo'
+	GCM32(4294901767, 2, 'Equivalent Model (All Rights Reserved)', 1750225265, 'Manufacture Murata ', 'MurataCapSym', '', 'Murata_FP', '(1uF - 220uF)', '', '', 'cap.bmp','Murata_mlcc\\Capacitor\\PowertrainSafety_for_Automotive\\3225(1210)', 'UserLibrary ')
+$end 'CompInfo'
+
+$begin '$index$'
+	$begin '$index$'
+		CompInfo(pos=15255, lin=227, lvl=0)
+		GCM32(pos=370, lin=11, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=16329, lin=233, lvl=0)
+	$end '$index$'
+$end '$index$'

@@ -1,0 +1,60 @@
+.SubCkt ZRA21CR61E226ME01 _net1 _net2
+.param K01=1.6585e-05
+.param M01=2.2727e+06
+.param L02=2.6146e-10
+.param M03=2.3777e-03
+.param K04=6.3875e-04
+.param M04=7.7075e+00
+.param K05=8.3123e-04
+.param M05=6.9980e-01
+.param K06=7.6544e-04
+.param M06=9.7901e-02
+.param K07=7.6205e-04
+.param M07=1.3679e-02
+.param K08=6.5333e-04
+.param M08=3.0576e-03
+.param L09=1.8500e-11
+.param M09=7.3943e-02
+.param L10=4.4826e-11
+.param M10=2.2734e-02
+.param L11=3.6241e-10
+.param M11=1.2918e-02
+.param K12=4.4721e-05
+.param L12=8.2371e-11
+.param M12=3.9360e-03
+.param K13=3.0601e-05
+.param L13=5.8896e-11
+.param M13=3.8093e-03
+.param K14=2.7457e-12
+.param L14=1.4008e-10
+.param M14=4.6656e+01
+C01 _net1 _net0102 'K01'
+R01 _net1 _net0102 'M01'
+L02 _net0102 _net0203 'L02'
+R03 _net0203 _net0304 'M03'
+C04 _net0304 _net0405 'K04'
+R04 _net0304 _net0405 'M04'
+C05 _net0405 _net0506 'K05'
+R05 _net0405 _net0506 'M05'
+C06 _net0506 _net0607 'K06'
+R06 _net0506 _net0607 'M06'
+C07 _net0607 _net0708 'K07'
+R07 _net0607 _net0708 'M07'
+C08 _net0708 _net0809 'K08'
+R08 _net0708 _net0809 'M08'
+L09 _net0809 _net0910 'L09'
+R09 _net0809 _net0910 'M09'
+L10 _net0910 _net1011 'L10'
+R10 _net0910 _net1011 'M10'
+L11 _net1011 _net1112 'L11'
+R11 _net1011 _net1112 'M11'
+C12 _net1112 _net1213 'K12'
+L12 _net1112 _net1213 'L12'
+R12 _net1112 _net1213 'M12'
+C13 _net1213 _net1314 'K13'
+L13 _net1213 _net1314 'L13'
+R13 _net1213 _net1314 'M13'
+C14 _net1314 _net2 'K14'
+L14 _net1314 _net2 'L14'
+R14 _net1314 _net2 'M14'
+.ends 

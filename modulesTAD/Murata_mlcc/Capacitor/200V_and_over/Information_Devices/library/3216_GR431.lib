@@ -1,0 +1,362 @@
+.SubCkt GR431A7U2J102JWC2 [_net1] [_net2]
+.param K01=1.0017e-09
+.param M01=1.0000e+10
+.param L02=1.0772e-11
+.param M03=2.2186e-02
+.param L04=1.2285e-10
+.param M04=9.0321e-01
+.param K05=2.9652e-08
+.param L05=6.7606e-11
+.param M05=2.8571e-02
+.param K06=4.2278e-09
+.param L06=3.0054e-11
+.param M06=4.9932e-01
+.param K07=1.3358e-09
+.param L07=3.3840e-11
+.param M07=7.2541e-01
+.param K08=6.9354e-13
+.param L08=6.3105e-10
+.param M08=2.8424e+02
+C01 _net1 _net0102 {K01}
+R01 _net1 _net0102 {M01}
+L02 _net0102 _net0203 {L02}
+R03 _net0203 _net0304 {M03}
+L04 _net0304 _net0405 {L04}
+R04 _net0304 _net0405 {M04}
+C05 _net0405 _net0506 {K05}
+L05 _net0405 _net0506 {L05}
+R05 _net0405 _net0506 {M05}
+C06 _net0506 _net0607 {K06}
+L06 _net0506 _net0607 {L06}
+R06 _net0506 _net0607 {M06}
+C07 _net0607 _net0708 {K07}
+L07 _net0607 _net0708 {L07}
+R07 _net0607 _net0708 {M07}
+C08 _net0708 _net2 {K08}
+L08 _net0708 _net2 {L08}
+R08 _net0708 _net2 {M08}
+.ends GR431A7U2J102JWC2
+
+.SubCkt GR431A7U2J122JWC2 [_net1] [_net2]
+.param K01=1.2281e-09
+.param M01=1.0000e+10
+.param L02=8.3669e-11
+.param M03=1.8142e-02
+.param L04=1.0607e-10
+.param M04=7.9800e-01
+.param K05=2.9000e-08
+.param L05=5.8835e-11
+.param M05=2.3089e-02
+.param K06=5.3616e-09
+.param L06=2.4815e-11
+.param M06=5.0722e-01
+.param K07=1.5707e-09
+.param L07=2.8780e-11
+.param M07=6.7645e-01
+.param K08=7.9137e-13
+.param L08=5.4045e-10
+.param M08=3.1779e+02
+C01 _net1 _net0102 {K01}
+R01 _net1 _net0102 {M01}
+L02 _net0102 _net0203 {L02}
+R03 _net0203 _net0304 {M03}
+L04 _net0304 _net0405 {L04}
+R04 _net0304 _net0405 {M04}
+C05 _net0405 _net0506 {K05}
+L05 _net0405 _net0506 {L05}
+R05 _net0405 _net0506 {M05}
+C06 _net0506 _net0607 {K06}
+L06 _net0506 _net0607 {L06}
+R06 _net0506 _net0607 {M06}
+C07 _net0607 _net0708 {K07}
+L07 _net0607 _net0708 {L07}
+R07 _net0607 _net0708 {M07}
+C08 _net0708 _net2 {K08}
+L08 _net0708 _net2 {L08}
+R08 _net0708 _net2 {M08}
+.ends GR431A7U2J122JWC2
+
+.SubCkt GR431A7U2J152JWC2 [_net1] [_net2]
+.param K01=1.4767e-09
+.param M01=1.0000e+10
+.param L02=2.4325e-10
+.param M03=1.4623e-02
+.param L04=9.9652e-11
+.param M04=9.0358e-01
+.param L05=7.1078e-11
+.param M05=2.1499e-02
+.param K06=4.1874e-09
+.param L06=4.4493e-11
+.param M06=6.0504e-01
+.param K07=1.5532e-09
+.param L07=4.4544e-11
+.param M07=8.6668e-01
+.param K08=1.2142e-12
+.param L08=3.0849e-10
+.param M08=7.2399e+01
+C01 _net1 _net0102 {K01}
+R01 _net1 _net0102 {M01}
+L02 _net0102 _net0203 {L02}
+R03 _net0203 _net0304 {M03}
+L04 _net0304 _net0405 {L04}
+R04 _net0304 _net0405 {M04}
+L05 _net0405 _net0506 {L05}
+R05 _net0405 _net0506 {M05}
+C06 _net0506 _net0607 {K06}
+L06 _net0506 _net0607 {L06}
+R06 _net0506 _net0607 {M06}
+C07 _net0607 _net0708 {K07}
+L07 _net0607 _net0708 {L07}
+R07 _net0607 _net0708 {M07}
+C08 _net0708 _net2 {K08}
+L08 _net0708 _net2 {L08}
+R08 _net0708 _net2 {M08}
+.ends GR431A7U2J152JWC2
+
+.SubCkt GR431A7U2J182JWC2 [_net1] [_net2]
+.param K01=1.7510e-09
+.param M01=1.0000e+10
+.param L02=5.5904e-11
+.param M03=1.2532e-02
+.param L04=1.3035e-10
+.param M04=7.8840e-01
+.param L05=5.7664e-11
+.param M05=2.1220e-02
+.param K06=5.2287e-09
+.param L06=4.8258e-11
+.param M06=6.6811e-01
+.param K07=2.5752e-09
+.param L07=3.9070e-11
+.param M07=8.6174e-01
+.param K08=6.3117e-13
+.param L08=4.7395e-10
+.param M08=6.5186e+02
+C01 _net1 _net0102 {K01}
+R01 _net1 _net0102 {M01}
+L02 _net0102 _net0203 {L02}
+R03 _net0203 _net0304 {M03}
+L04 _net0304 _net0405 {L04}
+R04 _net0304 _net0405 {M04}
+L05 _net0405 _net0506 {L05}
+R05 _net0405 _net0506 {M05}
+C06 _net0506 _net0607 {K06}
+L06 _net0506 _net0607 {L06}
+R06 _net0506 _net0607 {M06}
+C07 _net0607 _net0708 {K07}
+L07 _net0607 _net0708 {L07}
+R07 _net0607 _net0708 {M07}
+C08 _net0708 _net2 {K08}
+L08 _net0708 _net2 {L08}
+R08 _net0708 _net2 {M08}
+.ends GR431A7U2J182JWC2
+
+.SubCkt GR431A7U2J222JWC2 [_net1] [_net2]
+.param K01=2.2191e-09
+.param M01=1.0000e+10
+.param L02=9.0155e-11
+.param M03=9.3815e-03
+.param L04=7.3080e-11
+.param M04=2.1478e-02
+.param K05=6.8913e-09
+.param L05=4.9582e-11
+.param M05=7.4054e-01
+.param K06=2.0933e-09
+.param L06=6.3322e-11
+.param M06=8.6054e-01
+.param K07=8.9378e-09
+.param L07=6.7658e-12
+.param M07=1.5020e-01
+.param K08=3.0681e-09
+.param L08=1.1956e-11
+.param M08=2.5649e-01
+.param K09=1.2395e-10
+.param L09=8.0099e-11
+.param M09=4.5833e-01
+.param K10=7.4096e-13
+.param L10=3.8773e-10
+.param M10=1.1864e+02
+C01 _net1 _net0102 {K01}
+R01 _net1 _net0102 {M01}
+L02 _net0102 _net0203 {L02}
+R03 _net0203 _net0304 {M03}
+L04 _net0304 _net0405 {L04}
+R04 _net0304 _net0405 {M04}
+C05 _net0405 _net0506 {K05}
+L05 _net0405 _net0506 {L05}
+R05 _net0405 _net0506 {M05}
+C06 _net0506 _net0607 {K06}
+L06 _net0506 _net0607 {L06}
+R06 _net0506 _net0607 {M06}
+C07 _net0607 _net0708 {K07}
+L07 _net0607 _net0708 {L07}
+R07 _net0607 _net0708 {M07}
+C08 _net0708 _net0809 {K08}
+L08 _net0708 _net0809 {L08}
+R08 _net0708 _net0809 {M08}
+C09 _net0809 _net0910 {K09}
+L09 _net0809 _net0910 {L09}
+R09 _net0809 _net0910 {M09}
+C10 _net0910 _net2 {K10}
+L10 _net0910 _net2 {L10}
+R10 _net0910 _net2 {M10}
+.ends GR431A7U2J222JWC2
+
+.SubCkt GR431B7U2J272JWC2 [_net1] [_net2]
+.param K01=2.7366e-09
+.param M01=1.0000e+10
+.param L02=4.4029e-11
+.param M03=8.1616e-03
+.param L04=1.7513e-10
+.param M04=6.3641e-01
+.param L05=6.2708e-11
+.param M05=1.2584e-02
+.param K06=8.4176e-09
+.param L06=6.1444e-11
+.param M06=7.7256e-01
+.param K07=4.3081e-09
+.param L07=4.8883e-11
+.param M07=7.5048e-01
+.param K08=8.2735e-13
+.param L08=4.8402e-10
+.param M08=4.9166e+02
+C01 _net1 _net0102 {K01}
+R01 _net1 _net0102 {M01}
+L02 _net0102 _net0203 {L02}
+R03 _net0203 _net0304 {M03}
+L04 _net0304 _net0405 {L04}
+R04 _net0304 _net0405 {M04}
+L05 _net0405 _net0506 {L05}
+R05 _net0405 _net0506 {M05}
+C06 _net0506 _net0607 {K06}
+L06 _net0506 _net0607 {L06}
+R06 _net0506 _net0607 {M06}
+C07 _net0607 _net0708 {K07}
+L07 _net0607 _net0708 {L07}
+R07 _net0607 _net0708 {M07}
+C08 _net0708 _net2 {K08}
+L08 _net0708 _net2 {L08}
+R08 _net0708 _net2 {M08}
+.ends GR431B7U2J272JWC2
+
+.SubCkt GR431B7U2J332JWC2 [_net1] [_net2]
+.param K01=3.1659e-09
+.param M01=1.0000e+10
+.param L02=2.1988e-10
+.param M03=8.5387e-03
+.param L04=1.9375e-10
+.param M04=7.0969e-01
+.param L05=4.8536e-11
+.param M05=9.5374e-03
+.param K06=1.1211e-08
+.param L06=5.3675e-11
+.param M06=8.9902e-01
+.param K07=4.4077e-09
+.param L07=5.4937e-11
+.param M07=8.7670e-01
+.param K08=1.1037e-12
+.param L08=3.0058e-10
+.param M08=5.5141e+01
+C01 _net1 _net0102 {K01}
+R01 _net1 _net0102 {M01}
+L02 _net0102 _net0203 {L02}
+R03 _net0203 _net0304 {M03}
+L04 _net0304 _net0405 {L04}
+R04 _net0304 _net0405 {M04}
+L05 _net0405 _net0506 {L05}
+R05 _net0405 _net0506 {M05}
+C06 _net0506 _net0607 {K06}
+L06 _net0506 _net0607 {L06}
+R06 _net0506 _net0607 {M06}
+C07 _net0607 _net0708 {K07}
+L07 _net0607 _net0708 {L07}
+R07 _net0607 _net0708 {M07}
+C08 _net0708 _net2 {K08}
+L08 _net0708 _net2 {L08}
+R08 _net0708 _net2 {M08}
+.ends GR431B7U2J332JWC2
+
+.SubCkt GR431C7U2J392JWC1 [_net1] [_net2]
+.param K01=3.9552e-09
+.param M01=1.0000e+10
+.param L02=1.2129e-10
+.param M03=8.3649e-03
+.param L04=1.7483e-10
+.param M04=5.1760e-01
+.param L05=5.5130e-11
+.param M05=1.2426e-02
+.param K06=1.0567e-08
+.param L06=7.8649e-11
+.param M06=8.1760e-01
+.param K07=7.7507e-09
+.param L07=4.3907e-11
+.param M07=7.5917e-01
+.param K08=8.3452e-13
+.param L08=4.8656e-10
+.param M08=8.0620e+01
+C01 _net1 _net0102 {K01}
+R01 _net1 _net0102 {M01}
+L02 _net0102 _net0203 {L02}
+R03 _net0203 _net0304 {M03}
+L04 _net0304 _net0405 {L04}
+R04 _net0304 _net0405 {M04}
+L05 _net0405 _net0506 {L05}
+R05 _net0405 _net0506 {M05}
+C06 _net0506 _net0607 {K06}
+L06 _net0506 _net0607 {L06}
+R06 _net0506 _net0607 {M06}
+C07 _net0607 _net0708 {K07}
+L07 _net0607 _net0708 {L07}
+R07 _net0607 _net0708 {M07}
+C08 _net0708 _net2 {K08}
+L08 _net0708 _net2 {L08}
+R08 _net0708 _net2 {M08}
+.ends GR431C7U2J392JWC1
+
+.SubCkt GR431C7U2J472JWC1 [_net1] [_net2]
+.param K01=4.7273e-09
+.param M01=1.0000e+10
+.param L02=2.7482e-10
+.param M03=6.5250e-03
+.param L04=2.0769e-10
+.param M04=4.9509e-01
+.param L05=5.1256e-11
+.param M05=7.9775e-03
+.param K06=1.3852e-08
+.param L06=7.9977e-11
+.param M06=1.0395e+00
+.param K07=8.6350e-09
+.param L07=5.4324e-11
+.param M07=7.3282e-01
+.param K08=1.6964e-08
+.param L08=1.3930e-11
+.param M08=2.3148e-01
+.param K09=1.2126e-08
+.param L09=1.2517e-11
+.param M09=2.1483e-01
+.param K10=1.5621e-12
+.param L10=2.3110e-10
+.param M10=1.6176e+02
+C01 _net1 _net0102 {K01}
+R01 _net1 _net0102 {M01}
+L02 _net0102 _net0203 {L02}
+R03 _net0203 _net0304 {M03}
+L04 _net0304 _net0405 {L04}
+R04 _net0304 _net0405 {M04}
+L05 _net0405 _net0506 {L05}
+R05 _net0405 _net0506 {M05}
+C06 _net0506 _net0607 {K06}
+L06 _net0506 _net0607 {L06}
+R06 _net0506 _net0607 {M06}
+C07 _net0607 _net0708 {K07}
+L07 _net0607 _net0708 {L07}
+R07 _net0607 _net0708 {M07}
+C08 _net0708 _net0809 {K08}
+L08 _net0708 _net0809 {L08}
+R08 _net0708 _net0809 {M08}
+C09 _net0809 _net0910 {K09}
+L09 _net0809 _net0910 {L09}
+R09 _net0809 _net0910 {M09}
+C10 _net0910 _net2 {K10}
+L10 _net0910 _net2 {L10}
+R10 _net0910 _net2 {M10}
+.ends GR431C7U2J472JWC1

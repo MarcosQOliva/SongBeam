@@ -1,0 +1,127 @@
+.SubCkt KRT31KR71H475KH01 [_net1] [_net2]
+.param K01=4.5292e-06
+.param L02=2.3293e-10
+.param M03=5.2404e-03
+.param K04=1.1583e-03
+.param M04=2.7140e+00
+.param K05=1.0721e-03
+.param M05=9.4094e-01
+.param K06=1.0141e-03
+.param M06=1.6687e-01
+.param K07=1.0071e-03
+.param M07=3.9645e-02
+.param K08=8.5249e-04
+.param M08=7.5122e-03
+.param L09=8.5379e-11
+.param M09=4.6187e-02
+.param L10=7.8643e-10
+.param M10=3.1742e-02
+.param L11=4.5399e-10
+.param M11=2.4946e-03
+.param K12=2.7664e-05
+.param L12=5.0933e-11
+.param M12=7.6342e-03
+.param K13=1.6565e-05
+.param L13=3.9450e-11
+.param M13=7.3654e-03
+.param K14=4.5339e-12
+.param L14=2.2799e-10
+.param M14=6.7466e+01
+.param K15=8.6831e-13
+.param L15=9.3265e-10
+.param M15=2.3153e+03
+C01 _net1 _net0102 {K01}
+L02 _net0102 _net0203 {L02}
+R03 _net0203 _net0304 {M03}
+C04 _net0304 _net0405 {K04}
+R04 _net0304 _net0405 {M04}
+C05 _net0405 _net0506 {K05}
+R05 _net0405 _net0506 {M05}
+C06 _net0506 _net0607 {K06}
+R06 _net0506 _net0607 {M06}
+C07 _net0607 _net0708 {K07}
+R07 _net0607 _net0708 {M07}
+C08 _net0708 _net0809 {K08}
+R08 _net0708 _net0809 {M08}
+L09 _net0809 _net0910 {L09}
+R09 _net0809 _net0910 {M09}
+L10 _net0910 _net1011 {L10}
+R10 _net0910 _net1011 {M10}
+L11 _net1011 _net1112 {L11}
+R11 _net1011 _net1112 {M11}
+C12 _net1112 _net1213 {K12}
+L12 _net1112 _net1213 {L12}
+R12 _net1112 _net1213 {M12}
+C13 _net1213 _net1314 {K13}
+L13 _net1213 _net1314 {L13}
+R13 _net1213 _net1314 {M13}
+C14 _net1314 _net1415 {K14}
+L14 _net1314 _net1415 {L14}
+R14 _net1314 _net1415 {M14}
+C15 _net1415 _net2 {K15}
+L15 _net1415 _net2 {L15}
+R15 _net1415 _net2 {M15}
+.ends KRT31KR71H475KH01
+
+.SubCkt KRT31KC8YA106KH01 [_net1] [_net2]
+.param K01=7.5356e-06
+.param L02=3.9194e-12
+.param M03=4.8561e-03
+.param K04=4.3532e-04
+.param M04=1.0000e+01
+.param K05=5.0307e-04
+.param M05=1.1482e+00
+.param K06=4.9366e-04
+.param M06=1.3490e-01
+.param K07=4.6493e-04
+.param M07=1.5849e-02
+.param K08=7.1671e-04
+.param M08=1.3933e-03
+.param L09=1.7515e-11
+.param M09=1.1067e-01
+.param L10=9.2442e-11
+.param M10=3.9811e-02
+.param L11=7.6111e-10
+.param M11=2.2909e-02
+.param L12=1.0955e-10
+.param M12=6.3096e-04
+.param K13=5.6700e-05
+.param L13=4.2113e-11
+.param M13=2.8324e-03
+.param K14=2.0558e-05
+.param L14=4.8504e-11
+.param M14=3.3892e-03
+.param K15=8.1841e-13
+.param L15=1.3966e-09
+.param M15=1.0390e+03
+C01 _net1 _net0102 {K01}
+L02 _net0102 _net0203 {L02}
+R03 _net0203 _net0304 {M03}
+C04 _net0304 _net0405 {K04}
+R04 _net0304 _net0405 {M04}
+C05 _net0405 _net0506 {K05}
+R05 _net0405 _net0506 {M05}
+C06 _net0506 _net0607 {K06}
+R06 _net0506 _net0607 {M06}
+C07 _net0607 _net0708 {K07}
+R07 _net0607 _net0708 {M07}
+C08 _net0708 _net0809 {K08}
+R08 _net0708 _net0809 {M08}
+L09 _net0809 _net0910 {L09}
+R09 _net0809 _net0910 {M09}
+L10 _net0910 _net1011 {L10}
+R10 _net0910 _net1011 {M10}
+L11 _net1011 _net1112 {L11}
+R11 _net1011 _net1112 {M11}
+L12 _net1112 _net1213 {L12}
+R12 _net1112 _net1213 {M12}
+C13 _net1213 _net1314 {K13}
+L13 _net1213 _net1314 {L13}
+R13 _net1213 _net1314 {M13}
+C14 _net1314 _net1415 {K14}
+L14 _net1314 _net1415 {L14}
+R14 _net1314 _net1415 {M14}
+C15 _net1415 _net2 {K15}
+L15 _net1415 _net2 {L15}
+R15 _net1415 _net2 {M15}
+.ends KRT31KC8YA106KH01

@@ -1,0 +1,50 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002016, month=000000000002, day=000000000025, hour=000000000000, min=000000000033, sec=000000000000)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000019741, lin=000000000151, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'GA255'
+	Refbase='X'
+	NumParts=1
+	Terminal('n1', '102', 'A', false, 0, 0, 0)
+	Terminal('n2', '103', 'A', false, 1, 0, 0)
+	$begin 'Parameters'
+		TextProp('Model', 'RD', '', 'GA255DR7E2104MW01')
+		TextProp('DeviceLibraryName', 'RHD', '', '5750_GA255.lib')
+		TextProp('NexximLibraryName', 'RHD', '', '5750_GA255_Nexxim.lib')
+		VariableProp('X', 'RHD', '', '5.7mm')
+		VariableProp('Y', 'RHD', '', '5.0mm')
+		VariableProp('D', 'RHD', '', '0.3mm')
+		VariableProp('A', 'RHD', '', '4.3mm')
+		VariableProp('B', 'RHD', '', '1.5mm')
+		VariableProp('W', 'RHD', '', '4.15mm')
+		ButtonProp('VComp', 'D', '', 'Choose Model', '', 0)
+		ButtonProp('CircuitNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('SystemNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('NexximNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('CircuitGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/under_Japanese_Law/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/under_Japanese_Law/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('SystemGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/under_Japanese_Law/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/under_Japanese_Law/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('NexximGlobalRef', 'RHD', '', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/under_Japanese_Law/library/@NexximLibraryName\\"', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/under_Japanese_Law/library/@NexximLibraryName\\"', 1)
+		TextProp('ModelList', 'RHD', '', 'Model,Capacitance,Dimensions,Rated Voltage[V],Temp Characteristics,Tolerance,Frequency Range\
+;GA255DR7E2104MW01,100nF,5.7x5.0,250ac,X7R,+/-20%,100kHz-3GHz\
+')
+	$end 'Parameters'
+$end 'GA255'
+
+$begin 'CompInfo'
+	GA255(4294901767, 2, 'Equivalent Model (All Rights Reserved)', 1750225268, 'Manufacture Murata ', 'MurataCapSym', '', 'Murata_FP', '(100nF)', '', '', 'cap.bmp','Murata_mlcc\\Capacitor\\200V_and_over\\under_Japanese_Law\\5750(2220)', 'UserLibrary ')
+$end 'CompInfo'
+
+$begin '$index$'
+	$begin '$index$'
+		CompInfo(pos=15255, lin=227, lvl=0)
+		GA255(pos=370, lin=11, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=16329, lin=233, lvl=0)
+	$end '$index$'
+$end '$index$'

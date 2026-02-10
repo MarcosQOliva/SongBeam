@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DFE201612E-2R2M=P2
+D DFE201612E Series Inductor 2.2uH +/-20% 0806 (2016)
+K
+F https://search.murata.co.jp/Ceramy/image/img/P02/J(E)TE243A-0006.pdf
+$ENDCMP
+#
+#End Doc Library

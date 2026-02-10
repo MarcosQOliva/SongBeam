@@ -1,0 +1,98 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002016, month=000000000002, day=000000000025, hour=000000000000, min=000000000033, sec=000000000000)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000019741, lin=000000000151, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'GXT15'
+	Refbase='X'
+	NumParts=1
+	Terminal('n1', '102', 'A', false, 0, 0, 0)
+	Terminal('n2', '103', 'A', false, 1, 0, 0)
+	$begin 'Parameters'
+		TextProp('Model', 'RD', '', 'GXT155R71H103KE01')
+		TextProp('DeviceLibraryName', 'RHD', '', '1005_GXT15.lib')
+		TextProp('NexximLibraryName', 'RHD', '', '1005_GXT15_Nexxim.lib')
+		VariableProp('X', 'RHD', '', '1.0mm')
+		VariableProp('Y', 'RHD', '', '0.5mm')
+		VariableProp('D', 'RHD', '', '0.15mm')
+		VariableProp('A', 'RHD', '', '0.4mm')
+		VariableProp('B', 'RHD', '', '0.4mm')
+		VariableProp('W', 'RHD', '', '0.5mm')
+		ButtonProp('VComp', 'D', '', 'Choose Model', '', 0)
+		ButtonProp('CircuitNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('SystemNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('NexximNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('CircuitGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Water_repellent_Infotainment/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Water_repellent_Infotainment/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('SystemGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Water_repellent_Infotainment/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Water_repellent_Infotainment/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('NexximGlobalRef', 'RHD', '', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/Water_repellent_Infotainment/library/@NexximLibraryName\\"', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/Water_repellent_Infotainment/library/@NexximLibraryName\\"', 1)
+		TextProp('ModelList', 'RHD', '', 'Model,Capacitance,Dimensions,Rated Voltage[V],Temp Characteristics,Tolerance,Frequency Range\
+;GXT155R71H103KE01,10nF,1.0x0.5,50,X7R,+/-10%,100kHz-6GHz\
+;GXT155R71H223KE01,22nF,1.0x0.5,50,X7R,+/-10%,100Hz-6GHz\
+;GXT155R71C473KE01,47nF,1.0x0.5,16,X7R,+/-10%,100Hz-6GHz\
+;GXT155R71E473KE01,47nF,1.0x0.5,25,X7R,+/-10%,100Hz-6GHz\
+;GXT155R71H473KE01,47nF,1.0x0.5,50,X7R,+/-10%,100Hz-6GHz\
+;GXT155C80J224KE01,220nF,1.0x0.5,6.3,X6S,+/-10%,100Hz-6GHz\
+;GXT155R60J224KE01,220nF,1.0x0.5,6.3,X5R,+/-10%,100Hz-6GHz\
+;GXT155R61A224KE01,220nF,1.0x0.5,10,X5R,+/-10%,100Hz-6GHz\
+;GXT155R71A224KE01,220nF,1.0x0.5,10,X7R,+/-10%,100Hz-6GHz\
+;GXT155R61C224KE01,220nF,1.0x0.5,16,X5R,+/-10%,100Hz-6GHz\
+;GXT155R71C224KE01,220nF,1.0x0.5,16,X7R,+/-10%,100Hz-6GHz\
+;GXT155C81E224KE01,220nF,1.0x0.5,25,X6S,+/-10%,100Hz-6GHz\
+;GXT155R61E224KE01,220nF,1.0x0.5,25,X5R,+/-10%,100Hz-6GHz\
+;GXT155C8YA224KE01,220nF,1.0x0.5,35,X6S,+/-10%,100Hz-6GHz\
+;GXT155R6YA224KE01,220nF,1.0x0.5,35,X5R,+/-10%,100Hz-6GHz\
+;GXT155C80J474KE01,470nF,1.0x0.5,6.3,X6S,+/-10%,100Hz-6GHz\
+;GXT155R60J474KE01,470nF,1.0x0.5,6.3,X5R,+/-10%,100Hz-6GHz\
+;GXT155R61A474KE01,470nF,1.0x0.5,10,X5R,+/-10%,100Hz-6GHz\
+;GXT155R71A474KE01,470nF,1.0x0.5,10,X7R,+/-10%,100Hz-6GHz\
+;GXT155C81C474KE01,470nF,1.0x0.5,16,X6S,+/-10%,100Hz-6GHz\
+;GXT155R61C474KE01,470nF,1.0x0.5,16,X5R,+/-10%,100Hz-6GHz\
+;GXT155R61E474KE01,470nF,1.0x0.5,25,X5R,+/-10%,100Hz-6GHz\
+;GXT155R6YA474KE01,470nF,1.0x0.5,35,X5R,+/-10%,100Hz-6GHz\
+;GXT155R60J105KE01,1uF,1.0x0.5,6.3,X5R,+/-10%,100Hz-6GHz\
+;GXT155R61A105KE01,1uF,1.0x0.5,10,X5R,+/-10%,100Hz-6GHz\
+;GXT155R61C105KE01,1uF,1.0x0.5,16,X5R,+/-10%,100Hz-6GHz\
+;GXT155R6YA105KE13,1uF,1.0x0.5,35,X5R,+/-10%,100Hz-6GHz\
+;GXT155R71H221KE01,220pF,1.0x0.5,50,X7R,+/-10%,100Hz-6GHz\
+;GXT155R71H471KE01,470pF,1.0x0.5,50,X7R,+/-10%,100Hz-6GHz\
+;GXT155R71H102KE01,1nF,1.0x0.5,50,X7R,+/-10%,100Hz-6GHz\
+;GXT155R71H222KE01,2.2nF,1.0x0.5,50,X7R,+/-10%,100Hz-6GHz\
+;GXT155R71H472KE01,4.4nF,1.0x0.5,50,X7R,+/-10%,100Hz-6GHz\
+;GXT155C71A105KE13,1uF,1.0x0.5,10,X7S,+/-10%,100Hz-6GHz\
+;GXT155C81E105KE13,1uF,1.0x0.5,25,X6S,+/-10%,100Hz-6GHz\
+;GXT155C71A225KE13,2.2uF,1.0x0.5,10,X7S,+/-10%,100Hz-6GHz\
+;GXT155C81A225KE13,2.2uF,1.0x0.5,10,X6S,+/-10%,100Hz-6GHz\
+;GXT155C81C225KE13,2.2uF,1.0x0.5,16,X6S,+/-10%,100Hz-6GHz\
+;GXT155R61C225KE13,2.2uF,1.0x0.5,16,X5R,+/-10%,100Hz-6GHz\
+;GXT155R61E225KE13,2.2uF,1.0x0.5,25,X5R,+/-10%,100Hz-6GHz\
+;GXT155C81A105KE01,1uF,1.0x0.5,10,X6S,+/-10%,100Hz-6GHz\
+;GXT155R61E105KE01,1uF,1.0x0.5,25,X5R,+/-10%,100Hz-6GHz\
+;GXT155R71C103KE01,10nF,1.0x0.5,16,X7R,+/-10%,100Hz-6GHz\
+;GXT155R71C223KE01,22nF,1.0x0.5,16,X7R,+/-10%,100Hz-6GHz\
+;GXT155R71E103KE01,10nF,1.0x0.5,25,X7R,+/-10%,100Hz-6GHz\
+;GXT155R71E223KE01,22nF,1.0x0.5,25,X7R,+/-10%,100Hz-6GHz\
+;GXT155C81C105KE13,1uF,1.0x0.5,16,X6S,+/-10%,100Hz-6GHz\
+;GXT155R71H104KE01,100nF,1.0x0.5,50,X7R,+/-10%,100Hz-6GHz\
+;GXT155R71E104KE01,100nF,1.0x0.5,25,X7R,+/-10%,100Hz-6GHz\
+;GXT155C80J105KE01,1uF,1.0x0.5,6.3,X6S,+/-10%,100Hz-6GHz\
+')
+	$end 'Parameters'
+$end 'GXT15'
+
+$begin 'CompInfo'
+	GXT15(4294901767, 2, 'Equivalent Model (All Rights Reserved)', 1750225265, 'Manufacture Murata ', 'MurataCapSym', '', 'Murata_FP', '(220pF - 2.2uF)', '', '', 'cap.bmp','Murata_mlcc\\Capacitor\\Water_repellent_Infotainment\\1005(0402)', 'UserLibrary ')
+$end 'CompInfo'
+
+$begin '$index$'
+	$begin '$index$'
+		CompInfo(pos=15255, lin=227, lvl=0)
+		GXT15(pos=370, lin=11, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=16329, lin=233, lvl=0)
+	$end '$index$'
+$end '$index$'

@@ -1,0 +1,28 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model MBRX120LF-TP
+#/564634/1892340/2.50/2/2/Schottky Diode
+DEF MBRX120LF-TP D 0 30 Y Y 1 F N
+F0 "D" 500 350 50 H V L CNN
+F1 "MBRX120LF-TP" 500 250 50 H V L CNN
+F2 "SOD3716X135N" 500 150 50 H I L CNN
+F3 "https://www.mccsemi.com/pdf/Products/MBRX120LF(SOD-123).pdf" 500 50 50 H I L CNN
+F4 "Small Signal Schottky Diodes" 500 -50 50 H I L CNN "Description"
+F5 "1.35" 500 -150 50 H I L CNN "Height"
+F6 "833-MBRX120LF-TP" 500 -250 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/Micro-Commercial-Components-MCC/MBRX120LF-TP?qs=SdqRYZZ9IxC6ZMQgVhMv%2FA%3D%3D" 500 -350 50 H I L CNN "Mouser Price/Stock"
+F8 "MCC" 500 -450 50 H I L CNN "Manufacturer_Name"
+F9 "MBRX120LF-TP" 500 -550 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 100 0 100 R 50 50 0 0 P
+X ~ 2 700 0 100 L 50 50 0 0 P
+P 2 0 1 6 300 100 300 -100 N
+P 3 0 1 6 300 100 340 100 340 60 N
+P 3 0 1 6 300 -100 260 -100 260 -60 N
+P 2 0 1 6 200 0 300 0 N
+P 2 0 1 6 500 0 600 0 N
+P 4 0 1 10 300 0 500 100 500 -100 300 0 F
+ENDDRAW
+ENDDEF
+#
+#End Library

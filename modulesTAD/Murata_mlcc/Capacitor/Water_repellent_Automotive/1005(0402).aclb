@@ -1,0 +1,74 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002016, month=000000000002, day=000000000025, hour=000000000000, min=000000000033, sec=000000000000)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000019741, lin=000000000151, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'GGM15'
+	Refbase='X'
+	NumParts=1
+	Terminal('n1', '102', 'A', false, 0, 0, 0)
+	Terminal('n2', '103', 'A', false, 1, 0, 0)
+	$begin 'Parameters'
+		TextProp('Model', 'RD', '', 'GGM155R71H103KA55')
+		TextProp('DeviceLibraryName', 'RHD', '', '1005_GGM15.lib')
+		TextProp('NexximLibraryName', 'RHD', '', '1005_GGM15_Nexxim.lib')
+		VariableProp('X', 'RHD', '', '1.0mm')
+		VariableProp('Y', 'RHD', '', '0.5mm')
+		VariableProp('D', 'RHD', '', '0.15mm')
+		VariableProp('A', 'RHD', '', '0.4mm')
+		VariableProp('B', 'RHD', '', '0.4mm')
+		VariableProp('W', 'RHD', '', '0.5mm')
+		ButtonProp('VComp', 'D', '', 'Choose Model', '', 0)
+		ButtonProp('CircuitNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('SystemNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('NexximNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('CircuitGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Water_repellent_Automotive/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Water_repellent_Automotive/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('SystemGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Water_repellent_Automotive/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Water_repellent_Automotive/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('NexximGlobalRef', 'RHD', '', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/Water_repellent_Automotive/library/@NexximLibraryName\\"', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/Water_repellent_Automotive/library/@NexximLibraryName\\"', 1)
+		TextProp('ModelList', 'RHD', '', 'Model,Capacitance,Dimensions,Rated Voltage[V],Temp Characteristics,Tolerance,Frequency Range\
+;GGM155R71H103KA55,10nF,1.0x0.5,50,X7R,+/-10%,100Hz-6GHz\
+;GGM155R71H223KA55,22nF,1.0x0.5,50,X7R,+/-10%,100Hz-6GHz\
+;GGM155R71C473KA37,47nF,1.0x0.5,16,X7R,+/-10%,100Hz-6GHz\
+;GGM155R71E473KA55,47nF,1.0x0.5,25,X7R,+/-10%,100Hz-6GHz\
+;GGM155R71H473KE02,47nF,1.0x0.5,50,X7R,+/-10%,100Hz-6GHz\
+;GGM155R71C224KE02,220nF,1.0x0.5,16,X7R,+/-10%,100Hz-6GHz\
+;GGM155C71A474KE36,470nF,1.0x0.5,10,X7S,+/-10%,100Hz-6GHz\
+;GGM155R71H221KA37,220pF,1.0x0.5,50,X7R,+/-10%,100Hz-6GHz\
+;GGM155R72A221KA37,220pF,1.0x0.5,100,X7R,+/-10%,100Hz-6GHz\
+;GGM155R71H471KA37,470pF,1.0x0.5,50,X7R,+/-10%,100Hz-6GHz\
+;GGM155R72A471KA37,470pF,1.0x0.5,100,X7R,+/-10%,100Hz-6GHz\
+;GGM155R71H102KA37,1nF,1.0x0.5,50,X7R,+/-10%,100Hz-6GHz\
+;GGM155R72A102KA37,1nF,1.0x0.5,100,X7R,+/-10%,100Hz-6GHz\
+;GGM155R71H222KA37,2.2nF,1.0x0.5,50,X7R,+/-10%,100Hz-6GHz\
+;GGM155R72A222KA37,2.2nF,1.0x0.5,100,X7R,+/-10%,100Hz-6GHz\
+;GGM155R71H472KA37,4.4nF,1.0x0.5,50,X7R,+/-10%,100Hz-6GHz\
+;GGM155R72A472KA37,4.4nF,1.0x0.5,100,X7R,+/-10%,100Hz-6GHz\
+;GGM155R71E103KA37,10nF,1.0x0.5,25,X7R,+/-10%,100Hz-6GHz\
+;GGM155R71E223KA55,22nF,1.0x0.5,25,X7R,+/-10%,100Hz-6GHz\
+;GGM155C71A105KE38,1uF,1.0x0.5,10,X7S,+/-10%,100Hz-6GHz\
+;GGM155R71E472KA37,4.4nF,1.0x0.5,25,X7R,+/-10%,100Hz-6GHz\
+;GGM155R71E104KE02,100nF,1.0x0.5,25,X7R,+/-10%,100Hz-6GHz\
+;GGM155R71A104KA55,100nF,1.0x0.5,10,X7R,+/-10%,100Hz-6GHz\
+;GGM155R71H104KE02,100nF,1.0x0.5,50,X7R,+/-10%,100Hz-6GHz\
+;GGM155R71C104KA55,100nF,1.0x0.5,16,X7R,+/-10%,100Hz-6GHz\
+')
+	$end 'Parameters'
+$end 'GGM15'
+
+$begin 'CompInfo'
+	GGM15(4294901767, 2, 'Equivalent Model (All Rights Reserved)', 1750225266, 'Manufacture Murata ', 'MurataCapSym', '', 'Murata_FP', '(220pF - 1uF)', '', '', 'cap.bmp','Murata_mlcc\\Capacitor\\Water_repellent_Automotive\\1005(0402)', 'UserLibrary ')
+$end 'CompInfo'
+
+$begin '$index$'
+	$begin '$index$'
+		CompInfo(pos=15255, lin=227, lvl=0)
+		GGM15(pos=370, lin=11, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=16329, lin=233, lvl=0)
+	$end '$index$'
+$end '$index$'

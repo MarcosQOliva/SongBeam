@@ -1,0 +1,72 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002020, month=000000000003, day=000000000017, hour=000000000010, min=000000000028, sec=000000000020)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000002351, lin=000000000064, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'Murata_FP'
+	ModTime=1584408455
+	Library='Murata_mlcc\\FootPrint\\Murata_Footprint'
+	ModSinceLib=false
+	LibLocation='UserLibrary'
+	OkayToMirror=false
+	DefUnits='mm'
+	NIdx=169
+	$begin 'Lyrs'
+		Mode='Laminate'
+		$begin 'pps'
+		$end 'pps'
+		SLayer(Layer(N='Top', ID=1, T='signal', TB='top', Col=8355711, Tr=0, Pat=4, Vf=127), SubL(Th='0', LElev='0', R='0', BR='0', Mat='', FilMat='FR4_epoxy'))
+		Layer(N='Assembly Top', ID=0, T='assembly', TB='top', Col=16711680, Tr=0, Pat=4, Vf=127)
+		Layer(N='Symbols', ID=2, T='symbol', Col=4144959, Tr=0, Pat=17, Vf=127)
+		Layer(N='Measures', ID=3, T='measures', Col=4144959, Tr=0, Pat=3, Vf=127)
+		Layer(N='Rats', ID=4, T='rat', Col=16711680, Tr=0, Pat=1, Vf=127)
+		Layer(N='Errors', ID=5, T='error', Col=255, Tr=0, Pat=1, Vf=127, L=true)
+	$end 'Lyrs'
+	ActLyr='Top'
+	Tol(2e-009, 1e-008, 1e-012)
+	$begin 'Prims'
+		rect(Id=10003, Lyr=0, N='rect101', x='0mm', y='0mm', w='X', h='Y', ang='180deg', Vds())
+		rect(Id=10103, Lyr=1, N='rect121', x='-(X-D)/2', y='0meter', w='D', h='Y', Vds())
+		rect(Id=10203, Lyr=1, N='rect123', x='(X-D)/2', y='0meter', w='D', h='Y', Vds())
+	$end 'Prims'
+	$begin 'Pins'
+		P(Port(Id=0, N='102', Btp=0), Pos(x='-X/2', y='0'), VRt='180deg', Pin=1, Ref='Padstacks:NoPad SMT East', Frm=1, To=1, BdTop=-100, BdTopDiam=0, BdBot=-100, BdBotDiam=0, Lyr(Map(U='forward', F(-1, 0), B(1))), Use())
+		P(Port(Id=1, N='103', Btp=0), Pos(x='X/2', y='0'), Pin=1, Ref='Padstacks:NoPad SMT East', Frm=1, To=1, BdTop=-100, BdTopDiam=0, BdBot=-100, BdBotDiam=0, Lyr(Map(U='forward', F(-1, 0), B(1))), Use())
+	$end 'Pins'
+	$begin 'CProps'
+		VariableProp('X', 'D', '', '2mm')
+		VariableProp('Y', 'D', '', '1mm')
+		VariableProp('D', 'D', '', '0.15mm')
+	$end 'CProps'
+	$begin 'Ncs'
+		$begin 'Nc'
+			Nam='<Power/Ground>'
+			Dsc=''
+		$end 'Nc'
+	$end 'Ncs'
+	$begin 'Ncs'
+		$begin 'Nc'
+			Nam='<Power/Ground>'
+			Dsc=''
+		$end 'Nc'
+	$end 'Ncs'
+	$begin 'Dps'
+	$end 'Dps'
+$end 'Murata_FP'
+$begin 'DefInfo'
+	Murata_FP(2, 1584408455)
+$end 'DefInfo'
+$begin '$index$'
+	$begin '$index$'
+		DefInfo(pos=2293, lin=61, lvl=0)
+		Murata_FP(pos=370, lin=11, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=2351, lin=64, lvl=0)
+	$end '$index$'
+$end '$index$'
+                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                                    

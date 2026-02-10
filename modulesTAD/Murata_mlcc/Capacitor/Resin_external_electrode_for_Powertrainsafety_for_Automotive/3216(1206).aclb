@@ -1,0 +1,144 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002016, month=000000000002, day=000000000025, hour=000000000000, min=000000000033, sec=000000000000)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000019741, lin=000000000151, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'GCJ31'
+	Refbase='X'
+	NumParts=1
+	Terminal('n1', '102', 'A', false, 0, 0, 0)
+	Terminal('n2', '103', 'A', false, 1, 0, 0)
+	$begin 'Parameters'
+		TextProp('Model', 'RD', '', 'GCJ319R71H104KA01')
+		TextProp('DeviceLibraryName', 'RHD', '', '3216_GCJ31.lib')
+		TextProp('NexximLibraryName', 'RHD', '', '3216_GCJ31_Nexxim.lib')
+		VariableProp('X', 'RHD', '', '3.2mm')
+		VariableProp('Y', 'RHD', '', '1.6mm')
+		VariableProp('D', 'RHD', '', '0.3mm')
+		VariableProp('A', 'RHD', '', '2.3mm')
+		VariableProp('B', 'RHD', '', '0.85mm')
+		VariableProp('W', 'RHD', '', '1.2mm')
+		ButtonProp('VComp', 'D', '', 'Choose Model', '', 0)
+		ButtonProp('CircuitNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('SystemNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('NexximNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('CircuitGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Resin_external_electrode_for_Powertrainsafety_for_Automotive/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Resin_external_electrode_for_Powertrainsafety_for_Automotive/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('SystemGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Resin_external_electrode_for_Powertrainsafety_for_Automotive/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Resin_external_electrode_for_Powertrainsafety_for_Automotive/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('NexximGlobalRef', 'RHD', '', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/Resin_external_electrode_for_Powertrainsafety_for_Automotive/library/@NexximLibraryName\\"', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/Resin_external_electrode_for_Powertrainsafety_for_Automotive/library/@NexximLibraryName\\"', 1)
+		TextProp('ModelList', 'RHD', '', 'Model,Capacitance,Dimensions,Rated Voltage[V],Temp Characteristics,Tolerance,Frequency Range\
+;GCJ319R71H104KA01,100nF,3.2x1.6,50,X7R,+/-10%,100Hz-6GHz\
+;GCJ319R71H104MA01,100nF,3.2x1.6,50,X7R,+/-20%,100Hz-6GHz\
+;GCJ319R72A104KA01,100nF,3.2x1.6,100,X7R,+/-10%,100Hz-6GHz\
+;GCJ319R72A104MA01,100nF,3.2x1.6,100,X7R,+/-20%,100Hz-6GHz\
+;GCJ31MR71E104KA01,100nF,3.2x1.6,25,X7R,+/-10%,100Hz-6GHz\
+;GCJ31MR71E104MA01,100nF,3.2x1.6,25,X7R,+/-20%,100Hz-6GHz\
+;GCJ31MR71E224KA01,220nF,3.2x1.6,25,X7R,+/-10%,100Hz-6GHz\
+;GCJ31MR71E224MA01,220nF,3.2x1.6,25,X7R,+/-20%,100Hz-6GHz\
+;GCJ31MR71H104KA01,100nF,3.2x1.6,50,X7R,+/-10%,100Hz-6GHz\
+;GCJ31MR71H104MA01,100nF,3.2x1.6,50,X7R,+/-20%,100Hz-6GHz\
+;GCJ31MR71H224KA01,220nF,3.2x1.6,50,X7R,+/-10%,100Hz-6GHz\
+;GCJ31MR71H224MA01,220nF,3.2x1.6,50,X7R,+/-20%,100Hz-6GHz\
+;GCJ31MR72A224KA01,220nF,3.2x1.6,100,X7R,+/-10%,100Hz-6GHz\
+;GCJ31MR72A224MA01,220nF,3.2x1.6,100,X7R,+/-20%,100Hz-6GHz\
+;GCJ31CL81E684KA01,680nF,3.2x1.6,25,X8L,+/-10%,100Hz-6GHz\
+;GCJ31CL81E684MA01,680nF,3.2x1.6,25,X8L,+/-20%,100Hz-6GHz\
+;GCJ31CL8YA684KA01,680nF,3.2x1.6,35,X8L,+/-10%,100Hz-6GHz\
+;GCJ31CL8YA684MA01,680nF,3.2x1.6,35,X8L,+/-20%,100Hz-6GHz\
+;GCJ31CR71H684KA01,680nF,3.2x1.6,50,X7R,+/-10%,100Hz-6GHz\
+;GCJ31CR71H684MA01,680nF,3.2x1.6,50,X7R,+/-20%,100Hz-6GHz\
+;GCJ31ML81E394KA01,390nF,3.2x1.6,25,X8L,+/-10%,100Hz-6GHz\
+;GCJ31ML81E394MA01,390nF,3.2x1.6,25,X8L,+/-20%,100Hz-6GHz\
+;GCJ31ML8YA394KA01,390nF,3.2x1.6,35,X8L,+/-10%,100Hz-6GHz\
+;GCJ31ML8YA394MA01,390nF,3.2x1.6,35,X8L,+/-20%,100Hz-6GHz\
+;GCJ31MR71H394KA01,390nF,3.2x1.6,50,X7R,+/-10%,100Hz-6GHz\
+;GCJ31MR71H394MA01,390nF,3.2x1.6,50,X7R,+/-20%,100Hz-6GHz\
+;GCJ31ML81E474KA01,470nF,3.2x1.6,25,X8L,+/-10%,100Hz-6GHz\
+;GCJ31ML81E474MA01,470nF,3.2x1.6,25,X8L,+/-20%,100Hz-6GHz\
+;GCJ31ML8YA474KA01,470nF,3.2x1.6,35,X8L,+/-10%,100Hz-6GHz\
+;GCJ31ML8YA474MA01,470nF,3.2x1.6,35,X8L,+/-20%,100Hz-6GHz\
+;GCJ31MR71H474KA01,470nF,3.2x1.6,50,X7R,+/-10%,100Hz-6GHz\
+;GCJ31MR71H474MA01,470nF,3.2x1.6,50,X7R,+/-20%,100Hz-6GHz\
+;GCJ31MR71H564KA12,560nF,3.2x1.6,50,X7R,+/-10%,100Hz-6GHz\
+;GCJ31MR71H564MA12,560nF,3.2x1.6,50,X7R,+/-20%,100Hz-6GHz\
+;GCJ31CC72A225KE01,2.2uF,3.2x1.6,100,X7S,+/-10%,100Hz-6GHz\
+;GCJ31MR71E124KA01,120nF,3.2x1.6,25,X7R,+/-10%,100Hz-6GHz\
+;GCJ31MR71E154KA01,150nF,3.2x1.6,25,X7R,+/-10%,100Hz-6GHz\
+;GCJ31MR72A154KA01,150nF,3.2x1.6,100,X7R,+/-10%,100Hz-6GHz\
+;GCJ31MR71E184KA01,180nF,3.2x1.6,25,X7R,+/-10%,100Hz-6GHz\
+;GCJ31MR72A184KA01,180nF,3.2x1.6,100,X7R,+/-10%,100Hz-6GHz\
+;GCJ31MR71H274KA01,270nF,3.2x1.6,50,X7R,+/-10%,100Hz-6GHz\
+;GCJ31CL8YA564KA01,560nF,3.2x1.6,35,X8L,+/-10%,100Hz-6GHz\
+;GCJ31CL8YA824KA01,820nF,3.2x1.6,35,X8L,+/-10%,100Hz-6GHz\
+;GCJ31CL81E564KA01,560nF,3.2x1.6,25,X8L,+/-10%,100Hz-6GHz\
+;GCJ31CL81E824KA01,820nF,3.2x1.6,25,X8L,+/-10%,100Hz-6GHz\
+;GCJ31MR71H684KA12,680nF,3.2x1.6,50,X7R,+/-10%,100Hz-6GHz\
+;GCJ31CL81E105KA01,1uF,3.2x1.6,25,X8L,+/-10%,100Hz-6GHz\
+;GCJ31CL81E105MA01,1uF,3.2x1.6,25,X8L,+/-20%,100Hz-6GHz\
+;GCJ31CL8EL105KA07,1uF,3.2x1.6,100,X8L,+/-10%,100Hz-6GHz\
+;GCJ31CL8YA105KA01,1uF,3.2x1.6,35,X8L,+/-10%,100Hz-6GHz\
+;GCJ31CL8YA105MA01,1uF,3.2x1.6,35,X8L,+/-20%,100Hz-6GHz\
+;GCJ31CR71H105KA12,1uF,3.2x1.6,50,X7R,+/-10%,100Hz-6GHz\
+;GCJ31CR71H105MA12,1uF,3.2x1.6,50,X7R,+/-20%,100Hz-6GHz\
+;GCJ31CR71H155KA12,1.1uF,3.2x1.6,50,X7R,+/-10%,100Hz-6GHz\
+;GCJ31CR71H155MA12,1.1uF,3.2x1.6,50,X7R,+/-20%,100Hz-6GHz\
+;GCJ31CR71H225KA12,2.2uF,3.2x1.6,50,X7R,+/-10%,100Hz-6GHz\
+;GCJ31CR71H225MA12,2.2uF,3.2x1.6,50,X7R,+/-20%,100Hz-6GHz\
+;GCJ31CR72A105KA01,1uF,3.2x1.6,100,X7R,+/-10%,100Hz-6GHz\
+;GCJ31CR72A105MA01,1uF,3.2x1.6,100,X7R,+/-20%,100Hz-6GHz\
+;GCJ31ML81C225KA01,2.2uF,3.2x1.6,16,X8L,+/-10%,100Hz-6GHz\
+;GCJ31ML81C225MA01,2.2uF,3.2x1.6,16,X8L,+/-20%,100Hz-6GHz\
+;GCJ31CC71E106KA15,10uF,3.2x1.6,25,X7S,+/-10%,100Hz-6GHz\
+;GCJ31CC71E106MA15,10uF,3.2x1.6,25,X7S,+/-20%,100Hz-6GHz\
+;GCJ31CC71H475KA01,4.4uF,3.2x1.6,50,X7S,+/-10%,100Hz-6GHz\
+;GCJ31CC71H475MA01,4.4uF,3.2x1.6,50,X7S,+/-20%,100Hz-6GHz\
+;GCJ31CL8ED226KE07,22uF,3.2x1.6,10,X8L,+/-10%,100Hz-6GHz\
+;GCJ31CR70J226KE01,22uF,3.2x1.6,6.3,X7R,+/-10%,100Hz-6GHz\
+;GCJ31CR70J226ME01,22uF,3.2x1.6,6.3,X7R,+/-20%,100Hz-6GHz\
+;GCJ31CR71A226KE01,22uF,3.2x1.6,10,X7R,+/-10%,100Hz-6GHz\
+;GCJ31CR71A226ME01,22uF,3.2x1.6,10,X7R,+/-20%,100Hz-6GHz\
+;GCJ31CR71C106KA15,10uF,3.2x1.6,16,X7R,+/-10%,100Hz-6GHz\
+;GCJ31CR71C106MA15,10uF,3.2x1.6,16,X7R,+/-20%,100Hz-6GHz\
+;GCJ31ML81C105KA01,1uF,3.2x1.6,16,X8L,+/-10%,100Hz-6GHz\
+;GCJ31ML81C105MA01,1uF,3.2x1.6,16,X8L,+/-20%,100Hz-6GHz\
+;GCJ31MR71C105KA01,1uF,3.2x1.6,16,X7R,+/-10%,100Hz-6GHz\
+;GCJ31MR71C105MA01,1uF,3.2x1.6,16,X7R,+/-20%,100Hz-6GHz\
+;GCJ31MR71E105KA01,1uF,3.2x1.6,25,X7R,+/-10%,100Hz-6GHz\
+;GCJ31MR71E105MA01,1uF,3.2x1.6,25,X7R,+/-20%,100Hz-6GHz\
+;GCJ31MR71H105KA12,1uF,3.2x1.6,50,X7R,+/-10%,100Hz-6GHz\
+;GCJ31MR71H105MA12,1uF,3.2x1.6,50,X7R,+/-20%,100Hz-6GHz\
+;GCJ31CD70G476ME01,47uF,3.2x1.6,4,X7T,+/-20%,100Hz-6GHz\
+;GCJ31CC71C226ME02,22uF,3.2x1.6,16,X7S,+/-20%,100Hz-6GHz\
+;GCJ31CD71H106KE02,10uF,3.2x1.6,50,X7T,+/-10%,100Hz-6GHz\
+;GCJ31CR71C335KA01,3.3uF,3.2x1.6,16,X7R,+/-10%,100Hz-6GHz\
+;GCJ31CL81C335KA01,3.3uF,3.2x1.6,16,X8L,+/-10%,100Hz-6GHz\
+;GCJ31CR71E475MA12,4.4uF,3.2x1.6,25,X7R,+/-20%,100Hz-6GHz\
+;GCJ31CR71E475KA12,4.4uF,3.2x1.6,25,X7R,+/-10%,100Hz-6GHz\
+;GCJ31CR71C475MA01,4.4uF,3.2x1.6,16,X7R,+/-20%,100Hz-6GHz\
+;GCJ31CR71C475KA01,4.4uF,3.2x1.6,16,X7R,+/-10%,100Hz-6GHz\
+;GCJ31CR71A106MA13,10uF,3.2x1.6,10,X7R,+/-20%,100Hz-6GHz\
+;GCJ31CR71A106KA13,10uF,3.2x1.6,10,X7R,+/-10%,100Hz-6GHz\
+;GCJ31CL81C475MA01,4.4uF,3.2x1.6,16,X8L,+/-20%,100Hz-6GHz\
+;GCJ31CL81C475KA01,4.4uF,3.2x1.6,16,X8L,+/-10%,100Hz-6GHz\
+;GCJ31CR71A685KA13,6.6uF,3.2x1.6,10,X7R,+/-10%,100Hz-6GHz\
+;GCJ31CR71A685MA13,6.6uF,3.2x1.6,10,X7R,+/-20%,100Hz-6GHz\
+')
+	$end 'Parameters'
+$end 'GCJ31'
+
+$begin 'CompInfo'
+	GCJ31(4294901767, 2, 'Equivalent Model (All Rights Reserved)', 1750225265, 'Manufacture Murata ', 'MurataCapSym', '', 'Murata_FP', '(100nF - 47uF)', '', '', 'cap.bmp','Murata_mlcc\\Capacitor\\Resin_external_electrode_for_Powertrainsafety_for_Automotive\\3216(1206)', 'UserLibrary ')
+$end 'CompInfo'
+
+$begin '$index$'
+	$begin '$index$'
+		CompInfo(pos=15255, lin=227, lvl=0)
+		GCJ31(pos=370, lin=11, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=16329, lin=233, lvl=0)
+	$end '$index$'
+$end '$index$'

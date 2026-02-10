@@ -1,0 +1,271 @@
+.SubCkt GGD21BR71H473KA02 _net1 _net2
+.param K01=4.6201e-08
+.param M01=1.0000e+10
+.param L02=2.1095e-11
+.param M03=1.4549e-02
+.param K04=5.4616e-06
+.param M04=6.7647e+02
+.param K05=1.1251e-05
+.param M05=5.1315e+01
+.param K06=7.5590e-06
+.param M06=1.6605e+01
+.param K07=6.1883e-06
+.param M07=2.4561e+00
+.param K08=4.0773e-06
+.param M08=3.5590e-01
+.param K09=2.7388e-06
+.param M09=5.2536e-02
+.param L10=1.2519e-10
+.param M10=1.2378e-01
+.param K11=1.5067e-07
+.param L11=4.2143e-11
+.param M11=1.0113e-01
+.param K12=6.7516e-08
+.param L12=4.1912e-11
+.param M12=8.5759e-02
+.param K13=4.7816e-08
+.param L13=2.1291e-11
+.param M13=3.7370e-02
+.param K14=1.6408e-11
+.param L14=4.8216e-11
+.param M14=9.1878e+00
+.param K15=9.0286e-13
+.param L15=2.6255e-10
+.param M15=2.9553e+01
+C01 _net1 _net0102 'K01'
+R01 _net1 _net0102 'M01'
+L02 _net0102 _net0203 'L02'
+R03 _net0203 _net0304 'M03'
+C04 _net0304 _net0405 'K04'
+R04 _net0304 _net0405 'M04'
+C05 _net0405 _net0506 'K05'
+R05 _net0405 _net0506 'M05'
+C06 _net0506 _net0607 'K06'
+R06 _net0506 _net0607 'M06'
+C07 _net0607 _net0708 'K07'
+R07 _net0607 _net0708 'M07'
+C08 _net0708 _net0809 'K08'
+R08 _net0708 _net0809 'M08'
+C09 _net0809 _net0910 'K09'
+R09 _net0809 _net0910 'M09'
+L10 _net0910 _net1011 'L10'
+R10 _net0910 _net1011 'M10'
+C11 _net1011 _net1112 'K11'
+L11 _net1011 _net1112 'L11'
+R11 _net1011 _net1112 'M11'
+C12 _net1112 _net1213 'K12'
+L12 _net1112 _net1213 'L12'
+R12 _net1112 _net1213 'M12'
+C13 _net1213 _net1314 'K13'
+L13 _net1213 _net1314 'L13'
+R13 _net1213 _net1314 'M13'
+C14 _net1314 _net1415 'K14'
+L14 _net1314 _net1415 'L14'
+R14 _net1314 _net1415 'M14'
+C15 _net1415 _net2 'K15'
+L15 _net1415 _net2 'L15'
+R15 _net1415 _net2 'M15'
+.ends 
+
+.SubCkt GGD21BR72A473KA02 _net1 _net2
+.param K01=4.6201e-08
+.param M01=1.0000e+10
+.param L02=2.1095e-11
+.param M03=1.4549e-02
+.param K04=5.4616e-06
+.param M04=6.7647e+02
+.param K05=1.1251e-05
+.param M05=5.1315e+01
+.param K06=7.5590e-06
+.param M06=1.6605e+01
+.param K07=6.1883e-06
+.param M07=2.4561e+00
+.param K08=4.0773e-06
+.param M08=3.5590e-01
+.param K09=2.7388e-06
+.param M09=5.2536e-02
+.param L10=1.2519e-10
+.param M10=1.2378e-01
+.param K11=1.5067e-07
+.param L11=4.2143e-11
+.param M11=1.0113e-01
+.param K12=6.7516e-08
+.param L12=4.1912e-11
+.param M12=8.5759e-02
+.param K13=4.7816e-08
+.param L13=2.1291e-11
+.param M13=3.7370e-02
+.param K14=1.6408e-11
+.param L14=4.8216e-11
+.param M14=9.1878e+00
+.param K15=9.0286e-13
+.param L15=2.6255e-10
+.param M15=2.9553e+01
+C01 _net1 _net0102 'K01'
+R01 _net1 _net0102 'M01'
+L02 _net0102 _net0203 'L02'
+R03 _net0203 _net0304 'M03'
+C04 _net0304 _net0405 'K04'
+R04 _net0304 _net0405 'M04'
+C05 _net0405 _net0506 'K05'
+R05 _net0405 _net0506 'M05'
+C06 _net0506 _net0607 'K06'
+R06 _net0506 _net0607 'M06'
+C07 _net0607 _net0708 'K07'
+R07 _net0607 _net0708 'M07'
+C08 _net0708 _net0809 'K08'
+R08 _net0708 _net0809 'M08'
+C09 _net0809 _net0910 'K09'
+R09 _net0809 _net0910 'M09'
+L10 _net0910 _net1011 'L10'
+R10 _net0910 _net1011 'M10'
+C11 _net1011 _net1112 'K11'
+L11 _net1011 _net1112 'L11'
+R11 _net1011 _net1112 'M11'
+C12 _net1112 _net1213 'K12'
+L12 _net1112 _net1213 'L12'
+R12 _net1112 _net1213 'M12'
+C13 _net1213 _net1314 'K13'
+L13 _net1213 _net1314 'L13'
+R13 _net1213 _net1314 'M13'
+C14 _net1314 _net1415 'K14'
+L14 _net1314 _net1415 'L14'
+R14 _net1314 _net1415 'M14'
+C15 _net1415 _net2 'K15'
+L15 _net1415 _net2 'L15'
+R15 _net1415 _net2 'M15'
+.ends 
+
+.SubCkt GGD21BR71H104KA02 _net1 _net2
+.param K01=1.0049e-07
+.param M01=5.0000e+09
+.param L02=2.0853e-10
+.param M03=9.8300e-03
+.param K04=1.1707e-05
+.param M04=3.3988e+02
+.param K05=1.5259e-05
+.param M05=4.0862e+01
+.param K06=1.2841e-05
+.param M06=7.6089e+00
+.param K07=1.0492e-05
+.param M07=9.3227e-01
+.param K08=7.7927e-06
+.param M08=1.1757e-01
+.param K09=5.8800e-06
+.param M09=1.4300e-02
+.param L10=1.8800e-10
+.param M10=1.0300e-01
+.param L11=2.1400e-12
+.param M11=9.2600e-03
+.param K12=2.8400e-07
+.param L12=5.4100e-11
+.param M12=6.9400e-02
+.param K13=1.7900e-07
+.param L13=3.9300e-11
+.param M13=6.4400e-02
+.param K14=1.3700e-11
+.param L14=5.4100e-11
+.param M14=5.8000e+00
+.param K15=5.3200e-12
+.param L15=5.5000e-11
+.param M15=7.0200e+00
+C01 _net1 _net0102 'K01'
+R01 _net1 _net0102 'M01'
+L02 _net0102 _net0203 'L02'
+R03 _net0203 _net0304 'M03'
+C04 _net0304 _net0405 'K04'
+R04 _net0304 _net0405 'M04'
+C05 _net0405 _net0506 'K05'
+R05 _net0405 _net0506 'M05'
+C06 _net0506 _net0607 'K06'
+R06 _net0506 _net0607 'M06'
+C07 _net0607 _net0708 'K07'
+R07 _net0607 _net0708 'M07'
+C08 _net0708 _net0809 'K08'
+R08 _net0708 _net0809 'M08'
+C09 _net0809 _net0910 'K09'
+R09 _net0809 _net0910 'M09'
+L10 _net0910 _net1011 'L10'
+R10 _net0910 _net1011 'M10'
+L11 _net1011 _net1112 'L11'
+R11 _net1011 _net1112 'M11'
+C12 _net1112 _net1213 'K12'
+L12 _net1112 _net1213 'L12'
+R12 _net1112 _net1213 'M12'
+C13 _net1213 _net1314 'K13'
+L13 _net1213 _net1314 'L13'
+R13 _net1213 _net1314 'M13'
+C14 _net1314 _net1415 'K14'
+L14 _net1314 _net1415 'L14'
+R14 _net1314 _net1415 'M14'
+C15 _net1415 _net2 'K15'
+L15 _net1415 _net2 'L15'
+R15 _net1415 _net2 'M15'
+.ends 
+
+.SubCkt GGD21BR72A104KA02 _net1 _net2
+.param K01=1.0049e-07
+.param M01=5.0000e+09
+.param L02=2.0853e-10
+.param M03=9.8300e-03
+.param K04=1.1707e-05
+.param M04=3.3988e+02
+.param K05=1.5259e-05
+.param M05=4.0862e+01
+.param K06=1.2841e-05
+.param M06=7.6089e+00
+.param K07=1.0492e-05
+.param M07=9.3227e-01
+.param K08=7.7927e-06
+.param M08=1.1757e-01
+.param K09=5.8800e-06
+.param M09=1.4300e-02
+.param L10=1.8800e-10
+.param M10=1.0300e-01
+.param L11=2.1400e-12
+.param M11=9.2600e-03
+.param K12=2.8400e-07
+.param L12=5.4100e-11
+.param M12=6.9400e-02
+.param K13=1.7900e-07
+.param L13=3.9300e-11
+.param M13=6.4400e-02
+.param K14=1.3700e-11
+.param L14=5.4100e-11
+.param M14=5.8000e+00
+.param K15=5.3200e-12
+.param L15=5.5000e-11
+.param M15=7.0200e+00
+C01 _net1 _net0102 'K01'
+R01 _net1 _net0102 'M01'
+L02 _net0102 _net0203 'L02'
+R03 _net0203 _net0304 'M03'
+C04 _net0304 _net0405 'K04'
+R04 _net0304 _net0405 'M04'
+C05 _net0405 _net0506 'K05'
+R05 _net0405 _net0506 'M05'
+C06 _net0506 _net0607 'K06'
+R06 _net0506 _net0607 'M06'
+C07 _net0607 _net0708 'K07'
+R07 _net0607 _net0708 'M07'
+C08 _net0708 _net0809 'K08'
+R08 _net0708 _net0809 'M08'
+C09 _net0809 _net0910 'K09'
+R09 _net0809 _net0910 'M09'
+L10 _net0910 _net1011 'L10'
+R10 _net0910 _net1011 'M10'
+L11 _net1011 _net1112 'L11'
+R11 _net1011 _net1112 'M11'
+C12 _net1112 _net1213 'K12'
+L12 _net1112 _net1213 'L12'
+R12 _net1112 _net1213 'M12'
+C13 _net1213 _net1314 'K13'
+L13 _net1213 _net1314 'L13'
+R13 _net1213 _net1314 'M13'
+C14 _net1314 _net1415 'K14'
+L14 _net1314 _net1415 'L14'
+R14 _net1314 _net1415 'M14'
+C15 _net1415 _net2 'K15'
+L15 _net1415 _net2 'L15'
+R15 _net1415 _net2 'M15'
+.ends 

@@ -1,0 +1,95 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002016, month=000000000002, day=000000000025, hour=000000000000, min=000000000033, sec=000000000000)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000019741, lin=000000000151, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'GCH18'
+	Refbase='X'
+	NumParts=1
+	Terminal('n1', '102', 'A', false, 0, 0, 0)
+	Terminal('n2', '103', 'A', false, 1, 0, 0)
+	$begin 'Parameters'
+		TextProp('Model', 'RD', '', 'GCH1885C2A1R0CE01')
+		TextProp('DeviceLibraryName', 'RHD', '', '1608_GCH18.lib')
+		TextProp('NexximLibraryName', 'RHD', '', '1608_GCH18_Nexxim.lib')
+		VariableProp('X', 'RHD', '', '1.6mm')
+		VariableProp('Y', 'RHD', '', '0.8mm')
+		VariableProp('D', 'RHD', '', '0.2mm')
+		VariableProp('A', 'RHD', '', '0.7mm')
+		VariableProp('B', 'RHD', '', '0.65mm')
+		VariableProp('W', 'RHD', '', '0.7mm')
+		ButtonProp('VComp', 'D', '', 'Choose Model', '', 0)
+		ButtonProp('CircuitNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('SystemNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('NexximNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('CircuitGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Implantable_medical_device/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Implantable_medical_device/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('SystemGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Implantable_medical_device/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Implantable_medical_device/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('NexximGlobalRef', 'RHD', '', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/Implantable_medical_device/library/@NexximLibraryName\\"', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/Implantable_medical_device/library/@NexximLibraryName\\"', 1)
+		TextProp('ModelList', 'RHD', '', 'Model,Capacitance,Dimensions,Rated Voltage[V],Temp Characteristics,Tolerance,Frequency Range\
+;GCH1885C2A1R0CE01,1pF,1.6x0.8,100,C0G,+/-0.25pF,100MHz-8.5GHz\
+;GCH1885C2A2R0CE01,2pF,1.6x0.8,100,C0G,+/-0.25pF,100MHz-8.5GHz\
+;GCH1885C2A3R0CE01,3pF,1.6x0.8,100,C0G,+/-0.25pF,100MHz-8.5GHz\
+;GCH1885C2A4R0CE01,4pF,1.6x0.8,100,C0G,+/-0.25pF,100MHz-8.5GHz\
+;GCH1885C2A5R0CE01,5pF,1.6x0.8,100,C0G,+/-0.25pF,100MHz-8.5GHz\
+;GCH1885C2A6R0DE01,6pF,1.6x0.8,100,C0G,+/-0.5pF,100MHz-8.5GHz\
+;GCH1885C2A7R0DE01,7pF,1.6x0.8,100,C0G,+/-0.5pF,100MHz-8.5GHz\
+;GCH1885C2A8R0DE01,8pF,1.6x0.8,100,C0G,+/-0.5pF,100MHz-8.5GHz\
+;GCH1885C2A9R0DE01,9pF,1.6x0.8,100,C0G,+/-0.5pF,100MHz-8.5GHz\
+;GCH1885C2A100JE01,10pF,1.6x0.8,100,C0G,+/-5%,100MHz-8.5GHz\
+;GCH1885C2A150JE01,15pF,1.6x0.8,100,C0G,+/-5%,100MHz-8.5GHz\
+;GCH1885C2A220JE01,22pF,1.6x0.8,100,C0G,+/-5%,100MHz-8.5GHz\
+;GCH1885C2A330JE01,33pF,1.6x0.8,100,C0G,+/-5%,100MHz-8.5GHz\
+;GCH1885C2A470JE01,47pF,1.6x0.8,100,C0G,+/-5%,100MHz-8.5GHz\
+;GCH1885C2A680JE01,68pF,1.6x0.8,100,C0G,+/-5%,100MHz-8.5GHz\
+;GCH1885C2A101JE01,100pF,1.6x0.8,100,C0G,+/-5%,100MHz-8.5GHz\
+;GCH1885C2A151JE01,150pF,1.6x0.8,100,C0G,+/-5%,100MHz-8.5GHz\
+;GCH1885C2A221JE01,220pF,1.6x0.8,100,C0G,+/-5%,100MHz-8.5GHz\
+;GCH1885C2A331JE01,330pF,1.6x0.8,100,C0G,+/-5%,100MHz-8.5GHz\
+;GCH1885C2A471JE01,470pF,1.6x0.8,100,C0G,+/-5%,100MHz-8.5GHz\
+;GCH1885C2A681JE01,680pF,1.6x0.8,100,C0G,+/-5%,100MHz-8.5GHz\
+;GCH1885C2A102JE01,1nF,1.6x0.8,100,C0G,+/-5%,1MHz-6GHz\
+;GCH1885C1H152JE01,1.1nF,1.6x0.8,50,C0G,+/-5%,1MHz-6GHz\
+;GCH1885C2A152JE01,1.1nF,1.6x0.8,100,C0G,+/-5%,1MHz-6GHz\
+;GCH1885C1H222JE01,2.2nF,1.6x0.8,50,C0G,+/-5%,1MHz-6GHz\
+;GCH1885C1H332JE01,3.3nF,1.6x0.8,50,C0G,+/-5%,1MHz-6GHz\
+;GCH188R72A103KE01,10nF,1.6x0.8,100,X7R,+/-10%,100Hz-6GHz\
+;GCH188R72A223KE01,22nF,1.6x0.8,100,X7R,+/-10%,100Hz-6GHz\
+;GCH188R71E104KE01,100nF,1.6x0.8,25,X7R,+/-10%,100Hz-6GHz\
+;GCH188R71H104KE01,100nF,1.6x0.8,50,X7R,+/-10%,100Hz-6GHz\
+;GCH188R72A104KE01,100nF,1.6x0.8,100,X7R,+/-10%,100kHz-6GHz\
+;GCH188R71E224KE01,220nF,1.6x0.8,25,X7R,+/-10%,100Hz-6GHz\
+;GCH188R71C105KE01,1uF,1.6x0.8,16,X7R,+/-10%,100Hz-6GHz\
+;GCH188R71E105KE01,1uF,1.6x0.8,25,X7R,+/-10%,100Hz-6GHz\
+;GCH188R70J225KE01,2.2uF,1.6x0.8,6.3,X7R,+/-10%,100Hz-6GHz\
+;GCH188R71E474KE01,470nF,1.6x0.8,25,X7R,+/-10%,100Hz-6GHz\
+;GCH188R61C475KE11,4.4uF,1.6x0.8,16,X5R,+/-10%,100Hz-6GHz\
+;GCH188C71A225KE01,2.2uF,1.6x0.8,10,X7S,+/-10%,100Hz-6GHz\
+;GCH188R60J106ME11,10uF,1.6x0.8,6.3,X5R,+/-20%,100Hz-6GHz\
+;GCH188R61A106ME11,10uF,1.6x0.8,10,X5R,+/-20%,100Hz-6GHz\
+;GCH188R61C106ME11,10uF,1.6x0.8,16,X5R,+/-20%,100Hz-6GHz\
+;GCH1885C1H472JE01,4.4nF,1.6x0.8,50,C0G,+/-5%,1MHz-6GHz\
+;GCH1885C1H682JE01,6.6nF,1.6x0.8,50,C0G,+/-5%,1MHz-6GHz\
+;GCH1885C1H103JE01,10nF,1.6x0.8,50,C0G,+/-5%,1MHz-6GHz\
+;GCH188R71C474KE01,470nF,1.6x0.8,16,X7R,+/-10%,100Hz-6GHz\
+;GCH188R71H224KE01,220nF,1.6x0.8,50,X7R,+/-10%,100Hz-6GHz\
+')
+	$end 'Parameters'
+$end 'GCH18'
+
+$begin 'CompInfo'
+	GCH18(4294901767, 2, 'Equivalent Model (All Rights Reserved)', 1750225267, 'Manufacture Murata ', 'MurataCapSym', '', 'Murata_FP', '(1pF - 10uF)', '', '', 'cap.bmp','Murata_mlcc\\Capacitor\\Implantable_medical_device\\1608(0603)', 'UserLibrary ')
+$end 'CompInfo'
+
+$begin '$index$'
+	$begin '$index$'
+		CompInfo(pos=15255, lin=227, lvl=0)
+		GCH18(pos=370, lin=11, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=16329, lin=233, lvl=0)
+	$end '$index$'
+$end '$index$'

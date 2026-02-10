@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LQM2HPZ2R2MG0L
+D LQM2HPZ_G0 Series Inductor 2.2uH +/-20% 1008 (2520)
+K
+F https://search.murata.co.jp/Ceramy/image/img/P02/JELF243B-9112.pdf
+$ENDCMP
+#
+#End Doc Library

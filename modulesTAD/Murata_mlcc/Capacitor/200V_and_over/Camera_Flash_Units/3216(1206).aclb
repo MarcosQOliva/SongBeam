@@ -1,0 +1,57 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002016, month=000000000002, day=000000000025, hour=000000000000, min=000000000033, sec=000000000000)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000019741, lin=000000000151, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'GR731'
+	Refbase='X'
+	NumParts=1
+	Terminal('n1', '102', 'A', false, 0, 0, 0)
+	Terminal('n2', '103', 'A', false, 1, 0, 0)
+	$begin 'Parameters'
+		TextProp('Model', 'RD', '', 'GR731AW0BB103KW01')
+		TextProp('DeviceLibraryName', 'RHD', '', '3216_GR731.lib')
+		TextProp('NexximLibraryName', 'RHD', '', '3216_GR731_Nexxim.lib')
+		VariableProp('X', 'RHD', '', '3.2mm')
+		VariableProp('Y', 'RHD', '', '1.6mm')
+		VariableProp('D', 'RHD', '', '0.3mm')
+		VariableProp('A', 'RHD', '', '2.3mm')
+		VariableProp('B', 'RHD', '', '0.85mm')
+		VariableProp('W', 'RHD', '', '1.2mm')
+		ButtonProp('VComp', 'D', '', 'Choose Model', '', 0)
+		ButtonProp('CircuitNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('SystemNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('NexximNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('CircuitGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/Camera_Flash_Units/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/Camera_Flash_Units/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('SystemGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/Camera_Flash_Units/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/Camera_Flash_Units/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('NexximGlobalRef', 'RHD', '', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/Camera_Flash_Units/library/@NexximLibraryName\\"', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/Camera_Flash_Units/library/@NexximLibraryName\\"', 1)
+		TextProp('ModelList', 'RHD', '', 'Model,Capacitance,Dimensions,Rated Voltage[V],Temp Characteristics,Tolerance,Frequency Range\
+;GR731AW0BB103KW01,10nF,3.2x1.6,350,-,+/-10%,100kHz-3GHz\
+;GR731AW0BB153KW01,15nF,3.2x1.6,350,-,+/-10%,100kHz-3GHz\
+;GR731AW0BB223KW01,22nF,3.2x1.6,350,-,+/-10%,100kHz-3GHz\
+;GR731BW0BB223KW01,22nF,3.2x1.6,350,-,+/-10%,100kHz-3GHz\
+;GR731AW0BB273KW01,27nF,3.2x1.6,350,-,+/-10%,100kHz-3GHz\
+;GR731AW0BB333KW01,33nF,3.2x1.6,350,-,+/-10%,100kHz-3GHz\
+;GR731BW0BB333KW01,33nF,3.2x1.6,350,-,+/-10%,100kHz-3GHz\
+;GR731CW0BB473KW03,47nF,3.2x1.6,350,-,+/-10%,100kHz-3GHz\
+')
+	$end 'Parameters'
+$end 'GR731'
+
+$begin 'CompInfo'
+	GR731(4294901767, 2, 'Equivalent Model (All Rights Reserved)', 1750225269, 'Manufacture Murata ', 'MurataCapSym', '', 'Murata_FP', '(10nF - 47nF)', '', '', 'cap.bmp','Murata_mlcc\\Capacitor\\200V_and_over\\Camera_Flash_Units\\3216(1206)', 'UserLibrary ')
+$end 'CompInfo'
+
+$begin '$index$'
+	$begin '$index$'
+		CompInfo(pos=15255, lin=227, lvl=0)
+		GR731(pos=370, lin=11, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=16329, lin=233, lvl=0)
+	$end '$index$'
+$end '$index$'

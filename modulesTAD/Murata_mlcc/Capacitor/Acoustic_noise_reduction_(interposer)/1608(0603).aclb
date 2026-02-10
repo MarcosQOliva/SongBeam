@@ -1,0 +1,60 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002016, month=000000000002, day=000000000025, hour=000000000000, min=000000000033, sec=000000000000)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000019741, lin=000000000151, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'ZRB18'
+	Refbase='X'
+	NumParts=1
+	Terminal('n1', '102', 'A', false, 0, 0, 0)
+	Terminal('n2', '103', 'A', false, 1, 0, 0)
+	$begin 'Parameters'
+		TextProp('Model', 'RD', '', 'ZRB188R61A226ME05')
+		TextProp('DeviceLibraryName', 'RHD', '', '1608_ZRB18.lib')
+		TextProp('NexximLibraryName', 'RHD', '', '1608_ZRB18_Nexxim.lib')
+		VariableProp('X', 'RHD', '', '1.6mm')
+		VariableProp('Y', 'RHD', '', '0.8mm')
+		VariableProp('D', 'RHD', '', '0.2mm')
+		VariableProp('A', 'RHD', '', '0.8mm')
+		VariableProp('B', 'RHD', '', '0.75mm')
+		VariableProp('W', 'RHD', '', '0.9mm')
+		ButtonProp('VComp', 'D', '', 'Choose Model', '', 0)
+		ButtonProp('CircuitNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('SystemNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('NexximNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('CircuitGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Acoustic_noise_reduction_(interposer)/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Acoustic_noise_reduction_(interposer)/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('SystemGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Acoustic_noise_reduction_(interposer)/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Acoustic_noise_reduction_(interposer)/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('NexximGlobalRef', 'RHD', '', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/Acoustic_noise_reduction_(interposer)/library/@NexximLibraryName\\"', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/Acoustic_noise_reduction_(interposer)/library/@NexximLibraryName\\"', 1)
+		TextProp('ModelList', 'RHD', '', 'Model,Capacitance,Dimensions,Rated Voltage[V],Temp Characteristics,Tolerance,Frequency Range\
+;ZRB188R61A226ME05,22uF,1.6x0.8,10,X5R,+/-20%,100Hz-6GHz\
+;ZRB18AR61E106ME01,10uF,1.6x0.8,25,X5R,+/-20%,100Hz-6GHz\
+;ZRB186R60G226ME11,22uF,1.6x0.8,4,X5R,+/-20%,100Hz-6GHz\
+;ZRB186R60J226ME11,22uF,1.6x0.8,6.3,X5R,+/-20%,100Hz-6GHz\
+;ZRB18AR60J476ME01,47uF,1.6x0.8,6.3,X5R,+/-20%,100Hz-6GHz\
+;ZRB18AR6YA475KE05,4.4uF,1.6x0.8,35,X5R,+/-10%,100Hz-6GHz\
+;ZRB18AR6YA475ME05,4.4uF,1.6x0.8,35,X5R,+/-20%,100Hz-6GHz\
+;ZRB18AR61A226ME01,22uF,1.6x0.8,10,X5R,+/-20%,100Hz-6GHz\
+;ZRB18AC80E476ME01,47uF,1.6x0.8,2.5,X6S,+/-20%,100Hz-6GHz\
+;ZRB18AR61E106KE01,10uF,1.6x0.8,25,X5R,+/-10%,100Hz-6GHz\
+;ZRB18AR61C226ME01,22uF,1.6x0.8,16,X5R,+/-20%,100Hz-6GHz\
+')
+	$end 'Parameters'
+$end 'ZRB18'
+
+$begin 'CompInfo'
+	ZRB18(4294901767, 2, 'Equivalent Model (All Rights Reserved)', 1750225267, 'Manufacture Murata ', 'MurataCapSym', '', 'Murata_FP', '(4.4uF - 47uF)', '', '', 'cap.bmp','Murata_mlcc\\Capacitor\\Acoustic_noise_reduction_(interposer)\\1608(0603)', 'UserLibrary ')
+$end 'CompInfo'
+
+$begin '$index$'
+	$begin '$index$'
+		CompInfo(pos=15255, lin=227, lvl=0)
+		ZRB18(pos=370, lin=11, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=16329, lin=233, lvl=0)
+	$end '$index$'
+$end '$index$'

@@ -1,0 +1,95 @@
+.SubCkt GA242QR7E2471MW01 [_net1] [_net2]
+.param K01=4.8176e-10
+.param M01=2.0000e+09
+.param L02=6.3966e-11
+.param M03=3.7617e-01
+.param K04=1.3016e-08
+.param M04=2.7412e+01
+.param K05=2.2387e-08
+.param M05=1.0610e+00
+.param K06=4.6326e-09
+.param M06=5.4298e-01
+.param K07=2.4922e-09
+.param L07=4.1662e-11
+.param M07=4.9326e-01
+.param K08=4.0308e-10
+.param L08=4.7155e-11
+.param M08=6.2622e-01
+.param K09=7.0348e-12
+.param L09=2.5283e-10
+.param M09=2.1813e+01
+.param K10=1.7356e-12
+.param L10=5.6934e-10
+.param M10=4.0883e+01
+C01 _net1 _net0102 {K01}
+R01 _net1 _net0102 {M01}
+L02 _net0102 _net0203 {L02}
+R03 _net0203 _net0304 {M03}
+C04 _net0304 _net0405 {K04}
+R04 _net0304 _net0405 {M04}
+C05 _net0405 _net0506 {K05}
+R05 _net0405 _net0506 {M05}
+C06 _net0506 _net0607 {K06}
+R06 _net0506 _net0607 {M06}
+C07 _net0607 _net0708 {K07}
+L07 _net0607 _net0708 {L07}
+R07 _net0607 _net0708 {M07}
+C08 _net0708 _net0809 {K08}
+L08 _net0708 _net0809 {L08}
+R08 _net0708 _net0809 {M08}
+C09 _net0809 _net0910 {K09}
+L09 _net0809 _net0910 {L09}
+R09 _net0809 _net0910 {M09}
+C10 _net0910 _net2 {K10}
+L10 _net0910 _net2 {L10}
+R10 _net0910 _net2 {M10}
+.ends GA242QR7E2471MW01
+
+.SubCkt GA242QR7E2102MW01 [_net1] [_net2]
+.param K01=1.0674e-09
+.param M01=2.0000e+09
+.param L02=2.3118e-10
+.param M03=2.7937e-01
+.param K04=1.7164e-08
+.param M04=1.8501e+02
+.param K05=8.2114e-08
+.param M05=1.7954e+01
+.param K06=6.0034e-08
+.param M06=2.4765e+00
+.param K07=5.1475e-08
+.param M07=3.3173e-01
+.param K08=2.5272e-08
+.param M08=2.0700e-01
+.param K09=6.1697e-09
+.param L09=4.4222e-11
+.param M09=3.8712e-01
+.param K10=1.9693e-10
+.param L10=7.5436e-11
+.param M10=6.2555e-01
+.param K11=2.2047e-12
+.param L11=6.6154e-10
+.param M11=4.9286e+01
+C01 _net1 _net0102 {K01}
+R01 _net1 _net0102 {M01}
+L02 _net0102 _net0203 {L02}
+R03 _net0203 _net0304 {M03}
+C04 _net0304 _net0405 {K04}
+R04 _net0304 _net0405 {M04}
+C05 _net0405 _net0506 {K05}
+R05 _net0405 _net0506 {M05}
+C06 _net0506 _net0607 {K06}
+R06 _net0506 _net0607 {M06}
+C07 _net0607 _net0708 {K07}
+R07 _net0607 _net0708 {M07}
+C08 _net0708 _net0809 {K08}
+R08 _net0708 _net0809 {M08}
+C09 _net0809 _net0910 {K09}
+L09 _net0809 _net0910 {L09}
+R09 _net0809 _net0910 {M09}
+C10 _net0910 _net1011 {K10}
+L10 _net0910 _net1011 {L10}
+R10 _net0910 _net1011 {M10}
+C11 _net1011 _net2 {K11}
+L11 _net1011 _net2 {L11}
+R11 _net1011 _net2 {M11}
+.ends GA242QR7E2102MW01

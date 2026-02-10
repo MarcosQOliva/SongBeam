@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LQG15HS27NJ02D
+D Inductor SMD 0402 27nH 300mA Murata LQG15HS Series Wire-wound SMD Inductor 27 nH +/-5% Wire-Wound 300mA Idc Q:8
+K
+F https://search.murata.co.jp/Ceramy/image/img/P02/JELF243B-0010.pdf
+$ENDCMP
+#
+#End Doc Library

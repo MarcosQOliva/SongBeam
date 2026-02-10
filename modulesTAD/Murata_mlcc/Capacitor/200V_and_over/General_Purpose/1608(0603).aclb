@@ -1,0 +1,90 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002016, month=000000000002, day=000000000025, hour=000000000000, min=000000000033, sec=000000000000)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000019741, lin=000000000151, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'GRM18'
+	Refbase='X'
+	NumParts=1
+	Terminal('n1', '102', 'A', false, 0, 0, 0)
+	Terminal('n2', '103', 'A', false, 1, 0, 0)
+	$begin 'Parameters'
+		TextProp('Model', 'RD', '', 'GRM188R72D221KW07')
+		TextProp('DeviceLibraryName', 'RHD', '', '1608_GRM18.lib')
+		TextProp('NexximLibraryName', 'RHD', '', '1608_GRM18_Nexxim.lib')
+		VariableProp('X', 'RHD', '', '1.6mm')
+		VariableProp('Y', 'RHD', '', '0.8mm')
+		VariableProp('D', 'RHD', '', '0.2mm')
+		VariableProp('A', 'RHD', '', '0.7mm')
+		VariableProp('B', 'RHD', '', '0.65mm')
+		VariableProp('W', 'RHD', '', '0.7mm')
+		ButtonProp('VComp', 'D', '', 'Choose Model', '', 0)
+		ButtonProp('CircuitNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('SystemNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('NexximNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('CircuitGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/General_Purpose/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/General_Purpose/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('SystemGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/General_Purpose/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/General_Purpose/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('NexximGlobalRef', 'RHD', '', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/General_Purpose/library/@NexximLibraryName\\"', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/General_Purpose/library/@NexximLibraryName\\"', 1)
+		TextProp('ModelList', 'RHD', '', 'Model,Capacitance,Dimensions,Rated Voltage[V],Temp Characteristics,Tolerance,Frequency Range\
+;GRM188R72D221KW07,220pF,1.6x0.8,200,X7R,+/-10%,100Hz-3GHz\
+;GRM188R72D331KW07,330pF,1.6x0.8,200,X7R,+/-10%,100Hz-3GHz\
+;GRM188R72D471KW07,470pF,1.6x0.8,200,X7R,+/-10%,100Hz-3GHz\
+;GRM188R72D681KW07,680pF,1.6x0.8,200,X7R,+/-10%,100Hz-3GHz\
+;GRM188R72D102KW07,1nF,1.6x0.8,200,X7R,+/-10%,100Hz-3GHz\
+;GRM188R72D152KW07,1.1nF,1.6x0.8,200,X7R,+/-10%,100Hz-3GHz\
+;GRM188R72D222KW07,2.2nF,1.6x0.8,200,X7R,+/-10%,100Hz-3GHz\
+;GRM1885C2E100FW07,10pF,1.6x0.8,250,C0G,+/-1%,100MHz-3GHz\
+;GRM1885C2E100GW07,10pF,1.6x0.8,250,C0G,+/-2%,100MHz-3GHz\
+;GRM1885C2E100JW07,10pF,1.6x0.8,250,C0G,+/-5%,100MHz-3GHz\
+;GRM1885C2E120FW07,12pF,1.6x0.8,250,C0G,+/-1%,100MHz-3GHz\
+;GRM1885C2E120GW07,12pF,1.6x0.8,250,C0G,+/-2%,100MHz-3GHz\
+;GRM1885C2E120JW07,12pF,1.6x0.8,250,C0G,+/-5%,100MHz-3GHz\
+;GRM1885C2E150FW07,15pF,1.6x0.8,250,C0G,+/-1%,100MHz-3GHz\
+;GRM1885C2E150GW07,15pF,1.6x0.8,250,C0G,+/-2%,100MHz-3GHz\
+;GRM1885C2E150JW07,15pF,1.6x0.8,250,C0G,+/-5%,100MHz-3GHz\
+;GRM1885C2E180FW07,18pF,1.6x0.8,250,C0G,+/-1%,100MHz-3GHz\
+;GRM1885C2E180GW07,18pF,1.6x0.8,250,C0G,+/-2%,100MHz-3GHz\
+;GRM1885C2E180JW07,18pF,1.6x0.8,250,C0G,+/-5%,100MHz-3GHz\
+;GRM1885C2E220FW07,22pF,1.6x0.8,250,C0G,+/-1%,100MHz-3GHz\
+;GRM1885C2E220GW07,22pF,1.6x0.8,250,C0G,+/-2%,100MHz-3GHz\
+;GRM1885C2E220JW07,22pF,1.6x0.8,250,C0G,+/-5%,100MHz-3GHz\
+;GRM1885C2E270FW07,27pF,1.6x0.8,250,C0G,+/-1%,100MHz-3GHz\
+;GRM1885C2E270GW07,27pF,1.6x0.8,250,C0G,+/-2%,100MHz-3GHz\
+;GRM1885C2E270JW07,27pF,1.6x0.8,250,C0G,+/-5%,100MHz-3GHz\
+;GRM1885C2E330FW07,33pF,1.6x0.8,250,C0G,+/-1%,100MHz-3GHz\
+;GRM1885C2E330GW07,33pF,1.6x0.8,250,C0G,+/-2%,100MHz-3GHz\
+;GRM1885C2E330JW07,33pF,1.6x0.8,250,C0G,+/-5%,100MHz-3GHz\
+;GRM1885C2E390FW07,39pF,1.6x0.8,250,C0G,+/-1%,100MHz-3GHz\
+;GRM1885C2E390GW07,39pF,1.6x0.8,250,C0G,+/-2%,100MHz-3GHz\
+;GRM1885C2E390JW07,39pF,1.6x0.8,250,C0G,+/-5%,100MHz-3GHz\
+;GRM1885C2E470FW07,47pF,1.6x0.8,250,C0G,+/-1%,100MHz-3GHz\
+;GRM1885C2E470GW07,47pF,1.6x0.8,250,C0G,+/-2%,100MHz-3GHz\
+;GRM1885C2E470JW07,47pF,1.6x0.8,250,C0G,+/-5%,100MHz-3GHz\
+;GRM188R72E221KW07,220pF,1.6x0.8,250,X7R,+/-10%,100Hz-3GHz\
+;GRM188R72E331KW07,330pF,1.6x0.8,250,X7R,+/-10%,100Hz-3GHz\
+;GRM188R72E471KW07,470pF,1.6x0.8,250,X7R,+/-10%,100Hz-3GHz\
+;GRM188R72E681KW07,680pF,1.6x0.8,250,X7R,+/-10%,100Hz-3GHz\
+;GRM188R72E102KW07,1nF,1.6x0.8,250,X7R,+/-10%,100Hz-3GHz\
+;GRM188R72E152KW07,1.1nF,1.6x0.8,250,X7R,+/-10%,100Hz-3GHz\
+;GRM188R72E222KW07,2.2nF,1.6x0.8,250,X7R,+/-10%,100Hz-3GHz\
+')
+	$end 'Parameters'
+$end 'GRM18'
+
+$begin 'CompInfo'
+	GRM18(4294901767, 2, 'Equivalent Model (All Rights Reserved)', 1750225269, 'Manufacture Murata ', 'MurataCapSym', '', 'Murata_FP', '(10pF - 2.2nF)', '', '', 'cap.bmp','Murata_mlcc\\Capacitor\\200V_and_over\\General_Purpose\\1608(0603)', 'UserLibrary ')
+$end 'CompInfo'
+
+$begin '$index$'
+	$begin '$index$'
+		CompInfo(pos=15255, lin=227, lvl=0)
+		GRM18(pos=370, lin=11, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=16329, lin=233, lvl=0)
+	$end '$index$'
+$end '$index$'

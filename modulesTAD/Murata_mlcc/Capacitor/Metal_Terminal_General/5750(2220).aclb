@@ -1,0 +1,219 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002016, month=000000000002, day=000000000025, hour=000000000000, min=000000000033, sec=000000000000)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000019741, lin=000000000151, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'KRM55'
+	Refbase='X'
+	NumParts=1
+	Terminal('n1', '102', 'A', false, 0, 0, 0)
+	Terminal('n2', '103', 'A', false, 1, 0, 0)
+	$begin 'Parameters'
+		TextProp('Model', 'RD', '', 'KRM55L7U2J333JDL1')
+		TextProp('DeviceLibraryName', 'RHD', '', '5750_KRM55.lib')
+		TextProp('NexximLibraryName', 'RHD', '', '5750_KRM55_Nexxim.lib')
+		VariableProp('X', 'RHD', '', '6.1mm')
+		VariableProp('Y', 'RHD', '', '5.3mm')
+		VariableProp('D', 'RHD', '', '0.7mm')
+		VariableProp('A', 'RHD', '', '2.6mm')
+		VariableProp('B', 'RHD', '', '2.7mm')
+		VariableProp('W', 'RHD', '', '5.6mm')
+		ButtonProp('VComp', 'D', '', 'Choose Model', '', 0)
+		ButtonProp('CircuitNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('SystemNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('NexximNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('CircuitGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Metal_Terminal_General/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Metal_Terminal_General/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('SystemGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Metal_Terminal_General/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Metal_Terminal_General/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('NexximGlobalRef', 'RHD', '', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/Metal_Terminal_General/library/@NexximLibraryName\\"', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/Metal_Terminal_General/library/@NexximLibraryName\\"', 1)
+		TextProp('ModelList', 'RHD', '', 'Model,Capacitance,Dimensions,Rated Voltage[V],Temp Characteristics,Tolerance,Frequency Range\
+;KRM55L7U2J333JDL1,33nF,6.1x5.3,630,U2J,+/-5%,100Hz-6GHz\
+;KRM55L7U2J393JDL1,39nF,6.1x5.3,630,U2J,+/-5%,100Hz-6GHz\
+;KRM55V5C3A543JDL2,54nF,6.1x5.3,1000,C0G,+/-5%,100Hz-6GHz\
+;KRM55LR71E156KH01,15uF,6.1x5.3,25,X7R,+/-10%,100Hz-6GHz\
+;KRM55QR71E226KH01,22uF,6.1x5.3,25,X7R,+/-10%,100Hz-6GHz\
+;KRM55QR71E336KH01,33uF,6.1x5.3,25,X7R,+/-10%,100Hz-6GHz\
+;KRM55TR71E336MH01,33uF,6.1x5.3,25,X7R,+/-20%,100Hz-6GHz\
+;KRM55WR71E476MH01,47uF,6.1x5.3,25,X7R,+/-20%,100Hz-6GHz\
+;KRM55WR71E686MH01,68uF,6.1x5.3,25,X7R,+/-20%,100Hz-6GHz\
+;KRM55LR71H475KH01,4.4uF,6.1x5.3,50,X7R,+/-10%,100Hz-6GHz\
+;KRM55LR71H106KH01,10uF,6.1x5.3,50,X7R,+/-10%,100Hz-6GHz\
+;KRM55QR71H106KH01,10uF,6.1x5.3,50,X7R,+/-10%,100Hz-6GHz\
+;KRM55QR71H176KH01,17uF,6.1x5.3,50,X7R,+/-10%,100Hz-6GHz\
+;KRM55TR71H226MH01,22uF,6.1x5.3,50,X7R,+/-20%,100Hz-6GHz\
+;KRM55WR71H226MH01,22uF,6.1x5.3,50,X7R,+/-20%,100Hz-6GHz\
+;KRM55WR71H336MH01,33uF,6.1x5.3,50,X7R,+/-20%,100Hz-6GHz\
+;KRM55LR72A475KH01,4.4uF,6.1x5.3,100,X7R,+/-10%,100Hz-6GHz\
+;KRM55QR72A685KH01,6.6uF,6.1x5.3,100,X7R,+/-10%,100Hz-6GHz\
+;KRM55TR72A106MH01,10uF,6.1x5.3,100,X7R,+/-20%,100Hz-6GHz\
+;KRM55WR72A156MH01,15uF,6.1x5.3,100,X7R,+/-20%,100Hz-6GHz\
+;KRM55LR7YA106KH01,10uF,6.1x5.3,35,X7R,+/-10%,100Hz-6GHz\
+;KRM55LR7YA156KH01,15uF,6.1x5.3,35,X7R,+/-10%,100Hz-6GHz\
+;KRM55QR7YA176KH01,17uF,6.1x5.3,35,X7R,+/-10%,100Hz-6GHz\
+;KRM55QR7YA226KH01,22uF,6.1x5.3,35,X7R,+/-10%,100Hz-6GHz\
+;KRM55TR7YA226MH01,22uF,6.1x5.3,35,X7R,+/-20%,100Hz-6GHz\
+;KRM55TR7YA336MH01,33uF,6.1x5.3,35,X7R,+/-20%,100Hz-6GHz\
+;KRM55WR7YA336MH01,33uF,6.1x5.3,35,X7R,+/-20%,100Hz-6GHz\
+;KRM55WR7YA476MH01,47uF,6.1x5.3,35,X7R,+/-20%,100Hz-6GHz\
+;KRM55LR71J475KH01,4.4uF,6.1x5.3,63,X7R,+/-10%,100Hz-6GHz\
+;KRM55QR71J106KH01,10uF,6.1x5.3,63,X7R,+/-10%,100Hz-6GHz\
+;KRM55WR71J226MH01,22uF,6.1x5.3,63,X7R,+/-20%,100Hz-6GHz\
+;KRM55QR72A106KH01,10uF,6.1x5.3,100,X7R,+/-10%,100Hz-6GHz\
+;KRM55WR72A226MH01,22uF,6.1x5.3,100,X7R,+/-20%,100Hz-6GHz\
+;KRM55TR72E155MH01,1.1uF,6.1x5.3,250,X7R,+/-20%,100kHz-6GHz\
+;KRM55TR72E225MH01,2.2uF,6.1x5.3,250,X7R,+/-20%,100Hz-6GHz\
+;KRM55LR73A104KH01,100nF,6.1x5.3,1000,X7R,+/-10%,100kHz-6GHz\
+;KRM55TR73A224MH01,220nF,6.1x5.3,1000,X7R,+/-20%,100kHz-6GHz\
+;KRM55LR72E684KH01,680nF,6.1x5.3,250,X7R,+/-10%,100kHz-6GHz\
+;KRM55LR72E105KH01,1uF,6.1x5.3,250,X7R,+/-10%,100kHz-6GHz\
+;KRM55LR72W334KH01,330nF,6.1x5.3,450,X7R,+/-10%,100kHz-6GHz\
+;KRM55LR72W474KH01,470nF,6.1x5.3,450,X7R,+/-10%,100kHz-6GHz\
+;KRM55TR72W684MH01,680nF,6.1x5.3,450,X7R,+/-20%,100kHz-6GHz\
+;KRM55TR72W105MH01,1uF,6.1x5.3,450,X7R,+/-20%,100kHz-6GHz\
+;KRM55LR72J154KH01,150nF,6.1x5.3,630,X7R,+/-10%,100kHz-6GHz\
+;KRM55LR72J224KH01,220nF,6.1x5.3,630,X7R,+/-10%,100kHz-6GHz\
+;KRM55TR72J334MH01,330nF,6.1x5.3,630,X7R,+/-20%,100kHz-6GHz\
+;KRM55TR72J474MH01,470nF,6.1x5.3,630,X7R,+/-20%,100kHz-6GHz\
+;KRM55LR73A683KH01,68nF,6.1x5.3,1000,X7R,+/-10%,100kHz-6GHz\
+;KRM55TR73A154MH01,150nF,6.1x5.3,1000,X7R,+/-20%,100kHz-6GHz\
+;KRM55QC71E476KH13,47uF,6.1x5.3,25,X7S,+/-10%,100Hz-3GHz\
+;KRM55WC71E107MH13,100uF,6.1x5.3,25,X7S,+/-20%,100Hz-3GHz\
+;KRM55L7U2J473JDL1,47nF,6.1x5.3,630,U2J,+/-5%,100Hz-6GHz\
+;KRM55L7U3A822JDL1,8.8nF,6.1x5.3,1000,U2J,+/-5%,100Hz-6GHz\
+;KRM55L7U3A103JDL1,10nF,6.1x5.3,1000,U2J,+/-5%,100Hz-6GHz\
+;KRM55L5C2J153JDL1,15nF,6.1x5.3,630,C0G,+/-5%,100Hz-6GHz\
+;KRM55L5C2J183JDL1,18nF,6.1x5.3,630,C0G,+/-5%,100Hz-6GHz\
+;KRM55R5C2J223JDL1,22nF,6.1x5.3,630,C0G,+/-5%,100Hz-6GHz\
+;KRM55R5C2J273JDL1,27nF,6.1x5.3,630,C0G,+/-5%,100Hz-6GHz\
+;KRM55V5C2J443JDL2,44nF,6.1x5.3,630,C0G,+/-5%,100Hz-6GHz\
+;KRM55V5C2J543JDL2,54nF,6.1x5.3,630,C0G,+/-5%,100Hz-6GHz\
+;KRM55L7U3B822JDL1,8.8nF,6.1x5.3,1250,U2J,+/-5%,100Hz-6GHz\
+;KRM55L7U3B103JDL1,10nF,6.1x5.3,1250,U2J,+/-5%,100Hz-6GHz\
+;KRM55L5C3A153JDL1,15nF,6.1x5.3,1000,C0G,+/-5%,100Hz-6GHz\
+;KRM55L5C3A183JDL1,18nF,6.1x5.3,1000,C0G,+/-5%,100Hz-6GHz\
+;KRM55R5C3A223JDL1,22nF,6.1x5.3,1000,C0G,+/-5%,100Hz-6GHz\
+;KRM55R5C3A273JDL1,27nF,6.1x5.3,1000,C0G,+/-5%,100Hz-6GHz\
+;KRM55V5C3A443JDL2,44nF,6.1x5.3,1000,C0G,+/-5%,100Hz-6GHz\
+;KRM55LR7LX683KH01,68nF,6.1x5.3,1250,X7R,+/-10%,100kHz-6GHz\
+;KRM55TR7LX224MH01,220nF,6.1x5.3,1250,X7R,+/-20%,100kHz-6GHz\
+;KRM55TR7LX154MH01,150nF,6.1x5.3,1250,X7R,+/-20%,100kHz-6GHz\
+;KRM55LR7LX104KH01,100nF,6.1x5.3,1250,X7R,+/-10%,100kHz-6GHz\
+;KRM55TR7LV684MH01,680nF,6.1x5.3,630,X7R,+/-20%,100kHz-6GHz\
+;KRM55LR7LV474KH01,470nF,6.1x5.3,630,X7R,+/-10%,100kHz-6GHz\
+;KRM55LR7LV334KH01,330nF,6.1x5.3,630,X7R,+/-10%,100kHz-6GHz\
+;KRM55TR7LV105MH01,1uF,6.1x5.3,630,X7R,+/-20%,100kHz-6GHz\
+;KRM55QR71H226KH13,22uF,6.1x5.3,50,X7R,+/-10%,100kHz-3GHz\
+;KRM55WR71H476MH13,47uF,6.1x5.3,50,X7R,+/-20%,100kHz-3GHz\
+')
+	$end 'Parameters'
+$end 'KRM55'
+
+$begin 'KR355'
+	Refbase='X'
+	NumParts=1
+	Terminal('n1', '102', 'A', false, 0, 0, 0)
+	Terminal('n2', '103', 'A', false, 1, 0, 0)
+	$begin 'Parameters'
+		TextProp('Model', 'RD', '', 'KR355QD72E105KH01')
+		TextProp('DeviceLibraryName', 'RHD', '', '5750_KR355.lib')
+		TextProp('NexximLibraryName', 'RHD', '', '5750_KR355_Nexxim.lib')
+		VariableProp('X', 'RHD', '', '6.1mm')
+		VariableProp('Y', 'RHD', '', '5.3mm')
+		VariableProp('D', 'RHD', '', '1mm')
+		VariableProp('A', 'RHD', '', '2.6mm')
+		VariableProp('B', 'RHD', '', '2.7mm')
+		VariableProp('W', 'RHD', '', '5.6mm')
+		ButtonProp('VComp', 'D', '', 'Choose Model', '', 0)
+		ButtonProp('CircuitNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('SystemNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('NexximNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('CircuitGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Metal_Terminal_General/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Metal_Terminal_General/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('SystemGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Metal_Terminal_General/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Metal_Terminal_General/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('NexximGlobalRef', 'RHD', '', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/Metal_Terminal_General/library/@NexximLibraryName\\"', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/Metal_Terminal_General/library/@NexximLibraryName\\"', 1)
+		TextProp('ModelList', 'RHD', '', 'Model,Capacitance,Dimensions,Rated Voltage[V],Temp Characteristics,Tolerance,Frequency Range\
+;KR355QD72E105KH01,1uF,6.1x5.3,250,X7T,+/-10%,100Hz-6GHz\
+;KR355TD72E155MH01,1.1uF,6.1x5.3,250,X7T,+/-20%,100Hz-6GHz\
+;KR355WD72E225MH01,2.2uF,6.1x5.3,250,X7T,+/-20%,100Hz-6GHz\
+;KR355LD72W224KH01,220nF,6.1x5.3,450,X7T,+/-10%,100Hz-6GHz\
+;KR355LD72W474KH01,470nF,6.1x5.3,450,X7T,+/-10%,100Hz-6GHz\
+;KR355QD72W564KH01,560nF,6.1x5.3,450,X7T,+/-10%,100Hz-6GHz\
+;KR355TD72W105MH01,1uF,6.1x5.3,450,X7T,+/-20%,100Hz-6GHz\
+;KR355WD72W125MH01,1.1uF,6.1x5.3,450,X7T,+/-20%,100Hz-6GHz\
+;KR355LD72J104KH01,100nF,6.1x5.3,630,X7T,+/-10%,100Hz-6GHz\
+;KR355LD72J154KH01,150nF,6.1x5.3,630,X7T,+/-10%,100Hz-6GHz\
+;KR355QD72J224KH01,220nF,6.1x5.3,630,X7T,+/-10%,100Hz-6GHz\
+;KR355QD72J274KH01,270nF,6.1x5.3,630,X7T,+/-10%,100Hz-6GHz\
+;KR355WD72J564MH01,560nF,6.1x5.3,630,X7T,+/-20%,100Hz-6GHz\
+;KR355LD72E474KH01,470nF,6.1x5.3,250,X7T,+/-10%,10kHz-6GHz\
+;KR355LD72E684KH01,680nF,6.1x5.3,250,X7T,+/-10%,10kHz-6GHz\
+;KR355LD72W334KH01,330nF,6.1x5.3,450,X7T,+/-10%,100Hz-6GHz\
+;KR355TD72W684MH01,680nF,6.1x5.3,450,X7T,+/-20%,100Hz-6GHz\
+;KR355WD72J474MH01,470nF,6.1x5.3,630,X7T,+/-20%,100Hz-6GHz\
+;KR355LD7LP684KV01,680nF,6.1x5.3,450,X7T,+/-10%,100Hz-6GHz\
+;KR355QD7LP105KV01,1uF,6.1x5.3,450,X7T,+/-10%,100Hz-6GHz\
+;KR355TD7LP155MV01,1.1uF,6.1x5.3,450,X7T,+/-20%,100Hz-6GHz\
+;KR355WD7LP225MV01,2.2uF,6.1x5.3,450,X7T,+/-20%,100Hz-6GHz\
+;KR355LD7LQ224KV01,220nF,6.1x5.3,630,X7T,+/-10%,100Hz-6GHz\
+;KR355LD7LQ334KV01,330nF,6.1x5.3,630,X7T,+/-10%,100Hz-6GHz\
+;KR355LD7LQ474KV01,470nF,6.1x5.3,630,X7T,+/-10%,100Hz-6GHz\
+;KR355QD7LQ564KV01,560nF,6.1x5.3,630,X7T,+/-10%,100Hz-6GHz\
+;KR355TD7LQ684MV01,680nF,6.1x5.3,630,X7T,+/-20%,100Hz-6GHz\
+;KR355TD7LQ105MV01,1uF,6.1x5.3,630,X7T,+/-20%,100Hz-6GHz\
+;KR355WD7LQ125MV01,1.1uF,6.1x5.3,630,X7T,+/-20%,100Hz-6GHz\
+;KR355QD7LF224KH01,220nF,6.1x5.3,1000,X7T,+/-10%,100kHz-3GHz\
+;KR355QD7LG134KH01,130nF,6.1x5.3,1250,X7T,+/-10%,100kHz-3GHz\
+;KR355LD7LP564KV01,560nF,6.1x5.3,450,X7T,+/-10%,100Hz-6GHz\
+;KR355LD72E564KH01,560nF,6.1x5.3,250,X7T,+/-10%,10kHz-6GHz\
+')
+	$end 'Parameters'
+$end 'KR355'
+
+$begin 'KR955'
+	Refbase='X'
+	NumParts=1
+	Terminal('n1', '102', 'A', false, 0, 0, 0)
+	Terminal('n2', '103', 'A', false, 1, 0, 0)
+	$begin 'Parameters'
+		TextProp('Model', 'RD', '', 'KR955WD7LF474MH01')
+		TextProp('DeviceLibraryName', 'RHD', '', '5750_KR955.lib')
+		TextProp('NexximLibraryName', 'RHD', '', '5750_KR955_Nexxim.lib')
+		VariableProp('X', 'RHD', '', '6.1mm')
+		VariableProp('Y', 'RHD', '', '5.1mm')
+		VariableProp('D', 'RHD', '', '0.7mm')
+		VariableProp('A', 'RHD', '', '2.6mm')
+		VariableProp('B', 'RHD', '', '2.7mm')
+		VariableProp('W', 'RHD', '', '5.6mm')
+		ButtonProp('VComp', 'D', '', 'Choose Model', '', 0)
+		ButtonProp('CircuitNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('SystemNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('NexximNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('CircuitGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Metal_Terminal_General/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Metal_Terminal_General/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('SystemGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Metal_Terminal_General/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Metal_Terminal_General/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('NexximGlobalRef', 'RHD', '', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/Metal_Terminal_General/library/@NexximLibraryName\\"', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/Metal_Terminal_General/library/@NexximLibraryName\\"', 1)
+		TextProp('ModelList', 'RHD', '', 'Model,Capacitance,Dimensions,Rated Voltage[V],Temp Characteristics,Tolerance,Frequency Range\
+;KR955WD7LF474MH01,470nF,6.1x5.1,1000,X7T,+/-20%,100kHz-3GHz\
+;KR955WD7LG274MH01,270nF,6.1x5.1,1250,X7T,+/-20%,100kHz-3GHz\
+')
+	$end 'Parameters'
+$end 'KR955'
+
+$begin 'CompInfo'
+	KRM55(4294901767, 2, 'Equivalent Model (All Rights Reserved)', 1750225269, 'Manufacture Murata ', 'MurataCapSym', '', 'Murata_FP', '(8.8nF - 100uF)', '', '', 'cap.bmp','Murata_mlcc\\Capacitor\\Metal_Terminal_General\\5750(2220)', 'UserLibrary ')
+	KR355(4294901767, 2, 'Equivalent Model (All Rights Reserved)', 1750225269, 'Manufacture Murata ', 'MurataCapSym', '', 'Murata_FP', '(100nF - 2.2uF)', '', '', 'cap.bmp','Murata_mlcc\\Capacitor\\Metal_Terminal_General\\5750(2220)', 'UserLibrary ')
+	KR955(4294901767, 2, 'Equivalent Model (All Rights Reserved)', 1750225269, 'Manufacture Murata ', 'MurataCapSym', '', 'Murata_FP', '(270nF - 470nF)', '', '', 'cap.bmp','Murata_mlcc\\Capacitor\\Metal_Terminal_General\\5750(2220)', 'UserLibrary ')
+$end 'CompInfo'
+
+$begin '$index$'
+	$begin '$index$'
+		CompInfo(pos=15255, lin=227, lvl=0)
+		KRM55(pos=370, lin=11, lvl=0)
+		KR355(pos=370, lin=11, lvl=0)
+		KR955(pos=370, lin=11, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=16329, lin=233, lvl=0)
+	$end '$index$'
+$end '$index$'

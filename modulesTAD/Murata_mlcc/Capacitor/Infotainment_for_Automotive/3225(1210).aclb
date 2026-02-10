@@ -1,0 +1,73 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002016, month=000000000002, day=000000000025, hour=000000000000, min=000000000033, sec=000000000000)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000019741, lin=000000000151, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'GRT32'
+	Refbase='X'
+	NumParts=1
+	Terminal('n1', '102', 'A', false, 0, 0, 0)
+	Terminal('n2', '103', 'A', false, 1, 0, 0)
+	$begin 'Parameters'
+		TextProp('Model', 'RD', '', 'GRT32DC81A106KE01')
+		TextProp('DeviceLibraryName', 'RHD', '', '3225_GRT32.lib')
+		TextProp('NexximLibraryName', 'RHD', '', '3225_GRT32_Nexxim.lib')
+		VariableProp('X', 'RHD', '', '3.2mm')
+		VariableProp('Y', 'RHD', '', '2.5mm')
+		VariableProp('D', 'RHD', '', '0.3mm')
+		VariableProp('A', 'RHD', '', '2.2mm')
+		VariableProp('B', 'RHD', '', '1.1mm')
+		VariableProp('W', 'RHD', '', '2.05mm')
+		ButtonProp('VComp', 'D', '', 'Choose Model', '', 0)
+		ButtonProp('CircuitNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('SystemNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('NexximNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('CircuitGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Infotainment_for_Automotive/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Infotainment_for_Automotive/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('SystemGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Infotainment_for_Automotive/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Infotainment_for_Automotive/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('NexximGlobalRef', 'RHD', '', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/Infotainment_for_Automotive/library/@NexximLibraryName\\"', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/Infotainment_for_Automotive/library/@NexximLibraryName\\"', 1)
+		TextProp('ModelList', 'RHD', '', 'Model,Capacitance,Dimensions,Rated Voltage[V],Temp Characteristics,Tolerance,Frequency Range\
+;GRT32DC81A106KE01,10uF,3.2x2.5,10,X6S,+/-10%,100Hz-6GHz\
+;GRT32DC81C106KE01,10uF,3.2x2.5,16,X6S,+/-10%,100Hz-6GHz\
+;GRT32DR61C106KE01,10uF,3.2x2.5,16,X5R,+/-10%,100Hz-6GHz\
+;GRT32EC81A226ME13,22uF,3.2x2.5,10,X6S,+/-20%,100Hz-6GHz\
+;GRT32EC81H475KE01,4.4uF,3.2x2.5,50,X6S,+/-10%,100Hz-6GHz\
+;GRT32ER61C226ME13,22uF,3.2x2.5,16,X5R,+/-20%,100Hz-6GHz\
+;GRT32ER61H475KE01,4.4uF,3.2x2.5,50,X5R,+/-10%,100Hz-6GHz\
+;GRT32ER61E226KE13,22uF,3.2x2.5,25,X5R,+/-10%,100Hz-6GHz\
+;GRT32ER60J107ME13,100uF,3.2x2.5,6.3,X5R,+/-20%,100Hz-6GHz\
+;GRT32ER71H475KE01,4.4uF,3.2x2.5,50,X7R,+/-10%,100Hz-6GHz\
+;GRT32ER70J476KE13,47uF,3.2x2.5,6.3,X7R,+/-10%,100Hz-6GHz\
+;GRT32EC81A476KE13,47uF,3.2x2.5,10,X6S,+/-10%,100Hz-6GHz\
+;GRT32EC81C476KE13,47uF,3.2x2.5,16,X6S,+/-10%,100Hz-6GHz\
+;GRT32EC80J476KE13,47uF,3.2x2.5,6.3,X6S,+/-10%,100Hz-6GHz\
+;GRT32DR61E106KE01,10uF,3.2x2.5,25,X5R,+/-10%,100Hz-6GHz\
+;GRT32DR61E106ME01,10uF,3.2x2.5,25,X5R,+/-20%,100Hz-6GHz\
+;GRT32DC81E106KE01,10uF,3.2x2.5,25,X6S,+/-10%,100Hz-6GHz\
+;GRT32DC81H335KE01,3.3uF,3.2x2.5,50,X6S,+/-10%,100Hz-6GHz\
+;GRT32EC70J107ME13,100uF,3.2x2.5,6.3,X7S,+/-20%,100Hz-6GHz\
+;GRT32DR60J336ME01,33uF,3.2x2.5,6.3,X5R,+/-20%,100Hz-6GHz\
+;GRT32DR61H335KE01,3.3uF,3.2x2.5,50,X5R,+/-10%,100Hz-6GHz\
+;GRT32EC70G107ME13,100uF,3.2x2.5,4,X7S,+/-20%,100Hz-6GHz\
+;GRT32NR61E685KE01,6.6uF,3.2x2.5,25,X5R,+/-10%,100Hz-6GHz\
+;GRT32EC81C476ME13,47uF,3.2x2.5,16,X6S,+/-20%,100Hz-6GHz\
+')
+	$end 'Parameters'
+$end 'GRT32'
+
+$begin 'CompInfo'
+	GRT32(4294901767, 2, 'Equivalent Model (All Rights Reserved)', 1750225265, 'Manufacture Murata ', 'MurataCapSym', '', 'Murata_FP', '(3.3uF - 100uF)', '', '', 'cap.bmp','Murata_mlcc\\Capacitor\\Infotainment_for_Automotive\\3225(1210)', 'UserLibrary ')
+$end 'CompInfo'
+
+$begin '$index$'
+	$begin '$index$'
+		CompInfo(pos=15255, lin=227, lvl=0)
+		GRT32(pos=370, lin=11, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=16329, lin=233, lvl=0)
+	$end '$index$'
+$end '$index$'

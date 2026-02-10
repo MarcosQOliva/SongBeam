@@ -1,0 +1,55 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002016, month=000000000002, day=000000000025, hour=000000000000, min=000000000033, sec=000000000000)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000019741, lin=000000000151, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'GRM43'
+	Refbase='X'
+	NumParts=1
+	Terminal('n1', '102', 'A', false, 0, 0, 0)
+	Terminal('n2', '103', 'A', false, 1, 0, 0)
+	$begin 'Parameters'
+		TextProp('Model', 'RD', '', 'GRM43DR61E106KA12')
+		TextProp('DeviceLibraryName', 'RHD', '', '4532_GRM43.lib')
+		TextProp('NexximLibraryName', 'RHD', '', '4532_GRM43_Nexxim.lib')
+		VariableProp('X', 'RHD', '', '4.5mm')
+		VariableProp('Y', 'RHD', '', '3.2mm')
+		VariableProp('D', 'RHD', '', '0.3mm')
+		VariableProp('A', 'RHD', '', '3.25mm')
+		VariableProp('B', 'RHD', '', '1.3mm')
+		VariableProp('W', 'RHD', '', '2.65mm')
+		ButtonProp('VComp', 'D', '', 'Choose Model', '', 0)
+		ButtonProp('CircuitNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('SystemNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('NexximNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('CircuitGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/General_Purpose/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/General_Purpose/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('SystemGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/General_Purpose/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/General_Purpose/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('NexximGlobalRef', 'RHD', '', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/General_Purpose/library/@NexximLibraryName\\"', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/General_Purpose/library/@NexximLibraryName\\"', 1)
+		TextProp('ModelList', 'RHD', '', 'Model,Capacitance,Dimensions,Rated Voltage[V],Temp Characteristics,Tolerance,Frequency Range\
+;GRM43DR61E106KA12,10uF,4.5x3.2,25,X5R,+/-10%,100Hz-6GHz\
+;GRM43ER71H225KA01,2.2uF,4.5x3.2,50,X7R,+/-10%,100Hz-6GHz\
+;GRM43ER72A225KA01,2.2uF,4.5x3.2,100,X7R,+/-10%,100Hz-6GHz\
+;GRM43ER71E475KA01,4.4uF,4.5x3.2,25,X7R,+/-10%,100Hz-6GHz\
+;GRM43ER61H475KA88,4.4uF,4.5x3.2,50,X5R,+/-10%,100Hz-6GHz\
+;GRM43ER61C226ME01,22uF,4.5x3.2,16,X5R,+/-20%,100Hz-6GHz\
+')
+	$end 'Parameters'
+$end 'GRM43'
+
+$begin 'CompInfo'
+	GRM43(4294901767, 2, 'Equivalent Model (All Rights Reserved)', 1750225267, 'Manufacture Murata ', 'MurataCapSym', '', 'Murata_FP', '(2.2uF - 22uF)', '', '', 'cap.bmp','Murata_mlcc\\Capacitor\\General_Purpose\\4532(1812)', 'UserLibrary ')
+$end 'CompInfo'
+
+$begin '$index$'
+	$begin '$index$'
+		CompInfo(pos=15255, lin=227, lvl=0)
+		GRM43(pos=370, lin=11, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=16329, lin=233, lvl=0)
+	$end '$index$'
+$end '$index$'

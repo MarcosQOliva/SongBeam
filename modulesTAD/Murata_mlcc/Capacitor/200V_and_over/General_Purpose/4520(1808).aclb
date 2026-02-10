@@ -1,0 +1,62 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002016, month=000000000002, day=000000000025, hour=000000000000, min=000000000033, sec=000000000000)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000019741, lin=000000000151, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'GRM42'
+	Refbase='X'
+	NumParts=1
+	Terminal('n1', '102', 'A', false, 0, 0, 0)
+	Terminal('n2', '103', 'A', false, 1, 0, 0)
+	$begin 'Parameters'
+		TextProp('Model', 'RD', '', 'GRM42A7U3F100JW31')
+		TextProp('DeviceLibraryName', 'RHD', '', '4520_GRM42.lib')
+		TextProp('NexximLibraryName', 'RHD', '', '4520_GRM42_Nexxim.lib')
+		VariableProp('X', 'RHD', '', '4.5mm')
+		VariableProp('Y', 'RHD', '', '2.0mm')
+		VariableProp('D', 'RHD', '', '0.3mm')
+		VariableProp('A', 'RHD', '', '3.1mm')
+		VariableProp('B', 'RHD', '', '1.3mm')
+		VariableProp('W', 'RHD', '', '1.6mm')
+		ButtonProp('VComp', 'D', '', 'Choose Model', '', 0)
+		ButtonProp('CircuitNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('SystemNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('NexximNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('CircuitGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/General_Purpose/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/General_Purpose/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('SystemGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/General_Purpose/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/General_Purpose/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('NexximGlobalRef', 'RHD', '', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/General_Purpose/library/@NexximLibraryName\\"', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/General_Purpose/library/@NexximLibraryName\\"', 1)
+		TextProp('ModelList', 'RHD', '', 'Model,Capacitance,Dimensions,Rated Voltage[V],Temp Characteristics,Tolerance,Frequency Range\
+;GRM42A7U3F100JW31,10pF,4.5x2.0,3150,U2J,+/-5%,100MHz-3GHz\
+;GRM42A7U3F120JW31,12pF,4.5x2.0,3150,U2J,+/-5%,100MHz-3GHz\
+;GRM42A7U3F150JW31,15pF,4.5x2.0,3150,U2J,+/-5%,100MHz-3GHz\
+;GRM42A7U3F180JW31,18pF,4.5x2.0,3150,U2J,+/-5%,100MHz-3GHz\
+;GRM42A7U3F220JW31,22pF,4.5x2.0,3150,U2J,+/-5%,100MHz-3GHz\
+;GRM42A7U3F270JW31,27pF,4.5x2.0,3150,U2J,+/-5%,100MHz-3GHz\
+;GRM42A7U3F330JW31,33pF,4.5x2.0,3150,U2J,+/-5%,100MHz-3GHz\
+;GRM42A7U3F390JW31,39pF,4.5x2.0,3150,U2J,+/-5%,100MHz-3GHz\
+;GRM42A7U3F470JW31,47pF,4.5x2.0,3150,U2J,+/-5%,100MHz-3GHz\
+;GRM42A7U3F560JW31,56pF,4.5x2.0,3150,U2J,+/-5%,100MHz-3GHz\
+;GRM42A7U3F680JW31,68pF,4.5x2.0,3150,U2J,+/-5%,100MHz-3GHz\
+;GRM42A7U3F820JW31,82pF,4.5x2.0,3150,U2J,+/-5%,100MHz-3GHz\
+;GRM42A7U3F101JW31,100pF,4.5x2.0,3150,U2J,+/-5%,100MHz-3GHz\
+')
+	$end 'Parameters'
+$end 'GRM42'
+
+$begin 'CompInfo'
+	GRM42(4294901767, 2, 'Equivalent Model (All Rights Reserved)', 1750225269, 'Manufacture Murata ', 'MurataCapSym', '', 'Murata_FP', '(10pF - 100pF)', '', '', 'cap.bmp','Murata_mlcc\\Capacitor\\200V_and_over\\General_Purpose\\4520(1808)', 'UserLibrary ')
+$end 'CompInfo'
+
+$begin '$index$'
+	$begin '$index$'
+		CompInfo(pos=15255, lin=227, lvl=0)
+		GRM42(pos=370, lin=11, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=16329, lin=233, lvl=0)
+	$end '$index$'
+$end '$index$'

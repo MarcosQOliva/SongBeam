@@ -1,0 +1,58 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002016, month=000000000002, day=000000000025, hour=000000000000, min=000000000033, sec=000000000000)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000019741, lin=000000000151, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'GCH21'
+	Refbase='X'
+	NumParts=1
+	Terminal('n1', '102', 'A', false, 0, 0, 0)
+	Terminal('n2', '103', 'A', false, 1, 0, 0)
+	$begin 'Parameters'
+		TextProp('Model', 'RD', '', 'GCH21A5C2J100JX01')
+		TextProp('DeviceLibraryName', 'RHD', '', '2012_GCH21.lib')
+		TextProp('NexximLibraryName', 'RHD', '', '2012_GCH21_Nexxim.lib')
+		VariableProp('X', 'RHD', '', '2.0mm')
+		VariableProp('Y', 'RHD', '', '1.25mm')
+		VariableProp('D', 'RHD', '', '0.3mm')
+		VariableProp('A', 'RHD', '', '1.1mm')
+		VariableProp('B', 'RHD', '', '0.65mm')
+		VariableProp('W', 'RHD', '', '0.95mm')
+		ButtonProp('VComp', 'D', '', 'Choose Model', '', 0)
+		ButtonProp('CircuitNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('SystemNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('NexximNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('CircuitGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/Implantable_medical_device/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/Implantable_medical_device/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('SystemGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/Implantable_medical_device/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/Implantable_medical_device/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('NexximGlobalRef', 'RHD', '', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/Implantable_medical_device/library/@NexximLibraryName\\"', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/Implantable_medical_device/library/@NexximLibraryName\\"', 1)
+		TextProp('ModelList', 'RHD', '', 'Model,Capacitance,Dimensions,Rated Voltage[V],Temp Characteristics,Tolerance,Frequency Range\
+;GCH21A5C2J100JX01,10pF,2.0x1.25,630,C0G,+/-5%,100MHz-3GHz\
+;GCH21A5C2J100FX01,10pF,2.0x1.25,630,C0G,+/-1%,100MHz-3GHz\
+;GCH21A5C2J100GX01,10pF,2.0x1.25,630,C0G,+/-2%,100MHz-3GHz\
+;GCH21B5C2J681JX01,680pF,2.0x1.25,630,C0G,+/-5%,100MHz-3GHz\
+;GCH21B5C2J681FX01,680pF,2.0x1.25,630,C0G,+/-1%,100MHz-3GHz\
+;GCH21B5C2J681GX01,680pF,2.0x1.25,630,C0G,+/-2%,100MHz-3GHz\
+;GCH21B5C2J152JX0A,1.1nF,2.0x1.25,630,C0G,+/-5%,10kHz-1GHz\
+;GCH21B5C2J182JX0A,1.1nF,2.0x1.25,630,C0G,+/-5%,10kHz-1GHz\
+;GCH21B5C2J222JX0A,2.2nF,2.0x1.25,630,C0G,+/-5%,10kHz-1GHz\
+')
+	$end 'Parameters'
+$end 'GCH21'
+
+$begin 'CompInfo'
+	GCH21(4294901767, 2, 'Equivalent Model (All Rights Reserved)', 1750225269, 'Manufacture Murata ', 'MurataCapSym', '', 'Murata_FP', '(10pF - 2.2nF)', '', '', 'cap.bmp','Murata_mlcc\\Capacitor\\200V_and_over\\Implantable_medical_device\\2012(0805)', 'UserLibrary ')
+$end 'CompInfo'
+
+$begin '$index$'
+	$begin '$index$'
+		CompInfo(pos=15255, lin=227, lvl=0)
+		GCH21(pos=370, lin=11, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=16329, lin=233, lvl=0)
+	$end '$index$'
+$end '$index$'

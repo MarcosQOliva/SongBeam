@@ -1,0 +1,54 @@
+.SubCkt GRJ155R60J106ME11 [_net1] [_net2]
+.param K01=8.1824e-06
+.param M01=5.0000e+06
+.param L02=1.5914e-10
+.param M03=8.2421e-03
+.param K04=4.3619e-04
+.param M04=3.7586e+00
+.param K05=5.8239e-04
+.param M05=2.9175e-01
+.param K06=6.2004e-04
+.param M06=3.4301e-02
+.param K07=4.0743e-04
+.param M07=4.5036e-03
+.param L08=1.1757e-11
+.param M08=3.2221e-01
+.param L09=2.5610e-11
+.param M09=1.0034e-01
+.param L10=5.6997e-11
+.param M10=3.0110e-02
+.param L11=2.1072e-10
+.param M11=1.3233e-02
+.param K12=4.1628e-05
+.param L12=3.2976e-11
+.param M12=1.4275e-03
+.param K13=1.1753e-05
+.param L13=5.6882e-11
+.param M13=2.4288e-03
+C01 _net1 _net0102 {K01}
+R01 _net1 _net0102 {M01}
+L02 _net0102 _net0203 {L02}
+R03 _net0203 _net0304 {M03}
+C04 _net0304 _net0405 {K04}
+R04 _net0304 _net0405 {M04}
+C05 _net0405 _net0506 {K05}
+R05 _net0405 _net0506 {M05}
+C06 _net0506 _net0607 {K06}
+R06 _net0506 _net0607 {M06}
+C07 _net0607 _net0708 {K07}
+R07 _net0607 _net0708 {M07}
+L08 _net0708 _net0809 {L08}
+R08 _net0708 _net0809 {M08}
+L09 _net0809 _net0910 {L09}
+R09 _net0809 _net0910 {M09}
+L10 _net0910 _net1011 {L10}
+R10 _net0910 _net1011 {M10}
+L11 _net1011 _net1112 {L11}
+R11 _net1011 _net1112 {M11}
+C12 _net1112 _net1213 {K12}
+L12 _net1112 _net1213 {L12}
+R12 _net1112 _net1213 {M12}
+C13 _net1213 _net2 {K13}
+L13 _net1213 _net2 {L13}
+R13 _net1213 _net2 {M13}
+.ends GRJ155R60J106ME11

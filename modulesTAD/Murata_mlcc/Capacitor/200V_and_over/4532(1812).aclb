@@ -1,0 +1,146 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002016, month=000000000002, day=000000000025, hour=000000000000, min=000000000033, sec=000000000000)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000019741, lin=000000000151, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'GC343'
+	Refbase='X'
+	NumParts=1
+	Terminal('n1', '102', 'A', false, 0, 0, 0)
+	Terminal('n2', '103', 'A', false, 1, 0, 0)
+	$begin 'Parameters'
+		TextProp('Model', 'RD', '', 'GC343QD72E224KX01')
+		TextProp('DeviceLibraryName', 'RHD', '', '4532_GC343.lib')
+		TextProp('NexximLibraryName', 'RHD', '', '4532_GC343_Nexxim.lib')
+		VariableProp('X', 'RHD', '', '4.5mm')
+		VariableProp('Y', 'RHD', '', '3.2mm')
+		VariableProp('D', 'RHD', '', '0.3mm')
+		VariableProp('A', 'RHD', '', '3.1mm')
+		VariableProp('B', 'RHD', '', '1.3mm')
+		VariableProp('W', 'RHD', '', '2.65mm')
+		ButtonProp('VComp', 'D', '', 'Choose Model', '', 0)
+		ButtonProp('CircuitNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('SystemNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('NexximNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('CircuitGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('SystemGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('NexximGlobalRef', 'RHD', '', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@NexximLibraryName\\"', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@NexximLibraryName\\"', 1)
+		TextProp('ModelList', 'RHD', '', 'Model,Capacitance,Dimensions,Rated Voltage[V],Temp Characteristics,Tolerance,Frequency Range\
+;GC343QD72E224KX01,220nF,4.5x3.2,250,X7T,+/-10%,100Hz-3GHz\
+;GC343QD7LP224KX18,220nF,4.5x3.2,450,X7T,+/-10%,100Hz-3GHz\
+;GC343DD72E334KX01,330nF,4.5x3.2,250,X7T,+/-10%,100Hz-3GHz\
+;GC343DD72W154KX01,150nF,4.5x3.2,450,X7T,+/-10%,100Hz-3GHz\
+;GC343DD7LP334KX18,330nF,4.5x3.2,450,X7T,+/-10%,100Hz-3GHz\
+;GC343DD72J683KX01,68nF,4.5x3.2,630,X7T,+/-10%,100Hz-3GHz\
+;GC343DD7LQ154KX18,150nF,4.5x3.2,630,X7T,+/-10%,100Hz-3GHz\
+')
+	$end 'Parameters'
+$end 'GC343'
+
+$begin 'GCJ43'
+	Refbase='X'
+	NumParts=1
+	Terminal('n1', '102', 'A', false, 0, 0, 0)
+	Terminal('n2', '103', 'A', false, 1, 0, 0)
+	$begin 'Parameters'
+		TextProp('Model', 'RD', '', 'GCJ43DR72J104KXJ1')
+		TextProp('DeviceLibraryName', 'RHD', '', '4532_GCJ43.lib')
+		TextProp('NexximLibraryName', 'RHD', '', '4532_GCJ43_Nexxim.lib')
+		VariableProp('X', 'RHD', '', '4.5mm')
+		VariableProp('Y', 'RHD', '', '3.2mm')
+		VariableProp('D', 'RHD', '', '0.3mm')
+		VariableProp('A', 'RHD', '', '3.1mm')
+		VariableProp('B', 'RHD', '', '1.3mm')
+		VariableProp('W', 'RHD', '', '2.65mm')
+		ButtonProp('VComp', 'D', '', 'Choose Model', '', 0)
+		ButtonProp('CircuitNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('SystemNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('NexximNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('CircuitGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('SystemGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('NexximGlobalRef', 'RHD', '', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@NexximLibraryName\\"', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@NexximLibraryName\\"', 1)
+		TextProp('ModelList', 'RHD', '', 'Model,Capacitance,Dimensions,Rated Voltage[V],Temp Characteristics,Tolerance,Frequency Range\
+;GCJ43DR72J104KXJ1,100nF,4.5x3.2,630,X7R,+/-10%,100Hz-3GHz\
+;GCJ43QR72E154KXJ1,150nF,4.5x3.2,250,X7R,+/-10%,100Hz-3GHz\
+;GCJ43QR7LV154KW01,150nF,4.5x3.2,630,X7R,+/-10%,100Hz-3GHz\
+;GCJ43DR72E224KXJ1,220nF,4.5x3.2,250,X7R,+/-10%,100Hz-3GHz\
+;GCJ43DR7LV224KW01,220nF,4.5x3.2,630,X7R,+/-10%,100Hz-3GHz\
+;GCJ43DR72J333KXJ1,33nF,4.5x3.2,630,X7R,+/-10%,100Hz-3GHz\
+;GCJ43DR73A333KXJ1,33nF,4.5x3.2,1000,X7R,+/-10%,100Hz-3GHz\
+;GCJ43DR72E334KXJ1,330nF,4.5x3.2,250,X7R,+/-10%,100Hz-3GHz\
+;GCJ43DR72J473KXJ1,47nF,4.5x3.2,630,X7R,+/-10%,100Hz-3GHz\
+;GCJ43DR73A473KXJ1,47nF,4.5x3.2,1000,X7R,+/-10%,100Hz-3GHz\
+;GCJ43DR72E474KXJ1,470nF,4.5x3.2,250,X7R,+/-10%,100Hz-3GHz\
+;GCJ43QR72J683KXJ1,68nF,4.5x3.2,630,X7R,+/-10%,100Hz-3GHz\
+')
+	$end 'Parameters'
+$end 'GCJ43'
+
+$begin 'GCM43'
+	Refbase='X'
+	NumParts=1
+	Terminal('n1', '102', 'A', false, 0, 0, 0)
+	Terminal('n2', '103', 'A', false, 1, 0, 0)
+	$begin 'Parameters'
+		TextProp('Model', 'RD', '', 'GCM43QR72E154KX01')
+		TextProp('DeviceLibraryName', 'RHD', '', '4532_GCM43.lib')
+		TextProp('NexximLibraryName', 'RHD', '', '4532_GCM43_Nexxim.lib')
+		VariableProp('X', 'RHD', '', '4.5mm')
+		VariableProp('Y', 'RHD', '', '3.2mm')
+		VariableProp('D', 'RHD', '', '0.3mm')
+		VariableProp('A', 'RHD', '', '3.25mm')
+		VariableProp('B', 'RHD', '', '1.3mm')
+		VariableProp('W', 'RHD', '', '2.65mm')
+		ButtonProp('VComp', 'D', '', 'Choose Model', '', 0)
+		ButtonProp('CircuitNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('SystemNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('NexximNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('CircuitGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('SystemGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('NexximGlobalRef', 'RHD', '', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@NexximLibraryName\\"', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/200V_and_over/library/@NexximLibraryName\\"', 1)
+		TextProp('ModelList', 'RHD', '', 'Model,Capacitance,Dimensions,Rated Voltage[V],Temp Characteristics,Tolerance,Frequency Range\
+;GCM43QR72E154KX01,150nF,4.5x3.2,250,X7R,+/-10%,100Hz-3GHz\
+;GCM43DR72E224KX01,220nF,4.5x3.2,250,X7R,+/-10%,100Hz-3GHz\
+;GCM43DR72E334KX01,330nF,4.5x3.2,250,X7R,+/-10%,100Hz-3GHz\
+;GCM43DR72E474KX01,470nF,4.5x3.2,250,X7R,+/-10%,100Hz-3GHz\
+;GCM43Q7U2J123JX01,12nF,4.5x3.2,630,U2J,+/-5%,1MHz-3GHz\
+;GCM43D7U2J153JX01,15nF,4.5x3.2,630,U2J,+/-5%,1MHz-3GHz\
+;GCM43D7U2J183JX01,18nF,4.5x3.2,630,U2J,+/-5%,1MHz-3GHz\
+;GCM43D7U2J223JX01,22nF,4.5x3.2,630,U2J,+/-5%,1MHz-3GHz\
+;GCM43DR72J333KX01,33nF,4.5x3.2,630,X7R,+/-10%,100Hz-3GHz\
+;GCM43DR72J473KX01,47nF,4.5x3.2,630,X7R,+/-10%,100Hz-3GHz\
+;GCM43QR72J683KX01,68nF,4.5x3.2,630,X7R,+/-10%,100Hz-3GHz\
+;GCM43DR72J104KX01,100nF,4.5x3.2,630,X7R,+/-10%,100Hz-3GHz\
+;GCM43QR7LV154KW01,150nF,4.5x3.2,630,X7R,+/-10%,100Hz-3GHz\
+;GCM43DR7LV224KW01,220nF,4.5x3.2,630,X7R,+/-10%,100Hz-3GHz\
+;GCM43Q7U3A272JX01,2.2nF,4.5x3.2,1000,U2J,+/-5%,1MHz-3GHz\
+;GCM43Q7U3A332JX01,3.3nF,4.5x3.2,1000,U2J,+/-5%,1MHz-3GHz\
+;GCM43D7U3A392JX01,3.3nF,4.5x3.2,1000,U2J,+/-5%,1MHz-3GHz\
+;GCM43D7U3A472JX01,4.4nF,4.5x3.2,1000,U2J,+/-5%,1MHz-3GHz\
+;GCM43DR73A333KX01,33nF,4.5x3.2,1000,X7R,+/-10%,100Hz-3GHz\
+;GCM43DR73A473KX01,47nF,4.5x3.2,1000,X7R,+/-10%,100Hz-3GHz\
+')
+	$end 'Parameters'
+$end 'GCM43'
+
+$begin 'CompInfo'
+	GC343(4294901767, 2, 'Equivalent Model (All Rights Reserved)', 1750225268, 'Manufacture Murata ', 'MurataCapSym', '', 'Murata_FP', '(68nF - 330nF)', '', '', 'cap.bmp','Murata_mlcc\\Capacitor\\200V_and_over\\4532(1812)', 'UserLibrary ')
+	GCJ43(4294901767, 2, 'Equivalent Model (All Rights Reserved)', 1750225268, 'Manufacture Murata ', 'MurataCapSym', '', 'Murata_FP', '(33nF - 470nF)', '', '', 'cap.bmp','Murata_mlcc\\Capacitor\\200V_and_over\\4532(1812)', 'UserLibrary ')
+	GCM43(4294901767, 2, 'Equivalent Model (All Rights Reserved)', 1750225268, 'Manufacture Murata ', 'MurataCapSym', '', 'Murata_FP', '(2.2nF - 470nF)', '', '', 'cap.bmp','Murata_mlcc\\Capacitor\\200V_and_over\\4532(1812)', 'UserLibrary ')
+$end 'CompInfo'
+
+$begin '$index$'
+	$begin '$index$'
+		CompInfo(pos=15255, lin=227, lvl=0)
+		GC343(pos=370, lin=11, lvl=0)
+		GCJ43(pos=370, lin=11, lvl=0)
+		GCM43(pos=370, lin=11, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=16329, lin=233, lvl=0)
+	$end '$index$'
+$end '$index$'

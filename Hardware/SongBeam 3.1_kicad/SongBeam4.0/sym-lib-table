@@ -12,4 +12,6 @@
   (lib (name "PTS815")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/ul_PTS815-SJM-250-SMTR-LFS/2026-02-07_21-08-31.kicad_sym")(options "")(descr ""))
   (lib (name "LP5907MFX")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/ul_LP5907MFX-1-8-NOPB/2026-02-07_21-09-19.kicad_sym")(options "")(descr ""))
   (lib (name "TPS62842D")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/ul_TPS62842DGRR/2026-02-07_21-07-59.kicad_sym")(options "")(descr ""))
+  (lib (name "switch")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/LIB_SLW-12689-4A-N-D/SLW-12689-4A-N-D.kicad_sym")(options "")(descr ""))
+  (lib (name "MBRX120LF")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/LIB_MBRX120LF-TP/MBRX120LF-TP.kicad_sym")(options "")(descr ""))
 )

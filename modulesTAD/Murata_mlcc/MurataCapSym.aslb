@@ -1,0 +1,91 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002020, month=000000000002, day=000000000024, hour=000000000014, min=000000000035, sec=000000000050)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000005028, lin=000000000040, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'MurataCapSym'
+	ModTime=1582518712
+	Library='MurataCapSym'
+	ModSinceLib=false
+	LibLocation='UserLibrary'
+	HighestLevel=1
+	Normalize=true
+	InitialLevels(0, 1)
+	$begin 'PinDef'
+		Pin('n1', -0.00508, 0, 0, 'N', 0, 0, false, 0, true, '', false, false, 'n1', true)
+	$end 'PinDef'
+	$begin 'PinDef'
+		Pin('n2', 0.00508, 0, 3.14159, 'N', 0, 0, false, 0, true, '', false, false, 'n2', true)
+	$end 'PinDef'
+	$begin 'Graphics'
+		Line(0, 1, 12566272, -0.0006985, 0.0017145, -0.0006985, -0.0017145, End=0, Join=0, LineStyle=0, BeginObj=0, EndObj=0)
+		Line(0, 1, 12566272, 0.00508, 0, 0.0006985, 0, End=0, Join=0, LineStyle=0, BeginObj=0, EndObj=0)
+		Line(0, 1, 12566272, -0.00508, 0, -0.0006985, 0, End=0, Join=0, LineStyle=0, BeginObj=0, EndObj=0)
+		Arc(0, 1, 12566272, 0.005588, 0, 0.00490555, 2.7707, 3.51248, 12566272, 0, 0)
+	$end 'Graphics'
+	$begin 'PropDisplayMap'
+		Model(2, 5, 1, Text(-0.00254, -0.003594785787316391, 0, 1, 5, false, 'Arial', 0, '[Model]', false, false, ExtentRect(0, 0, 0, 0, 4.960234191963425e-05, -0.003055285299416467, 0.005179204683839269, 0.00176956160031175, 0, 0, 0)))
+	$end 'PropDisplayMap'
+$end 'MurataCapSym'
+$begin 'DefInfo'
+	MurataCapSym(2, 1582518712)
+	SymNames='MurataCapSym'
+	SymlibBitmap='/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDAAEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQEBAQE\
+BAQICAQECAQEBAgICAgICAgICAQICAgICAgICAgL/2wBDAQEBAQEBAQEBAQECAQEBAgICAgICAgICAg\
+ICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgICAgL/wAARCABQAFADASIAAhEBAxEB/\
+8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQR\
+BRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUp\
+TVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5us\
+LDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAA\
+AECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHB\
+CSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ\
+3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4u\
+Pk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwD+/iiiigAooooAKKKKACiiigAooooAKKKKACiii\
+gAorBuPE+h2nijR/BlxfeX4l17QfEnifSdN+zXj/a9D8I6h4V0rxDffbEtzbwfZ7/xt4Yj8qWVJpf7T\
+3QRypDcNFQ8a+M9L8B6NZa3q8F/c2l94t8AeDIo9Nit5rhdU+I3jvw38PdEnkS6uoVFhFrXijT5btg5\
+kS1hmeGKeVUgk1hQrTnRpxpyc8S0qatbnvJwXLfdOacbrTmTW6ZwYjNMuwuGzPF18bShh8ljOWLlzqX\
+1ZU6McTP2yi26co4ecK3LJKXspwmk4zi31tFFFZHeFFFFAHj/7Qvxr8K/s1/AL44ftGeOtP8Qat4J+A\
+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\
+KKKKACiiigAooooAKKKKAP//Z'
+$end 'DefInfo'
+$begin '$index$'
+	$begin '$index$'
+		MurataCapSym(pos=370, lin=11, lvl=0)
+		DefInfo(pos=1533, lin=35, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=5028, lin=40, lvl=0)
+	$end '$index$'
+$end '$index$'
+ndex$'
+ndex$'
+                                             

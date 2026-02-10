@@ -1,0 +1,58 @@
+$begin '$base_index$'
+  $begin 'properties'
+    all_levels=000000000000
+    time(year=000000002016, month=000000000002, day=000000000025, hour=000000000000, min=000000000033, sec=000000000000)
+    version=000000000000
+  $end 'properties'
+  $begin '$base_index$'
+    $index$(pos=000000019741, lin=000000000151, lvl=000000000000)
+  $end '$base_index$'
+$end '$base_index$'
+$begin 'GGM32'
+	Refbase='X'
+	NumParts=1
+	Terminal('n1', '102', 'A', false, 0, 0, 0)
+	Terminal('n2', '103', 'A', false, 1, 0, 0)
+	$begin 'Parameters'
+		TextProp('Model', 'RD', '', 'GGM32ER71A226KE12')
+		TextProp('DeviceLibraryName', 'RHD', '', '3225_GGM32.lib')
+		TextProp('NexximLibraryName', 'RHD', '', '3225_GGM32_Nexxim.lib')
+		VariableProp('X', 'RHD', '', '3.2mm')
+		VariableProp('Y', 'RHD', '', '2.5mm')
+		VariableProp('D', 'RHD', '', '0.3mm')
+		VariableProp('A', 'RHD', '', '2.2mm')
+		VariableProp('B', 'RHD', '', '1.1mm')
+		VariableProp('W', 'RHD', '', '2.05mm')
+		ButtonProp('VComp', 'D', '', 'Choose Model', '', 0)
+		ButtonProp('CircuitNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('SystemNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('NexximNetList', 'RHD', '', 'X@ID %0 %1 @Model', 'X@ID %0 %1 @Model', 1)
+		ButtonProp('CircuitGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Water_repellent_Automotive/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Water_repellent_Automotive/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('SystemGlobalRef', 'RHD', '', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Water_repellent_Automotive/library/@DeviceLibraryName\\"', '.lib \\"$USERLIB/Murata_mlcc/Capacitor/Water_repellent_Automotive/library/@DeviceLibraryName\\"', 1)
+		ButtonProp('NexximGlobalRef', 'RHD', '', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/Water_repellent_Automotive/library/@NexximLibraryName\\"', '.inc \\"$USERLIB/Murata_mlcc/Capacitor/Water_repellent_Automotive/library/@NexximLibraryName\\"', 1)
+		TextProp('ModelList', 'RHD', '', 'Model,Capacitance,Dimensions,Rated Voltage[V],Temp Characteristics,Tolerance,Frequency Range\
+;GGM32ER71A226KE12,22uF,3.2x2.5,10,X7R,+/-10%,100Hz-6GHz\
+;GGM32ER71H475KA55,4.4uF,3.2x2.5,50,X7R,+/-10%,100Hz-6GHz\
+;GGM32EC7YA106KA03,10uF,3.2x2.5,35,X7S,+/-10%,100Hz-6GHz\
+;GGM32EC71H106KA03,10uF,3.2x2.5,50,X7S,+/-10%,100Hz-6GHz\
+;GGM32DC72A475KE02,4.4uF,3.2x2.5,100,X7S,+/-10%,100Hz-6GHz\
+;GGM32ER71C226KE19,22uF,3.2x2.5,16,X7R,+/-10%,100Hz-6GHz\
+;GGM32ER70J476KE19,47uF,3.2x2.5,6.3,X7R,+/-10%,100Hz-6GHz\
+;GGM32ER71E106KA57,10uF,3.2x2.5,25,X7R,+/-10%,100Hz-6GHz\
+;GGM32ED70J476KE02,47uF,3.2x2.5,6.3,X7T,+/-10%,100Hz-6GHz\
+')
+	$end 'Parameters'
+$end 'GGM32'
+
+$begin 'CompInfo'
+	GGM32(4294901767, 2, 'Equivalent Model (All Rights Reserved)', 1750225266, 'Manufacture Murata ', 'MurataCapSym', '', 'Murata_FP', '(4.4uF - 47uF)', '', '', 'cap.bmp','Murata_mlcc\\Capacitor\\Water_repellent_Automotive\\3225(1210)', 'UserLibrary ')
+$end 'CompInfo'
+
+$begin '$index$'
+	$begin '$index$'
+		CompInfo(pos=15255, lin=227, lvl=0)
+		GGM32(pos=370, lin=11, lvl=0)
+		$base_index$(pos=0, lin=1, lvl=0)
+		$index$(pos=16329, lin=233, lvl=0)
+	$end '$index$'
+$end '$index$'
