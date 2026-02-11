@@ -22822,7 +22822,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Castellated"
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
 			(at 109.22 164.465 0)
 			(effects
 				(font
@@ -25565,7 +25565,7 @@
 				)
 			)
 		)
-		(property "Footprint" "LED_SMD:LED_1206_3216Metric_Castellated"
+		(property "Footprint" "LED_SMD:LED-APA102-2020"
 			(at 25.4 183.515 0)
 			(effects
 				(font
@@ -26339,7 +26339,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "DFE201612E:1286ASH1R0MP2"
+		(property "Footprint" "73251:CONN_73251-1150_MOL"
 			(at 547.37 241.3 0)
 			(effects
 				(font
@@ -27811,7 +27811,7 @@
 				)
 			)
 		)
-		(property "Footprint" "TPL5111DDCR:TPL5111DDCR"
+		(property "Footprint" "TPL5111DDCR:DDC0006A_L"
 			(at 232.41 248.92 0)
 			(effects
 				(font
