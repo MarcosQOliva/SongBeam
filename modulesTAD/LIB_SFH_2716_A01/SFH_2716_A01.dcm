@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SFH_2716_A01
+D Photodiodes ALS Photodiode ChipLED
+K
+F https://ams-osram.com/products/photodetectors/photodiodes/osram-chip-led-sfh-2716-a01
+$ENDCMP
+#
+#End Doc Library

@@ -14,4 +14,5 @@
   (lib (name "TPS62842D")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/ul_TPS62842DGRR/2026-02-07_21-07-59.kicad_sym")(options "")(descr ""))
   (lib (name "switch")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/LIB_SLW-12689-4A-N-D/SLW-12689-4A-N-D.kicad_sym")(options "")(descr ""))
   (lib (name "MBRX120LF")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/LIB_MBRX120LF-TP/MBRX120LF-TP.kicad_sym")(options "")(descr ""))
+  (lib (name "ledsSB")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/LIB_SFH_2716_A01/SFH_2716_A01.kicad_sym")(options "")(descr ""))
 )

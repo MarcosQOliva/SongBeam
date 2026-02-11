@@ -8237,205 +8237,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Sensor_Optical:SFH2701"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(offset 1.016)
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0.508 1.778 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SFH2701"
-				(at -1.016 -2.794 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "LED_SMD:LED_1206_3216Metric_Castellated"
-				(at 0 4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.osram-os.com/Graphics/XPic6/00201111_0.pdf/SFH%202701.pdf"
-				(at -1.27 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "High Speed PIN Photodiode, SMD package"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "opto photodiode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "LED*1206*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "SFH2701_0_1"
-				(polyline
-					(pts
-						(xy -2.54 1.27) (xy -2.54 -1.27)
-					)
-					(stroke
-						(width 0.1524)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -2.032 1.778) (xy -1.524 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy -0.508 3.302) (xy -2.032 1.778) (xy -2.032 2.286)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 1.27) (xy -2.54 0) (xy 0 -1.27)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0 0) (xy -2.54 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 0.762 3.302) (xy -0.762 1.778) (xy -0.762 2.286) (xy -0.762 1.778) (xy -0.254 1.778)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "SFH2701_1_1"
-				(pin passive line
-					(at -5.08 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 2.54 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "SoundRecorder_2.0:APHF1608LSEEQBDZGKC"
 			(pin_names
 				(offset 1.016)
@@ -11255,6 +11056,243 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "ledsSB:SFH_2716_A01"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 3.302 -3.81 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Value" "SFH_2716_A01"
+				(at 3.302 -6.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+				)
+			)
+			(property "Footprint" "LEDC2012X100N"
+				(at 3.302 -106.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://ams-osram.com/products/photodetectors/photodiodes/osram-chip-led-sfh-2716-a01"
+				(at 3.302 -206.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Description" "Photodiodes ALS Photodiode ChipLED"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Height" "1"
+				(at 3.302 -406.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Part Number" "720-SFH2716A01A0954"
+				(at 3.302 -506.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/SFH-2716-A01?qs=%252BEew9%252B0nqrA30UiyZ6UN6g%3D%3D"
+				(at 3.302 -606.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Name" "ams OSRAM"
+				(at 3.302 -706.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(property "Manufacturer_Part_Number" "SFH 2716 A01"
+				(at 3.302 -806.35 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(justify left top)
+					(hide yes)
+				)
+			)
+			(symbol "SFH_2716_A01_1_1"
+				(polyline
+					(pts
+						(xy -6.604 -3.302) (xy -4.064 -5.842)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.588 -5.08) (xy -4.826 -4.318) (xy -4.064 -5.842) (xy -5.588 -5.08)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -5.08 -1.778) (xy -2.54 -4.318)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy -4.064 -3.556) (xy -3.302 -2.794) (xy -2.54 -4.318) (xy -4.064 -3.556)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy -1.27 -3.81) (xy 1.27 -3.81) (xy 0 -6.35) (xy -1.27 -3.81)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type outline)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -3.81) (xy 0 -2.54)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 0 -6.35) (xy 0 -7.62)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 -6.35) (xy -1.27 -6.35)
+					)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at 0 0 270)
+					(length 2.54)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -10.16 90)
+					(length 2.54)
+					(name "K"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:+1V8"
 			(power)
 			(pin_numbers
@@ -12942,6 +12980,12 @@
 		(uuid "44e547c7-83e3-40c3-a597-1af702b778cd")
 	)
 	(junction
+		(at 99.06 161.29)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "4a326e09-f96b-4cf1-8fbb-3407457051b8")
+	)
+	(junction
 		(at 201.93 25.4)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -13192,12 +13236,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "ab744b3a-1e52-4271-a8b2-a81f694d7dad")
-	)
-	(junction
-		(at 99.06 163.83)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "ab8a6253-722d-4eae-9957-1338222d973b")
 	)
 	(junction
 		(at 71.12 25.4)
@@ -14340,16 +14378,6 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 163.83) (xy 99.06 176.53)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "2521119f-6b78-4cc4-8dd1-fb8a1ec01dee")
-	)
-	(wire
-		(pts
 			(xy 187.96 40.64) (xy 190.5 40.64)
 		)
 		(stroke
@@ -15098,6 +15126,16 @@
 			(color 128 77 0 1)
 		)
 		(uuid "4f952d48-ef3d-4cf3-8f46-de1a314495a8")
+	)
+	(wire
+		(pts
+			(xy 99.06 161.29) (xy 99.06 176.53)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5057ffcc-c86f-434c-953a-1c830d1ae5e6")
 	)
 	(wire
 		(pts
@@ -16421,16 +16459,6 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 168.91) (xy 114.3 168.91)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "90f200f5-bf54-44a0-bff0-3a2969e0e6a1")
-	)
-	(wire
-		(pts
 			(xy 245.11 105.41) (xy 247.65 105.41)
 		)
 		(stroke
@@ -17413,16 +17441,6 @@
 	)
 	(wire
 		(pts
-			(xy 104.14 168.91) (xy 101.6 168.91)
-		)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(uuid "c6b7ed36-d85a-421a-b710-7c4a0a1f0b57")
-	)
-	(wire
-		(pts
 			(xy 97.79 330.2) (xy 97.79 317.5)
 		)
 		(stroke
@@ -17847,13 +17865,23 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 162.56) (xy 99.06 163.83)
+			(xy 99.06 160.02) (xy 99.06 161.29)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "df1b3a3a-b5bd-4bd4-8d3c-dd76f1c58233")
+	)
+	(wire
+		(pts
+			(xy 101.6 168.91) (xy 104.14 168.91)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0972ea2-5355-4c0d-ac64-60ec529baaf0")
 	)
 	(wire
 		(pts
@@ -18198,7 +18226,7 @@
 	)
 	(wire
 		(pts
-			(xy 99.06 163.83) (xy 101.6 163.83)
+			(xy 99.06 161.29) (xy 101.6 161.29)
 		)
 		(stroke
 			(width 0)
@@ -18380,16 +18408,6 @@
 			(type default)
 		)
 		(uuid "fd8c9ea5-4cb4-4163-a4ed-3b0c70ec112d")
-	)
-	(wire
-		(pts
-			(xy 20.32 179.07) (xy 22.86 179.07)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "fe122879-adc1-4ad5-a6f1-18010fe1bb77")
 	)
 	(wire
 		(pts
@@ -21992,7 +22010,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x07_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x07_P1.00mm_Vertical"
 			(at 506.73 207.01 0)
 			(effects
 				(font
@@ -22044,6 +22062,126 @@
 			(project "SongBeam4.0"
 				(path "/f44b7059-9785-4cac-90ba-9921ac2f98a1"
 					(reference "J6")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ledsSB:SFH_2716_A01")
+		(at 20.32 179.07 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0ae3073c-d683-4efb-952b-d79e684c97ee")
+		(property "Reference" "CHG1"
+			(at 25.019 172.72 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SFH_2716_A01"
+			(at 25.019 175.26 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LEDSB:LEDC2012X100N"
+			(at 126.67 175.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ams-osram.com/products/photodetectors/photodiodes/osram-chip-led-sfh-2716-a01"
+			(at 226.67 175.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Photodiodes ALS Photodiode ChipLED"
+			(at 20.32 179.07 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at 426.67 175.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "720-SFH2716A01A0954"
+			(at 526.67 175.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/SFH-2716-A01?qs=%252BEew9%252B0nqrA30UiyZ6UN6g%3D%3D"
+			(at 626.67 175.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ams OSRAM"
+			(at 726.67 175.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SFH 2716 A01"
+			(at 826.67 175.768 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "96e9afe5-3559-4021-bfac-62bff3d5beff")
+		)
+		(pin "2"
+			(uuid "2d3223ec-de1f-42c1-99b5-56006e2ca531")
+		)
+		(instances
+			(project "SongBeam4.0"
+				(path "/f44b7059-9785-4cac-90ba-9921ac2f98a1"
+					(reference "CHG1")
 					(unit 1)
 				)
 			)
@@ -22670,7 +22808,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x08_P1.00mm_Vertical"
 			(at 459.74 241.3 0)
 			(effects
 				(font
@@ -22792,73 +22930,6 @@
 			(project "SongBeam4.0"
 				(path "/f44b7059-9785-4cac-90ba-9921ac2f98a1"
 					(reference "#PWR023")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Optical:SFH2701")
-		(at 109.22 168.91 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1a8a47b2-588f-4974-8527-251e8a10a24c")
-		(property "Reference" "Fault1"
-			(at 112.522 167.64 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SFH2701"
-			(at 108.204 171.45 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED-APA102-2020"
-			(at 109.22 164.465 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic6/00201111_0.pdf/SFH%202701.pdf"
-			(at 107.95 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High Speed PIN Photodiode, SMD package"
-			(at 109.22 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "e0e7420d-3454-4209-989b-0f059c32aa98")
-		)
-		(pin "1"
-			(uuid "a0c9f0be-6ebc-40b4-a69b-f18e9c10574b")
-		)
-		(instances
-			(project "SongBeam4.0"
-				(path "/f44b7059-9785-4cac-90ba-9921ac2f98a1"
-					(reference "Fault1")
 					(unit 1)
 				)
 			)
@@ -25357,7 +25428,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
 			(at 552.45 208.28 0)
 			(effects
 				(font
@@ -25535,73 +25606,6 @@
 			(project "SongBeam4.0"
 				(path "/f44b7059-9785-4cac-90ba-9921ac2f98a1"
 					(reference "#PWR058")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Sensor_Optical:SFH2701")
-		(at 25.4 179.07 180)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "428cde9d-b5ed-4469-9f4f-50bbd9334511")
-		(property "Reference" "CHG1"
-			(at 26.416 176.276 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "SFH2701"
-			(at 25.4 184.15 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED-APA102-2020"
-			(at 25.4 183.515 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.osram-os.com/Graphics/XPic6/00201111_0.pdf/SFH%202701.pdf"
-			(at 26.67 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "High Speed PIN Photodiode, SMD package"
-			(at 25.4 179.07 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "3668f954-02ba-42bb-a1d3-eeefadb62562")
-		)
-		(pin "1"
-			(uuid "fa866612-c645-4965-95d3-939901027b90")
-		)
-		(instances
-			(project ""
-				(path "/f44b7059-9785-4cac-90ba-9921ac2f98a1"
-					(reference "CHG1")
 					(unit 1)
 				)
 			)
@@ -27450,7 +27454,7 @@
 	(symbol
 		(lib_name "GND_11")
 		(lib_id "power:GND")
-		(at 106.68 163.83 90)
+		(at 106.68 161.29 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -27459,7 +27463,7 @@
 		(fields_autoplaced yes)
 		(uuid "573f308f-b5d2-4d98-bfaf-f49f08890696")
 		(property "Reference" "#PWR083"
-			(at 113.03 163.83 0)
+			(at 113.03 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27468,7 +27472,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 110.49 163.8301 90)
+			(at 110.49 161.2901 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27477,7 +27481,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 106.68 163.83 0)
+			(at 106.68 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27486,7 +27490,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 106.68 163.83 0)
+			(at 106.68 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27495,7 +27499,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 106.68 163.83 0)
+			(at 106.68 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27737,7 +27741,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x04_P1.00mm_Vertical"
 			(at 474.98 209.55 0)
 			(effects
 				(font
@@ -28564,7 +28568,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 518.16 265.43 0)
 			(effects
 				(font
@@ -29573,7 +29577,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 471.17 267.97 0)
 			(effects
 				(font
@@ -30847,7 +30851,7 @@
 	)
 	(symbol
 		(lib_id "power:VBUS")
-		(at 99.06 162.56 0)
+		(at 99.06 160.02 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -30856,7 +30860,7 @@
 		(fields_autoplaced yes)
 		(uuid "8ee41ccf-da9a-4009-a680-fc540cb0c15c")
 		(property "Reference" "#PWR074"
-			(at 99.06 166.37 0)
+			(at 99.06 163.83 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30865,7 +30869,7 @@
 			)
 		)
 		(property "Value" "VBUS"
-			(at 99.06 157.48 0)
+			(at 99.06 154.94 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30873,7 +30877,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 99.06 162.56 0)
+			(at 99.06 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30882,7 +30886,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 99.06 162.56 0)
+			(at 99.06 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -30891,7 +30895,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"VBUS\""
-			(at 99.06 162.56 0)
+			(at 99.06 160.02 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33818,7 +33822,7 @@
 	)
 	(symbol
 		(lib_id "Device:C_Small")
-		(at 104.14 163.83 270)
+		(at 104.14 161.29 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -33826,7 +33830,7 @@
 		(dnp no)
 		(uuid "c6d5d564-5619-433a-a5e9-03058fcfcf90")
 		(property "Reference" "C29"
-			(at 104.14 161.036 90)
+			(at 104.14 158.496 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33834,7 +33838,7 @@
 			)
 		)
 		(property "Value" "1uF"
-			(at 104.394 166.37 90)
+			(at 104.394 163.83 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33842,7 +33846,7 @@
 			)
 		)
 		(property "Footprint" "Capacitor_SMD:C_0805_2012Metric"
-			(at 104.14 163.83 0)
+			(at 104.14 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33851,7 +33855,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 104.14 163.83 0)
+			(at 104.14 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -33860,7 +33864,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 104.14 163.83 0)
+			(at 104.14 161.29 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -34155,6 +34159,125 @@
 			(project "SongBeam4.0"
 				(path "/f44b7059-9785-4cac-90ba-9921ac2f98a1"
 					(reference "C27")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "ledsSB:SFH_2716_A01")
+		(at 114.3 168.91 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c9452bf1-922b-4543-94e4-42bd3cd01406")
+		(property "Reference" "FAULT1"
+			(at 109.474 166.878 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "SFH_2716_A01"
+			(at 120.396 165.354 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "LEDSB:LEDC2012X100N"
+			(at 7.95 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://ams-osram.com/products/photodetectors/photodiodes/osram-chip-led-sfh-2716-a01"
+			(at -92.05 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Description" "Photodiodes ALS Photodiode ChipLED"
+			(at 114.3 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Height" "1"
+			(at -292.05 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Part Number" "720-SFH2716A01A0954"
+			(at -392.05 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Mouser Price/Stock" "https://www.mouser.co.uk/ProductDetail/ams-OSRAM/SFH-2716-A01?qs=%252BEew9%252B0nqrA30UiyZ6UN6g%3D%3D"
+			(at -492.05 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Name" "ams OSRAM"
+			(at -592.05 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(property "Manufacturer_Part_Number" "SFH 2716 A01"
+			(at -692.05 172.212 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left top)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "b6056ac3-d64f-4304-8f62-770a0ad72199")
+		)
+		(pin "2"
+			(uuid "a42a70f1-e06f-48ee-b9ff-8404af0da800")
+		)
+		(instances
+			(project ""
+				(path "/f44b7059-9785-4cac-90ba-9921ac2f98a1"
+					(reference "FAULT1")
 					(unit 1)
 				)
 			)
@@ -34720,7 +34843,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x02_P1.00mm_Vertical"
 			(at 298.45 243.84 0)
 			(effects
 				(font
@@ -36706,7 +36829,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x07_P1.00mm_Horizontal"
+		(property "Footprint" "Connector_PinHeader_1.00mm:PinHeader_1x07_P1.00mm_Vertical"
 			(at 547.37 173.99 0)
 			(effects
 				(font
