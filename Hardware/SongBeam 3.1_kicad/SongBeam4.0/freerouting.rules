@@ -1,0 +1,149 @@
+
+(rules PCB freerouting.dsn
+  (snap_angle 
+    fortyfive_degree
+  )
+  (autoroute_settings
+    (fanout off)
+    (autoroute off)
+    (postroute on)
+    (vias on)
+    (via_costs 50)
+    (plane_via_costs 5)
+    (start_ripup_costs 100)
+    (start_pass_no 1)
+    (layer_rule F.Cu
+      (active on)
+      (preferred_direction horizontal)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 4.2)
+    )
+    (layer_rule B.Cu
+      (active on)
+      (preferred_direction vertical)
+      (preferred_direction_trace_costs 1.0)
+      (against_preferred_direction_trace_costs 3.1)
+    )
+  )
+  (rule
+    (width 250.0)
+    (clearance 125.0)
+    (clearance 125.0 (type smd_to_turn_gap))
+    (clearance 31.4 (type smd))
+    (clearance 125.0 (type "kicad_default"))
+    (clearance 125.0 (type pow,POWER))
+    (clearance 125.0 (type pow,Default))
+    (clearance 125.0 (type POWER))
+  )
+  (padstack "Via[0-1]_400:250_um"
+    (shape
+      (circle F.Cu 400.0 0.0 0.0)
+    )
+    (shape
+      (circle B.Cu 400.0 0.0 0.0)
+    )
+    (attach off)
+  )
+  (via 
+    "Via[0-1]_400:250_um" "Via[0-1]_400:250_um" default
+  )
+  (via 
+    "Via[0-1]_400:250_um-kicad_default" "Via[0-1]_400:250_um" "kicad_default"
+  )
+  (via 
+    "Via[0-1]_400:250_um-pow,POWER" "Via[0-1]_400:250_um" pow,POWER
+  )
+  (via 
+    "Via[0-1]_400:250_um-pow,Default" "Via[0-1]_400:250_um" pow,Default
+  )
+  (via 
+    "Via[0-1]_400:250_um-POWER" "Via[0-1]_400:250_um" POWER
+  )
+  (via_rule
+    default "Via[0-1]_400:250_um"
+  )
+  (via_rule
+    "kicad_default" "Via[0-1]_400:250_um-kicad_default"
+  )
+  (via_rule
+    pow,POWER "Via[0-1]_400:250_um-pow,POWER"
+  )
+  (via_rule
+    pow,Default "Via[0-1]_400:250_um-pow,Default"
+  )
+  (via_rule
+    POWER "Via[0-1]_400:250_um-POWER"
+  )
+  (class default
+    (clearance_class default)
+    (via_rule default)
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class "kicad_default"
+    "Net-(BAT1-Pad1)" GND +1V8 "micGRP_1out_1.8V" "micGRP_2out_1.8V" "micGRP_3out_1.8V" "micGRP_4out_1.8V" "Net-(U9-VREF)"
+    "Net-(U9-MICBIAS)" "Net-(U9-AREG)" "Net-(U9-DREG)" "Net-(U19-RF_IN)" "Net-(D1-Pad1)" "Net-(D1-Pad3)" "Net-(D1-Pad4)" "Net-(D1-Pad2)"
+    "Net-(U10-VBAT)" "GPS_RTC" "SCL_MOSI_3.3V" "SHDNZ_3.3V" "FSYNC_TDM2_3.3V" "unconnected-(J3-Pad2)" "MCLK_TDM2_3.3V" "BCLK_TDM2_3.3V"
+    "unconnected-(J3-Pad1)" "OUTPUT_TDM2_3.3V" "SHDNZ_1.8V" "MCLK_TDM1_1.8V" "OUTPUT_TDM1_1.8V" "SDA_SSZ_1.8V" "BCLK_TDM1_1.8V" "SCL_MOSI_1.8V"
+    "FSYNC_TDM1_1.8V" testGRP1 testGRP3 testGRP4 testGRP2 "SDA_SSZ_3.3V" "FSYNC_TDM1_3.3V" "MCLK_TDM1_3.3V"
+    "OUTPUT_TDM1_3.3V" "BCLK_TDM1_3.3V" Done SENSORSDA sensorSCL TXGPS "GPS_ON" "GPS_EN"
+    TMPPS RXGPS "Net-(U19-VCC_RF)" TestGRP1 "Net-(U9-SDOUT)" "Net-(U10-16_A2_RX4_SCL1)" "Net-(U10-15_A1_RX3_SPDIF_IN)" "Net-(U10-14_A0_TX3_SPDIF_OUT)"
+    "emrg_pwr_swch" "battery voltage" "Net-(U12-D2)" "Net-(U14-DRV)" "unconnected-(SW2-Pad4)" "unconnected-(SW2-Pad2)" "Net-(U10-23_A9_CRX1_MCLK1)" "unconnected-(SW3-Pad4)"
+    "unconnected-(SW3-Pad2)" "micgrp_1IN_1.8V" "micGRP_2IN_1.8V" "micGRP_3IN_1.8V" "micGRP_4IN_1.8V" "FSYNC_1.8V" "unconnected-(U10-D+-Pad57)" "unconnected-(U10-38_CS1_IN1-Pad30)"
+    "unconnected-(U10-D+-Pad67)" "unconnected-(U10-37_CS-Pad29)" "unconnected-(U10-36_CS-Pad28)" "unconnected-(U10-R--Pad65)" "unconnected-(U10-22_A8_CTX1-Pad44)" "unconnected-(U10-8_TX2_IN1-Pad10)" "unconnected-(U10-3V3-Pad51)" "unconnected-(U10-ON_OFF-Pad54)"
+    "unconnected-(U10-PROGRAM-Pad53)" "unconnected-(U10-7_RX2_OUT1A-Pad9)" "unconnected-(U10-13_SCK_LED-Pad35)" "unconnected-(U10-5_IN2-Pad7)" "unconnected-(U10-27_A13_SCK1-Pad19)" "unconnected-(U10-11_MOSI_CTX1-Pad13)" "unconnected-(U10-10_CS_MQSR-Pad12)" "unconnected-(U10-GND-Pad64)"
+    "unconnected-(U10-R+-Pad60)" "unconnected-(U10-21_A7_RX5_BCLK1-Pad43)" "unconnected-(U10-T--Pad62)" "unconnected-(U10-D--Pad56)" "unconnected-(U10-GND-Pad58)" "unconnected-(U10-VUSB-Pad49)" "unconnected-(U10-4_BCLK2-Pad6)" "unconnected-(U10-GND-Pad59)"
+    "unconnected-(U10-LED-Pad61)" "unconnected-(U10-40_A16-Pad32)" "unconnected-(U10-D--Pad66)" "unconnected-(U10-0_RX1_CRX2_CS1-Pad2)" "unconnected-(U10-33_MCLK2-Pad25)" "unconnected-(U10-GND-Pad52)" "SLEEP_LATCH" "unconnected-(U10-T+-Pad63)"
+    "unconnected-(U10-20_A6_TX5_LRCLK1-Pad42)" "unconnected-(U10-5V-Pad55)" "unconnected-(U10-12_MISO_MQSL-Pad14)" "unconnected-(U13-NC-Pad7)" "unconnected-(U16-A4-Pad5)" "unconnected-(U16-B4-Pad16)" "unconnected-(U17-N_C-Pad4)" "Net-(U18-D)"
+    "unconnected-(U19-EXTINT-Pad5)" "unconnected-(U19-LNA_EN-Pad13)" "unconnected-(U19-RESET_N-Pad9)" "unconnected-(U19-VIO_SEL-Pad15)" "unconnected-(U19-SAFEBOOT_N-Pad18)" "unconnected-(U19-SDA-Pad16)" "unconnected-(U19-SCL-Pad17)" "Net-(D4-A)"
+    "unconnected-(J9-ID-Pad4)" "unconnected-(J9-D--Pad2)" "unconnected-(J9-D+-Pad3)"
+    (clearance_class "kicad_default")
+    (via_rule "kicad_default")
+    (rule
+      (width 250.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class pow,POWER
+    "Net-(U12-S2)"
+    (clearance_class pow,POWER)
+    (via_rule pow,POWER)
+    (rule
+      (width 350.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class pow,Default
+    "Net-(U13-VOS)" "Net-(U15-G1)" "Net-(D7-A)" "Net-(D7-K)" "Net-(U13-SW)" "Net-(U11-STAT2)" "Net-(U11-{slash}CE)" "Net-(U11-STAT1)"
+    "Net-(U11-ISET)" "Net-(R25-Pad1)" "Net-(R26-Pad1)" "Net-(U11-TS{slash}MR)" "Net-(U12-D1)" "Net-(U14-DELAY_M_DRV)" "Net-(U15-D1)" "Net-(U15-G2)"
+    "Net-(D6-A)" "Net-(CHG1-K)" "Net-(D4-K)" "Net-(FAULT1-K)"
+    (clearance_class pow,Default)
+    (via_rule pow,Default)
+    (rule
+      (width 350.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+  (class POWER
+    +3.3V VBAT +5V VBUS antenna "Net-(J1-Pin_2)" PWR "GPS_PWR"
+    "Net-(U13-VSET)"
+    (clearance_class POWER)
+    (via_rule POWER)
+    (rule
+      (width 500.0)
+    )
+    (circuit 
+      (use_layer F.Cu B.Cu)
+    )
+  )
+)

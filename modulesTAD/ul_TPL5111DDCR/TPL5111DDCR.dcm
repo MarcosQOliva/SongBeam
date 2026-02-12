@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TPL5111DDCR
+D Timers & Support Products Ultra Low Power System Timer (35 nA) for Power Gating in duty cycled applications 6-SOT-23-THIN -40 to 105
+K
+F http://www.ti.com/lit/ds/symlink/tpl5111.pdf
+$ENDCMP
+#
+#End Doc Library
