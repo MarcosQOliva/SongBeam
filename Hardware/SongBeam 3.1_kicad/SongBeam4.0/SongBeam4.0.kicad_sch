@@ -18745,7 +18745,7 @@
 			)
 		)
 	)
-	(global_label "TestGRP1"
+	(global_label "testGRP1"
 		(shape input)
 		(at 54.61 50.8 180)
 		(fields_autoplaced yes)
@@ -18757,7 +18757,7 @@
 		)
 		(uuid "26c6dd9e-d1f0-497e-8a01-805342e6be5b")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 42.7953 50.8 0)
+			(at 43.0372 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
