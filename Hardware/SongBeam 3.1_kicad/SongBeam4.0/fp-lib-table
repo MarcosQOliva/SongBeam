@@ -25,4 +25,5 @@
   (lib (name "79523211")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/LIB_79523211")(options "")(descr ""))
   (lib (name "10118192")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/LIB_10118192-0002LF")(options "")(descr ""))
   (lib (name "LEDSB")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/LIB_SFH_2716_A01")(options "")(descr ""))
+  (lib (name "GPSINDUCTOR")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/GJM1555C1H470JB01D")(options "")(descr ""))
 )
