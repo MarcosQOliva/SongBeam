@@ -1,0 +1,59 @@
+Id,Designator,Footprint,Quantity,Supplier and ref, MANUFACTURER, Manufacturer_Name, Manufacturer_Part_Number,Supplier part number,Supplier,Annotation
+1,U17,DBV0005A_N,1,LP5907MFX-1.8/NOPB,Texas Instruments,Texas Instruments,LP5907MFX-1.8/NOPB,595-LP5907MFX-1.8NPB,Mouser,
+2,"R14,R33,R8,R10,R12,R29,R28,R4,R16,R6",R_0805_2012Metric,10,100K,,,,0805-100K,PCBTrain,PCB Train free component stock
+3,"C13,C32,C9,C1,C24,C11,C15,C5,C18,C3,C7,C25,C21",C_0805_2012Metric,13,100nF,,,,0805-100nF-50V,PCBTrain,PCB Train free component stock
+4,"C14,C12,C2,C6,C8,C16,C4,C10",C_0805_2012Metric,8,47pF,,,,0805-47pF-50V,PCBTrain,PCB Train free component stock
+5,"R13,R17,R2,R7,R1,R11,R9,R5,R15,R3",R_0805_2012Metric,10,100R,,,,0805-100R,PCBTrain,PCB Train free component stock
+6,"U7,U4,U5,U8,U6,U1,U3,U2",IFX-PG-TLGA-5N-9-V,8,IM66D132H,Infineon Technologies ,Infineon Technologies ,IM66D132HV01XTMA1,726-IM66D132HV01XTMA,Mouser,
+7,U9,PCMD3180IRTWR,1,PCMD3180,Texas Instruments,Texas Instruments,PCMD3180IRTWR,595-PCMD3180IRTWR,Mouser,
+8,"TP8,TP2,TP1,TP7",TestPoint_Pad_D1.0mm,4,TestPoint,,,,,PCBTrain,PCB Train free component stock
+9,JP1,SolderJumper-2_P1.3mm_Bridged_RoundedPad1.0x1.5mm,1,SolderJumper_2_Bridged,,,,,PCBTrain,PCB Train free component stock
+10,"C26,C22,C23",C_0805_2012Metric,3,10uF,,,,0805-10uF-16V,PCBTrain,PCB Train free component stock
+11,J8,PinHeader_1x08_P1.00mm_Vertical,1,Conn_01x08,,,,,,
+12,D7,D_MiniMELF,1,BZV55B5V1,Nexperia USA Inc.,Nexperia USA Inc.,"BZV55-B5V1,115","BZV55-B5V1,115",Digikey,
+13,U11,BQ25185DLHR,1,WSON10_DLH_TEX,Texas Instruments,Texas Instruments,BQ25185DLHR,595-BQ25185DLHR,Mouser,
+14,"J1,J12,J11",PinHeader_1x02_P1.00mm_Vertical,3,Conn_01x02,,,,,,
+15,"C34,C35",C_0805_2012Metric,2,0.1uF,,,,0805-0.1uF-25V,PCBTrain,PCB Train free component stock
+16,R36,R_0805_2012Metric,1,NC,,,,0805-4.7uF-16V,PCBTrain,PCB Train free component stock
+17,"J5,J7",PinHeader_1x04_P1.00mm_Vertical,2,Conn_01x04,,,,,,
+18,"R18,R19",R_0805_2012Metric,2,330R,,,,0805-330R,PCBTrain,PCB Train free component stock
+19,"R38,R22",R_0805_2012Metric,2,10K,,,,0805-10K,PCBTrain,PCB Train free component stock
+20,"U12,U15",AO6604,2,TSOP6_AOS,Alpha & Omega Semiconductor Inc.,Alpha & Omega Semiconductor Inc.,AO6604,AO6604,Digikey,
+21,"R23,R21",R_0805_2012Metric,2,1K,,,,0805-1K,PCBTrain,PCB Train free component stock
+22,U19,MAX-M10M-00B,1,MOD18_MAX-M10M_UBL,u-blox ,u-blox ,MAX-M10M-00B,377-MAX-M10M-00B,Mouser,
+23,"J6,J4",PinHeader_1x07_P1.00mm_Vertical,2,Conn_01x07,,,,,,
+24,C33,C_0201_0603Metric,1,1000nF,,,,0805-1000nF-50V,PCBTrain,PCB Train free component stock
+25,"D6,D4,D5",SOD3716X135N,3,MBRX120LF-TP,Micro Commercial Components (MCC) ,Micro Commercial Components (MCC) ,MBRX120LF-TP,833-MBRX120LF-TP,Mouser,
+26,"C44,C43",C_0805_2012Metric,2,1µF,,,,0805-1uF-25V,PCBTrain,PCB Train free component stock
+27,"FAULT1,CHG1",LEDC2012X100N,2,SFH_2716_A01,ams OSRAM ,ams OSRAM ,SFH 2716 A01,720-SFH2716A01A0954,Mouser,
+28,D2,SOT-323_SC-70,1,BAT54AW,Diotec Semiconductor ,Diotec Semiconductor ,BAT54AW,637-BAT54AW,Mouser,
+29,"SW3,SW2",SW4_PTS815 SJM 250 SMTR LFS_CNK,2,PTS815 SJM 250 SMTR LFS,C&K ,C&K ,PTS815SJM250SMTR LFS,611-PTS815SJM250SMTR,Mouser,
+30,R26,R_0805_2012Metric,1,5.1k,,,,0805-5.1K,PCBTrain,PCB Train free component stock
+31,R34,R_0805_2012Metric,1,1k,,,,0805-1K,PCBTrain,PCB Train free component stock
+32,R25,R_0805_2012Metric,1,6.8k,,,,0805-6.8K,PCBTrain,PCB Train free component stock
+33,"C20,C29,C19,C17",C_0805_2012Metric,4,1uF,,,,0805-1uF-25V,PCBTrain,PCB Train free component stock
+34,U14,SOT95P280X110-6N,1,TPL5111DDCR,Texas Instruments,Texas Instruments,TPL5111DDCR,595-TPL5111DDCR,Mouser,
+35,"C27,C28,C38",C_0805_2012Metric,3,22uF,,,,0805-22uF-25V,PCBTrain,PCB Train free component stock
+36,D1,LED-APA102-2020,1,APHF1608LSEEQBDZGKC,Kingbright ,Kingbright ,APHF1608LSEEQBDZGKC,604-APHF1608LQBDZGKC,Mouser,
+37,"R35,R39",R_0805_2012Metric,2,100k,,,,0805-100K,PCBTrain,PCB Train free component stock
+38,U13,TPS62842DGRR,1,TPS62842,Texas Instruments,Texas Instruments,TPS62842DGRR,595-TPS62842DGRR,Mouser,
+39,"R37,R30",R_0805_2012Metric,2,1M,,,,0805-1M,PCBTrain,PCB Train free component stock
+40,L1,1286ASH1R0MP2,1,DFE201612E-2R2M=P2, Murata Electronics, Murata Electronics,DFE201612E-2R2M=P2,81-DFE201612E-2R2MP2,Mouser,
+41,J9,101181920002LF,1,USB_B_Micro,,,10118192-0002LF,,PCBTrain,PCB Train free component stock
+42,"J3,J2",CONN_RJHSE-3380_AMP,2,RJ45,Amphenol Commercial Products ,Amphenol Commercial Products ,RJHSE3380A1,523-RJHSE3380A1,Mouser,
+43,C41,C_0805_2012Metric,1,4.7µF,,,,0805-4.7uF-25V,PCBTrain,PCB Train free component stock
+44,U18,SOT-23-3L_AOS,1,AO3407A,Infineon Technologies ,Infineon Technologies ,IRLML9301TRPBF,942-IRLML9301TRPBF,Mouser,
+45,C40,C_0805_2012Metric,1,10µF,,,,0805-10uF-25V,PCBTrain,PCB Train free component stock
+46,F3,MINISMDC050F2,1,Polyfuse,Littelfuse ,Littelfuse ,MINISMDC050F-2,650-MINISMDC050F-2,,
+47,U10,Teensy41,1,Teensy4.1,,,,,PCBTrain,PCB Train free component stock
+48,R20,R_0805_2012Metric,1,750R,,,,0805-750R,PCBTrain,PCB Train free component stock
+49,C39,C_0201_0603Metric,1,56pF,,,,0805-56pF-50V,PCBTrain,PCB Train free component stock
+50,R27,R_0805_2012Metric,1,10k,,,,0805-10K,PCBTrain,PCB Train free component stock
+51,J10,CONN_73251-1150_MOL,1,732511150,Molex,Molex,73251-1150,538-73251-1150,Mouser,
+52,BAT1,79523211,1,3034,,,,,,
+53,S2,SLW126894AND,1,SLW-12689-4A-N-D,Same Sky ,Same Sky ,SLW-12689-4A-N-D,179-SLW126894AND,Mouser,
+54,R24,R_0805_2012Metric,1,300,,,,0805-300,PCBTrain,PCB Train free component stock
+55,L2,LQM2HPN1R0MG0L,1,27nH,Murata Electronics,Murata Electronics,LQM2HPN1R0MG0L , 81-LQM2HPN1R0MG0L ,PCBTrain,PCB Train free component stock
+56,U16,TSSOP-20_4.4x6.5mm_P0.65mm,1,TXS0108EPW,Texas Instruments,Texas Instruments,TXS0108EPWR,595-TXS0108EPWR,Mouser,
+57,R40,R_0805_2012Metric,1,267K,Vishay / Dale,CRCW0805267KFKEA,CRCW0805267KFKEA,71-CRCW0805267KFKEA,Mouser,
+58,R31,R_0805_2012Metric,1,105K,Vishay / Dale,CRCW0805105KFKEAC,CRCW0805105KFKEAC,71-CRCW0805105KFKEAC,Mouser,

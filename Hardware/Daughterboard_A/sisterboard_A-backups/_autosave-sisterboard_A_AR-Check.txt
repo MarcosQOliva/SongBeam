@@ -1,0 +1,11 @@
+AR checking written on:
+'/Users/mqo/Documents/GitHub/SongBeam/Hardware/SongBeam 3.1_kicad/sisterboard_A/_autosave-sisterboard_A_AR-Check.txt'
+'action_menu_annular_check.py'
+version = 1.7.2
+Testing PCB for Annular Rings
+TH Pads >= 0.125 Vias >= 0.125
+PHD margin on PTH = 0
+
+VIAS that Pass = 70; Fails = 0
+TH PADS that Pass = 18; Fails = 0
+NPTH PADS that Pass = 0; Fails = 0

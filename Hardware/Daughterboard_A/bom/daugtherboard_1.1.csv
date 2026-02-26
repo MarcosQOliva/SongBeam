@@ -1,0 +1,15 @@
+,References,Footprint,Quantity,Value, Manufacturer_Name, Manufacturer_Part_Number,Supplier part number,Supplier,Annotation
+1,"C1, C3, C5, C7, C9, C11, C13, C15, C18, C21, C24, C25, C34, C35",C_0805_2012Metric,14,100nF,,0805-100nF-50V,0805-100nF-50V,PCBTrain,Newbury free stock
+2,"C2, C4, C6, C8, C10, C12, C14, C16",C_0805_2012Metric,8,47pF,,0805-47pF-50V,0805-47pF-50V,PCBTrain,Newbury free stock
+3,"C17, C19, C20, C43, C44",C_0805_2012Metric,5,1uF,,0805-1uF-25V,0805-1uF-25V,PCBTrain,Newbury free stock
+4,"C22, C23, C26",C_0805_2012Metric,3,10uF,,0805-10uF-16V,0805-10uF-16V,PCBTrain,Newbury free stock
+5,"R1, R2, R3, R5, R7, R9, R11, R13, R15, R17",R_0805_2012Metric,10,100R,,0805-100R,0805-100R,PCBTrain,Newbury free stock
+6,"R4, R6, R8, R10, R12, R14, R16",R_0805_2012Metric,7,100K,,0805-100K,0805-100K,PCBTrain,Newbury free stock
+7,R38,R_0805_2012Metric,1,10K,,0805-10K,0805-10K,PCBTrain,Newbury free stock
+8,"U1, U2, U3, U4, U5, U6, U7, U8",IFX-PG-TLGA-5N-9-V,8,IM66D132H,Infineon Technologies ,IM66D132HV01XTMA1,726-IM66D132HV01XTMA,Mouser,
+9,U9,PCMD3180IRTWR,1,PCMD3180IRTWR,Texas Instruments,PCMD3180IRTWR,595-PCMD3180IRTWR,Mouser,
+10,U16,TSSOP-20_4.4x6.5mm_P0.65mm,1,TXS0108EPW,Texas Instruments,TXS0108EPWR,595-TXS0108EPWR,Mouser,
+11,U17,DBV0005A_N,1,LP5907MFX-1.8/NOPB,Texas Instruments,LP5907MFX-1.8/NOPB,595-LP5907MFX-1.8NPB,Mouser,
+13,"J2, J3",CONN_RJHSE-3380_AMP,2,RJ45,Amphenol Commercial Products ,RJHSE3380A1,523-RJHSE3380A1,Mouser,
+14,"J4, J6",,,,,,,,
+15,J5,,,,,,,,

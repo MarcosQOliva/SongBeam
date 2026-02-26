@@ -1,0 +1,12 @@
+### Module positions - created on 2026-01-10 21:16
+### Printed by pcb_positions plugin
+## Unit = mm, Angle = deg.
+## Pcb Height 41.900mm, Pcb Width 161.350mm [based on Edge bounding box]
+## Side : top
+## Board Aux Origin: 0.000mm ,0.000mm
+# Ref         Val                 Package                       PosX       PosY       Pin1_PosX  Pin1_PosY    Rot     Side      Type
+U10           LP5907MFX-1.8_NOPB  LP5907MFX-1.2&slash_NOPB      188.6750   -101.7470  187.3000   -100.7970     0.0    top       THD
+J1            RJ45                RJ45_Molex_9346520x_Horizon.. 84.8500    -92.2700   0.0000     0.0000       -9.0    top       THD
+U1            QFN_0IRTWR_TEX      PCMD3180IRTWR                 152.4550   -95.0452   151.2047   -97.0113      9.0    top       THD
+J2            Conn_01x04          PinSocket_1x04_P2.54mm_Vert.. 189.1500   -84.4750   189.1500   -84.4750      0.0    top       THD
+## End
