@@ -4874,14 +4874,6 @@
 		(uuid "fb20fd42-a792-4bdc-9db4-6fae4d7e2164")
 	)
 	(no_connect
-		(at 83.82 185.42)
-		(uuid "4a2d7076-1eb8-4ca3-bd84-1d0dd81bf1b8")
-	)
-	(no_connect
-		(at 83.82 182.88)
-		(uuid "68e6ea40-4759-44d1-8e93-c065a8e58bd2")
-	)
-	(no_connect
 		(at 328.93 53.34)
 		(uuid "75314a24-82a6-4316-b62b-8b91bb0a06e0")
 	)
@@ -15688,6 +15680,73 @@
 		)
 	)
 	(symbol
+		(lib_name "GND_8")
+		(lib_id "power:GND")
+		(at 83.82 182.88 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "c6becc95-ecfe-48d8-94d1-a9df8b3ee64d")
+		(property "Reference" "#PWR02"
+			(at 90.17 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.948 182.626 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 182.88 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "5cdd1fc5-6c25-42de-97b3-6f1f692c050f")
+		)
+		(instances
+			(project "daugtherboard_1.1"
+				(path "/20cc9ad0-b159-4b68-8c55-e2948c23be5b"
+					(reference "#PWR02")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:C_Small")
 		(at 312.42 30.48 0)
 		(unit 1)
@@ -15884,6 +15943,73 @@
 			(project "daugtherboard_1.1"
 				(path "/20cc9ad0-b159-4b68-8c55-e2948c23be5b"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "GND_8")
+		(lib_id "power:GND")
+		(at 83.82 185.42 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "caeeb1b5-d34a-422b-8227-445984d999f8")
+		(property "Reference" "#PWR03"
+			(at 90.17 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 91.948 185.166 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 83.82 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 83.82 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 83.82 185.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "fab2f0b1-6ddd-43ee-8e79-b3b81614e5ca")
+		)
+		(instances
+			(project "daugtherboard_1.1"
+				(path "/20cc9ad0-b159-4b68-8c55-e2948c23be5b"
+					(reference "#PWR03")
 					(unit 1)
 				)
 			)
