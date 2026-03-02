@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP L86-M33
+D GPS/GLONASS receiver + antenna pack of 1
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets_SAMA/d9c8c7b89a7ac852e6b026dd2100f946.pdf
+$ENDCMP
+#
+#End Doc Library

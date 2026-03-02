@@ -1,0 +1,31 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model DTC143ZEBTL
+#/471759/1892340/2.50/3/2/Transistor BJT NPN
+DEF DTC143ZEBTL Q 0 30 Y Y 1 F N
+F0 "Q" 550 50 50 H V L CNN
+F1 "DTC143ZEBTL" 550 -50 50 H V L CNN
+F2 "SOTFL50P160X85-3N" 550 -150 50 H I L CNN
+F3 "https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/dtc143ze3-e.pdf" 550 -250 50 H I L CNN
+F4 "NPN, SOT-416FL, R1R2 Leak Absorption Type Digital Transistor (Bias Resistor Built-in Transistor)" 550 -350 50 H I L CNN "Description"
+F5 "0.85" 550 -450 50 H I L CNN "Height"
+F6 "755-DTC143ZEBTL" 550 -550 50 H I L CNN "Mouser Part Number"
+F7 "https://www.mouser.co.uk/ProductDetail/ROHM-Semiconductor/DTC143ZEBTL?qs=IsRgwgmxh6%252Bn%252Bp0edl8N%2Fw%3D%3D" 550 -650 50 H I L CNN "Mouser Price/Stock"
+F8 "ROHM Semiconductor" 550 -750 50 H I L CNN "Manufacturer_Name"
+F9 "DTC143ZEBTL" 550 -850 50 H I L CNN "Manufacturer_Part_Number"
+DRAW
+X ~ 1 0 0 100 R 50 50 0 0 P
+X ~ 2 400 -300 100 U 50 50 0 0 P
+X ~ 3 400 300 100 D 50 50 0 0 P
+P 2 0 1 20 300 100 300 -100 N
+P 2 0 1 6 300 50 400 150 N
+P 2 0 1 6 300 -50 400 -150 N
+P 2 0 1 6 400 -150 400 -200 N
+P 2 0 1 6 400 150 400 200 N
+P 2 0 1 6 100 0 300 0 N
+C 350 0 158 0 1 10 N
+P 4 0 1 10 330 -100 350 -80 370 -120 330 -100 F
+ENDDRAW
+ENDDEF
+#
+#End Library

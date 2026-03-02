@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP PCMD3180IRTWT
+D Audio A/D Converter ICs 8-channel PDM input to TDM or I2S output converter 24-WQFN -40 to 125
+K
+F https://www.ti.com/lit/ds/symlink/pcmd3180.pdf?ts=1631238941339
+$ENDCMP
+#
+#End Doc Library

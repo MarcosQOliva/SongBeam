@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP DTC143ZEBTL
+D NPN, SOT-416FL, R1R2 Leak Absorption Type Digital Transistor (Bias Resistor Built-in Transistor)
+K
+F https://fscdn.rohm.com/en/products/databook/datasheet/discrete/transistor/digital/dtc143ze3-e.pdf
+$ENDCMP
+#
+#End Doc Library

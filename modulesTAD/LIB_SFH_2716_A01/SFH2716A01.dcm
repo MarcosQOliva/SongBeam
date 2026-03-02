@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SFH2716A01
+D Photodiode 620nm 120 0805 (2012 Metric)
+K
+F https://look.ams-osram.com/m/7b1e3a693e76b757/original/SFH-2716-A01.pdf
+$ENDCMP
+#
+#End Doc Library

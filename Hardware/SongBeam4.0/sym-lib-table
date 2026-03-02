@@ -16,4 +16,6 @@
   (lib (name "MBRX120LF")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/LIB_MBRX120LF-TP/MBRX120LF-TP.kicad_sym")(options "")(descr ""))
   (lib (name "ledsSB")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/LIB_SFH_2716_A01/SFH_2716_A01.kicad_sym")(options "")(descr ""))
   (lib (name "inductor GPS")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/GJM1555C1H470JB01D/GJM1555C1H470JB01D.kicad_sym")(options "")(descr ""))
+  (lib (name "GPS")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/LIB_L86-M33/L86-M33.kicad_sym")(options "")(descr ""))
+  (lib (name "DTC")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/LIB_DTC143ZEBTL/DTC143ZEBTL.kicad_sym")(options "")(descr ""))
 )

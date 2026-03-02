@@ -1,0 +1,23 @@
+### Missing 3D models - created on 2026-03-02 13:11
+### Printed by checking_3D_models plugin
+Board file: /Users/mqo/Documents/GitHub/SongBeam/Hardware/SongBeam4.0/SongBeam4.0.kicad_pcb
+3D missing models written to:
+/Users/mqo/Documents/GitHub/SongBeam/Hardware/SongBeam4.0/SongBeam4.0_missing3Dmodels.txt
+-------
+('D8', '/Users/mqo/Documents/GitHub/SongBeam/Hardware/SongBeam4.0/MBRX120LF-TP.stp')
+('D6', '/Users/mqo/Documents/GitHub/SongBeam/Hardware/SongBeam4.0/MBRX120LF-TP.stp')
+('FAULT1', '/Users/mqo/Documents/GitHub/SongBeam/Hardware/SongBeam4.0/SFH_2716_A01.stp')
+('U14', '/Users/mqo/Documents/GitHub/SongBeam/Hardware/SongBeam4.0/TPL5111DDCR.stp')
+('CHG1', '/Users/mqo/Documents/GitHub/SongBeam/Hardware/SongBeam4.0/SFH_2716_A01.stp')
+('D4', '/Users/mqo/Documents/GitHub/SongBeam/Hardware/SongBeam4.0/MBRX120LF-TP.stp')
+('D1', '/Applications/KiCad/KiCad.app/Contents/SharedSupport/3dmodels/LED_SMD.3dshapes/LED-APA102-2020.step')
+('L1', '/Users/mqo/Documents/GitHub/SongBeam/Hardware/SongBeam4.0/DFE201612E-2R2M=P2.stp')
+('J9', '/Users/mqo/Documents/GitHub/SongBeam/Hardware/SongBeam4.0/10118192-0002LF.stp')
+('D5', '/Users/mqo/Documents/GitHub/SongBeam/Hardware/SongBeam4.0/MBRX120LF-TP.stp')
+('F3', '/Users/mqo/Documents/GitHub/SongBeam/Hardware/SongBeam4.0/MINISMDC050F-2.stp')
+('U10', '${KICAD_USER_DIR}/teensy.pretty/Teensy_4.1_Assembly.STEP')
+('BAT1', '/Users/mqo/Documents/GitHub/SongBeam/Hardware/SongBeam4.0/79523211.stp')
+('S2', '/Users/mqo/Documents/GitHub/SongBeam/Hardware/SongBeam4.0/SLW-12689-4A-N-D.stp')
+-------
+NUM of 3D missing models:14
+checked extensions ['.stp', '.step', '.stpZ']

@@ -494,6 +494,20 @@
         "wire_width": 6
       },
       {
+        "clearance": 0.4,
+        "diff_pair_gap": 0.25,
+        "diff_pair_width": 0.25,
+        "microvia_diameter": 0.3,
+        "microvia_drill": 0.1,
+        "name": "ANTENNA",
+        "pcb_color": "rgb(0, 0, 255)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 1.6,
+        "via_diameter": 1.6,
+        "via_drill": 1.0
+      },
+      {
         "bus_width": 12,
         "clearance": 0.1,
         "diff_pair_gap": 0.25,
@@ -503,7 +517,7 @@
         "microvia_drill": 0.1,
         "name": "POWER",
         "pcb_color": "rgb(255, 132, 17)",
-        "priority": 1,
+        "priority": 2,
         "schematic_color": "rgb(255, 120, 44)",
         "track_width": 0.5,
         "via_diameter": 0.4,
@@ -518,7 +532,7 @@
         "microvia_drill": 0.1,
         "name": "pow",
         "pcb_color": "rgb(175, 255, 12)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.35,
         "via_diameter": 0.4,
@@ -552,7 +566,7 @@
         "pattern": "VBAT"
       },
       {
-        "netclass": "POWER",
+        "netclass": "ANTENNA",
         "pattern": "antenna"
       },
       {
@@ -654,6 +668,10 @@
       {
         "netclass": "pow",
         "pattern": "Net-(D4-K)"
+      },
+      {
+        "netclass": "POWER",
+        "pattern": "GPS_PWR_M"
       }
     ]
   },
@@ -772,7 +790,7 @@
       "version": 1
     },
     "net_format_name": "",
-    "page_layout_descr_file": "§",
+    "page_layout_descr_file": "",
     "plot_directory": "",
     "space_save_all_events": true,
     "spice_current_sheet_as_root": false,
