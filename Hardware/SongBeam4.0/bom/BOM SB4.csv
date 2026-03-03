@@ -1,7 +1,7 @@
 Designator,Value,Footprint,Quantity, Manufacturer_Name, Manufacturer_Part_Number,Supplier part number,Supplier,Annotation
-"C1, C3, C5, C7, C9, C13, C15, C18, C21, C24, C25, C32, C34, C35, C37, C45",100nF,C_0805_2012Metric,16,,,0805-100nF-50V,PCBTrain,Newbury free stock
-"C2, C4, C6, C8, C10, C14, C16",47pF,C_0805_2012Metric,7,,,0805-47pF-50V,PCBTrain,Newbury free stock
-"C17, C19, C20, C43, C44",1µF,C_0805_2012Metric,5,,,0805-1uF-25V,PCBTrain,Newbury free stock
+"C1, C3, C5, C7, C9, C13, C15, C18, C21, C24, C25, C32, C34, C35, C37, C45",100nF,C_0805_2012Metric,17,,,0805-100nF-50V,PCBTrain,Newbury free stock
+"C2, C4, C6, C8, C10, C14, C16",47pF,C_0805_2012Metric,8,,,0805-47pF-50V,PCBTrain,Newbury free stock
+"C17, C19, C20, C43, C44",1µF,C_0805_2012Metric,4,,,0805-1uF-25V,PCBTrain,Newbury free stock
 "C22, C23, C26, C40",10uF,C_0805_2012Metric,4,,,0805-10uF-16V,PCBTrain,Newbury free stock
 "C27, C28, C29, C38",22uF,C_0805_2012Metric,4,,,0805-22uF-16V,PCBTrain,Newbury free stock
 "C41, C42",4.7µF,C_0805_2012Metric,2,,,0805-4.7uF-25V,PCBTrain,Newbury free stock
@@ -21,7 +21,7 @@ L1,DFE201612E-2R2M=P2,1286ASH1R0MP2,1, Murata Electronics,DFE201612E-2R2M=P2,81-
 "D5, D6",MBRX120LF-TP,SOD3716X135N,2,Micro Commercial Components (MCC) ,MBRX120LF-TP,833-MBRX120LF-TP,Mouser,
 D1,APHF1608LSEEQBDZGKC,LED-APA102-2020,1,Kingbright ,APHF1608LSEEQBDZGKC,604-APHF1608LQBDZGKC,Mouser,
 D2,BAT54AW,SOT-323_SC-70,1,Diotec Semiconductor ,BAT54AW,637-BAT54AW,Mouser,
-"U1, U2, U3, U4, U5, U7, U8",IM66D132H,IFX-PG-TLGA-5N-9-V,7,Infineon Technologies ,IM66D132HV01XTMA1,726-IM66D132HV01XTMA,Mouser,
+"U1, U2, U3, U4, U5, U7, U8",IM66D132H,IFX-PG-TLGA-5N-9-V,8,Infineon Technologies ,IM66D132HV01XTMA1,726-IM66D132HV01XTMA,Mouser,
 "U12, U15",AO6604,AO6604,2,Alpha & Omega Semiconductor Inc.,AO6604,AO6604,Digikey,
 U9,PCMD3180IRTWR,PCMD3180IRTWR,1,Texas Instruments,PCMD3180IRTWR,595-PCMD3180IRTWR,Mouser,
 U11,BQ25185DLHR,BQ25185DLHR,1,Texas Instruments,BQ25185DLHR,595-BQ25185DLHR,Mouser,
