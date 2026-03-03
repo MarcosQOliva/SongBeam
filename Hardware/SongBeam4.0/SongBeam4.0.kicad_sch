@@ -10,7 +10,7 @@
 		(rev "4.1")
 		(company "Royal Holloway")
 		(comment 1 "Creative Commons Attribution 4.0 International License")
-		(comment 2 "Sohil, Saaria., Lachlan, Robert.")
+		(comment 2 "Lachlan, Robert.")
 		(comment 3 "Q. Oliva, Marcos., Lies, Zandberg.,")
 	)
 	(lib_symbols
@@ -32226,7 +32226,7 @@
 				)
 			)
 		)
-		(property "Value" "300"
+		(property "Value" "300R"
 			(at 132.334 191.008 90)
 			(effects
 				(font
