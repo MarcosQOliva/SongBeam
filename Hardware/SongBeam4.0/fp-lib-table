@@ -28,5 +28,5 @@
   (lib (name "GPSINDUCTOR")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/GJM1555C1H470JB01D")(options "")(descr ""))
   (lib (name "GPS")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/LIB_L86-M33")(options "")(descr ""))
   (lib (name "DTC")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/LIB_DTC143ZEBTL")(options "")(descr ""))
-  (lib (name "RJHSE5380")(type "KiCad")(uri "C:/Users/PPJT203/Documents/GitHub/SongBeam/modulesTAD/RJHSE5380")(options "")(descr ""))
+  (lib (name "RJHSE5380")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/RJHSE5380")(options "")(descr ""))
 )
