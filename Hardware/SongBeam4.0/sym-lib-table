@@ -18,4 +18,5 @@
   (lib (name "inductor GPS")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/GJM1555C1H470JB01D/GJM1555C1H470JB01D.kicad_sym")(options "")(descr ""))
   (lib (name "GPS")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/LIB_L86-M33/L86-M33.kicad_sym")(options "")(descr ""))
   (lib (name "DTC")(type "KiCad")(uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/LIB_DTC143ZEBTL/DTC143ZEBTL.kicad_sym")(options "")(descr ""))
+  (lib (name "Ethernet R/A")(type "KiCad")(uri "C:/Users/PPJT203/Documents/GitHub/SongBeam/modulesTAD/RJHSE5380/2026-04-28_10-55-05.kicad_sym")(options "")(descr ""))
 )
