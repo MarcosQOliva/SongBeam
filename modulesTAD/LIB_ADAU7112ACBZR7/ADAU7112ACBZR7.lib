@@ -1,0 +1,32 @@
+EESchema-LIBRARY Version 2.3
+#encoding utf-8
+#SamacSys ECAD Model ADAU7112ACBZR7
+#/3639473/1892340/2.50/9/3/Integrated Circuit
+DEF ADAU7112ACBZR7 IC 0 30 Y Y 1 F N
+F0 "IC" 1250 300 50 H V L CNN
+F1 "ADAU7112ACBZR7" 1250 200 50 H V L CNN
+F2 "BGA9C40P3X3_126X126X56" 1250 100 50 H I L CNN
+F3 "https://www.analog.com/media/en/technical-documentation/data-sheets/ADAU7112.pdf" 1250 0 50 H I L CNN
+F4 "Audio A/D Converter ICs 2-Ch PDM to PCM Converter" 1250 -100 50 H I L CNN "Description"
+F5 "0.56" 1250 -200 50 H I L CNN "Height"
+F6 "Analog Devices" 1250 -300 50 H I L CNN "Manufacturer_Name"
+F7 "ADAU7112ACBZR7" 1250 -400 50 H I L CNN "Manufacturer_Part_Number"
+F8 "584-AU7112ACBZR7" 1250 -500 50 H I L CNN "Mouser Part Number"
+F9 "https://www.mouser.co.uk/ProductDetail/Analog-Devices/ADAU7112ACBZR7?qs=P1JMDcb91o5T7iep7G6iTg%3D%3D" 1250 -600 50 H I L CNN "Mouser Price/Stock"
+F10 "" 1250 -700 50 H I L CNN "Arrow Part Number"
+F11 "" 1250 -800 50 H I L CNN "Arrow Price/Stock"
+DRAW
+X DVDD A1 0 0 200 R 50 50 0 0 P
+X GND A2 0 -100 200 R 50 50 0 0 P
+X IOVDD A3 0 -200 200 R 50 50 0 0 P
+X SDATA B1 0 -300 200 R 50 50 0 0 P
+X CONFIG B2 0 -400 200 R 50 50 0 0 P
+X PDM_DAT B3 1400 0 200 L 50 50 0 0 P
+X FSYNC C1 1400 -100 200 L 50 50 0 0 P
+X BCLK C2 1400 -200 200 L 50 50 0 0 P
+X PDM_CLK C3 1400 -300 200 L 50 50 0 0 P
+P 5 0 1 6 200 100 1200 100 1200 -500 200 -500 200 100 N
+ENDDRAW
+ENDDEF
+#
+#End Library

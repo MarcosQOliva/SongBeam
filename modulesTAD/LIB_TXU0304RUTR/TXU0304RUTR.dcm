@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP TXU0304RUTR
+D Voltage Level Translator Unidirectional 1 Circuit 4 Channel 200Mbps 12-UQFN (1.7x2)
+K
+F https://www.ti.com/lit/ds/symlink/txu0304.pdf?ts=1639421481953&ref_url=https%253A%252F%252Fwww.ti.com%252Fproduct%252FTXU0304%253FkeyMatch%253DTXU0304BQAR%2526tisearch%253Dsearch-everything%2526usecase%253DOPN
+$ENDCMP
+#
+#End Doc Library

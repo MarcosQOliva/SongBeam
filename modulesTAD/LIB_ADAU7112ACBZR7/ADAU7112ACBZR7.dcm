@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP ADAU7112ACBZR7
+D Audio A/D Converter ICs 2-Ch PDM to PCM Converter
+K
+F https://www.analog.com/media/en/technical-documentation/data-sheets/ADAU7112.pdf
+$ENDCMP
+#
+#End Doc Library

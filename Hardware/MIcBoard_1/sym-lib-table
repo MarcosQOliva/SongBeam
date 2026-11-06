@@ -1,0 +1,6 @@
+(sym_lib_table
+	(version 7)
+	(lib (name "Moudles SongBEAM") (type "KiCad") (uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD") (options "") (descr ""))
+	(lib (name "ADAU7112ACBZR7") (type "KiCad") (uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/LIB_ADAU7112ACBZR7/ADAU7112ACBZR7.kicad_sym") (options "") (descr ""))
+	(lib (name "TXU0304RUTR") (type "KiCad") (uri "/Users/mqo/Documents/GitHub/SongBeam/modulesTAD/LIB_TXU0304RUTR/TXU0304RUTR.kicad_sym") (options "") (descr ""))
+)
