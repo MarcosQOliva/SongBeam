@@ -14393,7 +14393,7 @@
 				)
 			)
 		)
-		(property "Value" "TeensyIN"
+		(property "Value" "+3.3V"
 			(at 198.12 157.4799 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14872,7 +14872,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "22µF"
 			(at 275.082 91.948 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17204,7 +17204,7 @@
 				)
 			)
 		)
-		(property "Value" "TeensyIN"
+		(property "Value" "+3.3V"
 			(at 304.8 158.7499 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -17269,7 +17269,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "49902664-db59-4677-922b-327e5e157f7e")
 		(property "Reference" "C5"
 			(at 118.364 80.01 90)
@@ -19900,7 +19900,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "511K"
+		(property "Value" "634K"
 			(at 249.1486 68.453 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -24298,8 +24298,8 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 113.03 38.1 0)
+		(property "Description" "MAKE SURE IS 25V rated"
+			(at 127.508 35.306 90)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
