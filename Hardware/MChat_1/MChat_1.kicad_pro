@@ -8,7 +8,7 @@
       "internal_id": "",
       "mfg": "",
       "mpn": "",
-      "sch_revision": ""
+      "sch_revision": "1.0"
     },
     "layer_pairs": [],
     "layer_presets": [],
@@ -430,7 +430,7 @@
         "uuid": "e65dd41d-5b8d-48b5-a404-97e65072e149"
       }
     ],
-    "used_designators": "#POWER101-111,#PWR1-6,#PWR8,#PWR12,#PWR15-26,#PWR31-32,#PWR43-54,#PWR56-98,#PWR100-118,BAT1,C3,C9,C19,C27-29,C32,C37-38,C40-42,C45,CHG1-4,D1-2,D5-6,D8,F1-3,FAULT1,H1-8,IC3,J1-13,JP1-5,L1-2,Q1-4,R1-2,R5,R7,R9,R14,R16,R18-38,R40,R50-51,S1-3,SW2-3,TP1-8,U1,U10-15,U19-21",
+    "used_designators": "#POWER101-111,#PWR1-6,#PWR8,#PWR12,#PWR15-26,#PWR31-32,#PWR43-54,#PWR56-98,#PWR100-133,#PWR210-212,#PWR220,#PWR241-245,BAT1,C3,C9-11,C19,C27-29,C32,C37-38,C40-42,C45,CHG1-4,D1-2,D5-6,D8,F1-3,FAULT1,FB1,H1-8,IC3,J1-13,JP1-5,L1-2,Q1-4,R1-2,R5,R7,R9,R14,R16,R18-38,R40,R42-46,R50-51,S1-3,SW2-3,TP1-8,TP47,U1,U10-15,U19-21",
     "variants": []
   },
   "sheets": [
