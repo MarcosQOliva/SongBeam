@@ -6862,7 +6862,7 @@
 				)
 			)
 		)
-		(property "Footprint" "RJHSE-3380:CONN_RJHSE-3380_AMP"
+		(property "Footprint" "RJHSE-5380:RJHSE5380_AMP"
 			(at 195.58 100.965 90)
 			(hide yes)
 			(show_name no)
@@ -7825,7 +7825,7 @@
 				)
 			)
 		)
-		(property "Footprint" "QFN_04RUTR_TEX"
+		(property "Footprint" "TXU0204:QFN_04RUTR_TEX"
 			(at 39.37 160.02 0)
 			(hide yes)
 			(show_name no)
@@ -11784,7 +11784,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BGA9C40P3X3_126X126X56"
+		(property "Footprint" "ADAU71112:BGA9C40P3X3_126X126X56"
 			(at 77.47 211.76 0)
 			(hide yes)
 			(show_name no)
@@ -13420,7 +13420,7 @@
 				)
 			)
 		)
-		(property "Footprint" ""
+		(property "Footprint" "JST-XH-2Pin:CONN_S2B-XH-A_JST"
 			(at 241.3 92.71 0)
 			(hide yes)
 			(show_name no)
@@ -13816,7 +13816,7 @@
 				)
 			)
 		)
-		(property "Footprint" "BGA9C40P3X3_126X126X56"
+		(property "Footprint" "ADAU71112:BGA9C40P3X3_126X126X56"
 			(at 132.08 192.71 0)
 			(hide yes)
 			(show_name no)
