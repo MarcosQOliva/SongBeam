@@ -7184,7 +7184,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47pF"
+		(property "Value" "22pF"
 			(at 132.588 56.388 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7207,6 +7207,28 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 130.81 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 130.81 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 130.81 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -7341,7 +7363,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47pF"
+		(property "Value" "22pF"
 			(at 191.008 56.388 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7364,6 +7386,28 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 189.23 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 189.23 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 189.23 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -8506,6 +8550,28 @@
 				)
 			)
 		)
+		(property "Dielectric" "C0G"
+			(at 92.71 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 92.71 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" ""
 			(at 92.71 29.21 0)
 			(show_name no)
@@ -8806,6 +8872,28 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 213.36 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 213.36 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 213.36 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -9126,6 +9214,28 @@
 				)
 			)
 		)
+		(property "Dielectric" "X7R"
+			(at 88.9 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 88.9 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" ""
 			(at 88.9 29.21 0)
 			(show_name no)
@@ -9352,6 +9462,28 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 243.84 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 243.84 110.49 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 243.84 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -9605,6 +9737,39 @@
 				)
 			)
 		)
+		(property "Dielectric" "X7R"
+			(at 165.1 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 165.1 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "LP5907 output: effective >= 0.7 uF at bias, ESR 5-500 mohm, tolerance <= 30 %"
+			(at 165.1 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" ""
 			(at 165.1 160.02 0)
 			(show_name no)
@@ -9673,6 +9838,28 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 76.2 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 76.2 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 76.2 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -9831,6 +10018,28 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 31.75 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 31.75 119.38 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 31.75 119.38 0)
 			(hide yes)
 			(show_name no)
@@ -10143,6 +10352,28 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 86.36 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 86.36 90.17 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 86.36 90.17 0)
 			(hide yes)
 			(show_name no)
@@ -10592,7 +10823,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47pF"
+		(property "Value" "22pF"
 			(at 63.5 57.404 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -10615,6 +10846,28 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 64.77 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 64.77 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 64.77 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -10703,6 +10956,28 @@
 				)
 			)
 		)
+		(property "Dielectric" "X7R"
+			(at 200.66 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 200.66 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" ""
 			(at 200.66 29.21 0)
 			(show_name no)
@@ -10771,6 +11046,28 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 36.83 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 36.83 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 36.83 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -11173,6 +11470,28 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 86.36 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 86.36 153.67 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 86.36 153.67 0)
 			(hide yes)
 			(show_name no)
@@ -12119,7 +12438,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "200K"
 			(at 133.604 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -12220,6 +12539,28 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 86.36 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "X7R"
+			(at 86.36 100.33 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
 			(at 86.36 100.33 0)
 			(hide yes)
 			(show_name no)
@@ -12376,6 +12717,28 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 204.47 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 204.47 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 204.47 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -12771,7 +13134,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "200K"
 			(at 186.436 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -13599,6 +13962,28 @@
 				)
 			)
 		)
+		(property "Dielectric" "X7R"
+			(at 31.75 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 31.75 109.22 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" ""
 			(at 31.75 109.22 0)
 			(show_name no)
@@ -14100,6 +14485,39 @@
 				)
 			)
 		)
+		(property "Dielectric" "X7R"
+			(at 106.68 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "25V"
+			(at 106.68 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Note" "LP5907 input: effective >= 0.7 uF at bias, tolerance <= 30 %"
+			(at 106.68 160.02 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" ""
 			(at 106.68 160.02 0)
 			(show_name no)
@@ -14168,6 +14586,28 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 80.01 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 80.01 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 80.01 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -14381,7 +14821,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "47pF"
+		(property "Value" "22pF"
 			(at 257.048 56.388 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -14404,6 +14844,28 @@
 			)
 		)
 		(property "Datasheet" ""
+			(at 255.27 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Dielectric" "C0G"
+			(at 255.27 55.88 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
 			(at 255.27 55.88 0)
 			(hide yes)
 			(show_name no)
@@ -14541,7 +15003,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "200K"
 			(at 258.064 49.53 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -15130,6 +15592,28 @@
 				)
 			)
 		)
+		(property "Dielectric" "C0G"
+			(at 217.17 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Voltage" "50V"
+			(at 217.17 29.21 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(property "Description" ""
 			(at 217.17 29.21 0)
 			(show_name no)
@@ -15258,7 +15742,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100K"
+		(property "Value" "200K"
 			(at 66.802 55.626 0)
 			(show_name no)
 			(do_not_autoplace no)

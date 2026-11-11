@@ -1,0 +1,8 @@
+(version 1)
+
+# Daughterboard 1.2 rules apply (0.127 mm clearance, set in the project).
+# Board minimum track is 0.1 mm only so the ADAU7112 (U3, U6) centre-ball
+# escapes can pass between 0.4 mm-pitch balls. Everywhere else: 0.15 mm.
+(rule "Min track 0.15 mm outside ADAU7112"
+	(constraint track_width (min 0.15mm))
+	(condition "!A.intersectsCourtyard('U3') && !A.intersectsCourtyard('U6')"))
